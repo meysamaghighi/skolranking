@@ -8,12 +8,12 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getAllMunicipalities().map((m) => ({ name: encodeURIComponent(m) }));
+  return getAllMunicipalities().map((m) => ({ name: m }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { name } = await params;
-  const municipality = decodeURIComponent(name);
+  const municipality = name;
   const schools = getSchoolsByMunicipality(municipality);
   if (schools.length === 0) return {};
 
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function MunicipalityPage({ params }: Props) {
   const { name } = await params;
-  const municipality = decodeURIComponent(name);
+  const municipality = name;
   const schools = getSchoolsByMunicipality(municipality);
   if (schools.length === 0) notFound();
 
