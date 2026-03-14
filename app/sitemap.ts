@@ -1,0 +1,26 @@
+import type { MetadataRoute } from "next";
+import { getAllSchools, getAllMunicipalities } from "./lib/schools";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const base = "https://skolranking.vercel.app";
+  const schools = getAllSchools();
+  const municipalities = getAllMunicipalities();
+
+  return [
+    { url: base, lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
+    { url: `${base}/ranking`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/kommuner`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    ...municipalities.map((m) => ({
+      url: `${base}/kommun/${encodeURIComponent(m)}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...schools.map((s) => ({
+      url: `${base}/skola/${s.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+}

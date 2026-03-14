@@ -1,65 +1,167 @@
-import Image from "next/image";
+import Link from "next/link";
+import type { Metadata } from "next";
+import { getAllSchools, getAllMunicipalities, getSchoolsJSON } from "./lib/schools";
+import SchoolSearch from "./components/SchoolSearch";
+
+export const metadata: Metadata = {
+  title: "Skolranking Sverige 2025 | Bästa grundskolor efter meritvärde",
+  description:
+    "Interaktiv karta och ranking av alla 1 545 grundskolor i Sverige baserat på meritvärde (slutbetyg årskurs 9). Sök skola, filtrera på kommun, jämför skolor. Data från Skolverket 2025.",
+  keywords: [
+    "skolranking sverige",
+    "bästa grundskola",
+    "meritvärde skola",
+    "skolranking 2025",
+    "bästa skolan i stockholm",
+    "grundskola ranking",
+    "skolverket meritvärde",
+    "vilken skola är bäst",
+    "skolval",
+    "jämför skolor",
+  ],
+  openGraph: {
+    title: "Skolranking Sverige 2025",
+    description: "Interaktiv karta och ranking av alla grundskolor i Sverige. Data från Skolverket.",
+    type: "website",
+  },
+};
 
 export default function Home() {
+  const schools = getAllSchools();
+  const municipalities = getAllMunicipalities();
+  const schoolsJSON = getSchoolsJSON();
+  const top20 = schools.slice(0, 20);
+
+  const avgMerit = (schools.reduce((s, c) => s + c.meritValue, 0) / schools.length).toFixed(1);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-950 dark:to-gray-900">
+      <main className="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+        <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-900 dark:text-white mb-3">
+          Skolranking Sverige 2025
+        </h1>
+        <p className="text-lg text-center text-gray-600 dark:text-gray-400 mb-4 max-w-2xl mx-auto">
+          Interaktiv karta och ranking av alla {schools.length.toLocaleString()} grundskolor i Sverige.
+          Baserat på genomsnittligt meritvärde (slutbetyg årskurs 9).
+        </p>
+        <p className="text-center text-sm text-gray-400 dark:text-gray-500 mb-10">
+          Källa: Skolverket 2025 &middot; Genomsnitt: {avgMerit} &middot; Högst: {schools[0].meritValue.toFixed(1)} &middot; Lägst: {schools[schools.length - 1].meritValue.toFixed(1)}
+        </p>
+
+        <SchoolSearch schoolsJSON={schoolsJSON} municipalities={municipalities} />
+
+        {/* Top 20 ranking table */}
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+            Topp 20 grundskolor i Sverige 2025
+          </h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-gray-200 dark:border-gray-700">
+                  <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">#</th>
+                  <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Skola</th>
+                  <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Kommun</th>
+                  <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Typ</th>
+                  <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Meritvärde</th>
+                </tr>
+              </thead>
+              <tbody>
+                {top20.map((s) => (
+                  <tr key={s.id} className="border-b border-gray-100 dark:border-gray-800 hover:bg-blue-50 dark:hover:bg-gray-900/50">
+                    <td className="py-3 px-2 font-bold text-gray-400">{s.rank}</td>
+                    <td className="py-3 px-2">
+                      <Link href={`/skola/${s.slug}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                        {s.name}
+                      </Link>
+                    </td>
+                    <td className="py-3 px-2">
+                      <Link href={`/kommun/${encodeURIComponent(s.municipality)}`} className="text-gray-600 dark:text-gray-400 hover:underline">
+                        {s.municipality}
+                      </Link>
+                    </td>
+                    <td className="py-3 px-2 text-gray-500">{s.schoolType}</td>
+                    <td className="py-3 px-2 font-bold text-green-700 dark:text-green-400">{s.meritValue.toFixed(1)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-center mt-4">
+            <Link href="/ranking" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+              Visa hela listan ({schools.length} skolor) &rarr;
+            </Link>
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+        </section>
+
+        {/* Popular municipalities */}
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+            Skolranking per kommun
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {["Stockholm", "Göteborg", "Malmö", "Uppsala", "Linköping", "Västerås", "Örebro", "Helsingborg", "Norrköping", "Lund", "Umeå", "Jönköping", "Sundsvall", "Solna", "Nacka", "Lidingö"].map((m) => (
+              <Link
+                key={m}
+                href={`/kommun/${encodeURIComponent(m)}`}
+                className="px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 hover:border-blue-300 hover:text-blue-600 transition-colors"
+              >
+                {m}
+              </Link>
+            ))}
+            <Link
+              href="/kommuner"
+              className="px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 text-sm text-gray-500 hover:border-blue-300 hover:text-blue-600 transition-colors"
+            >
+              Alla kommuner &rarr;
+            </Link>
+          </div>
+        </section>
+
+        {/* SEO content */}
+        <section className="mt-16 max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            Om skolranking och meritvärde
+          </h2>
+          <div className="text-gray-600 dark:text-gray-400 space-y-4 text-sm leading-relaxed">
+            <p>
+              Meritvärde är ett genomsnitt av elevernas slutbetyg i årskurs 9 och används som underlag
+              för antagning till gymnasiet. Det maximala meritvärdet är 340 poäng (inklusive moderna språk).
+              Ett högre meritvärde visar generellt på bättre kunskapsresultat, men påverkas av många faktorer.
+            </p>
+            <p>
+              Den här webbplatsen visar alla {schools.length.toLocaleString()} grundskolor i Sverige med
+              giltiga meritvärden för 2025, baserat på data från Skolverket. Skolorna är rankade och
+              visualiserade på en interaktiv karta. Klicka på en skola för mer information, eller
+              filtrera på kommun.
+            </p>
+            <p>
+              Tänk på att meritvärde bara är en del av bilden. Andra faktorer som trygghet, studiero,
+              lärartäthet och skolans profil är minst lika viktiga vid skolval.
+            </p>
+          </div>
+        </section>
       </main>
+
+      <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-100 dark:border-gray-800 mt-16">
+        <p>Data från Skolverket 2025. Endast för informationsändamål.</p>
+      </footer>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            name: "Skolranking Sverige",
+            description: "Interaktiv karta och ranking av alla grundskolor i Sverige baserat på meritvärde.",
+            inLanguage: "sv",
+            applicationCategory: "EducationApplication",
+            operatingSystem: "Any",
+            offers: { "@type": "Offer", price: "0", priceCurrency: "SEK" },
+          }),
+        }}
+      />
     </div>
   );
 }
