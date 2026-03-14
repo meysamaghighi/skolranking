@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllSchools, getSchoolBySlug, getSchoolsByMunicipality } from "../../lib/schools";
+import { getAllSchools, getSchoolBySlug, getSchoolsByMunicipalitySlug } from "../../lib/schools";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -37,7 +37,7 @@ export default async function SchoolPage({ params }: Props) {
 
   const allSchools = getAllSchools();
   const total = allSchools.length;
-  const muniSchools = getSchoolsByMunicipality(school.municipality).sort((a, b) => a.rank - b.rank);
+  const muniSchools = getSchoolsByMunicipalitySlug(school.municipalitySlug).sort((a, b) => a.rank - b.rank);
   const muniRank = muniSchools.findIndex((s) => s.id === school.id) + 1;
 
   // Nearby in ranking
@@ -51,7 +51,7 @@ export default async function SchoolPage({ params }: Props) {
         <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-400 mb-8">
           <Link href="/" className="hover:text-gray-700 dark:hover:text-gray-200">Hem</Link>
           <span>/</span>
-          <Link href={`/kommun/${encodeURIComponent(school.municipality)}`} className="hover:text-gray-700 dark:hover:text-gray-200">
+          <Link href={`/kommun/${school.municipalitySlug}`} className="hover:text-gray-700 dark:hover:text-gray-200">
             {school.municipality}
           </Link>
           <span>/</span>
@@ -139,7 +139,7 @@ export default async function SchoolPage({ params }: Props) {
           </div>
           {muniSchools.length > 10 && (
             <p className="text-center mt-3">
-              <Link href={`/kommun/${encodeURIComponent(school.municipality)}`} className="text-blue-600 text-sm hover:underline">
+              <Link href={`/kommun/${school.municipalitySlug}`} className="text-blue-600 text-sm hover:underline">
                 Visa alla {muniSchools.length} skolor i {school.municipality} &rarr;
               </Link>
             </p>

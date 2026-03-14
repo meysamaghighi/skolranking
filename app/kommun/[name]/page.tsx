@@ -1,22 +1,22 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllSchools, getAllMunicipalities, getSchoolsByMunicipality } from "../../lib/schools";
+import { getAllSchools, getAllMunicipalities, getSchoolsByMunicipalitySlug } from "../../lib/schools";
 
 interface Props {
   params: Promise<{ name: string }>;
 }
 
 export async function generateStaticParams() {
-  return getAllMunicipalities().map((m) => ({ name: m }));
+  return getAllMunicipalities().map((m) => ({ name: m.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { name } = await params;
-  const municipality = name;
-  const schools = getSchoolsByMunicipality(municipality);
+  const { name: slug } = await params;
+  const schools = getSchoolsByMunicipalitySlug(slug);
   if (schools.length === 0) return {};
 
+  const municipality = schools[0].municipality;
   const sorted = [...schools].sort((a, b) => a.rank - b.rank);
   const avg = (schools.reduce((s, c) => s + c.meritValue, 0) / schools.length).toFixed(1);
 
@@ -34,11 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function MunicipalityPage({ params }: Props) {
-  const { name } = await params;
-  const municipality = name;
-  const schools = getSchoolsByMunicipality(municipality);
+  const { name: slug } = await params;
+  const schools = getSchoolsByMunicipalitySlug(slug);
   if (schools.length === 0) notFound();
 
+  const municipality = schools[0].municipality;
   const sorted = [...schools].sort((a, b) => a.rank - b.rank);
   const avg = (schools.reduce((s, c) => s + c.meritValue, 0) / schools.length).toFixed(1);
   const total = getAllSchools().length;

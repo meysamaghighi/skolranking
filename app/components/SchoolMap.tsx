@@ -7,6 +7,7 @@ interface SchoolData {
   id: string;
   n: string;   // name
   m: string;   // municipality
+  ms: string;  // municipality slug
   mv: number;  // merit value
   t: string;   // school type
   la: number;  // lat

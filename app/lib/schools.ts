@@ -5,6 +5,7 @@ export interface School {
   id: string;
   name: string;
   municipality: string;
+  municipalitySlug: string;
   address: string;
   meritValue: number;
   schoolType: string;
@@ -24,6 +25,15 @@ function slugify(name: string, id: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
   return `${base}-${id}`;
+}
+
+export function muniSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/å/g, "a").replace(/ä/g, "a").replace(/ö/g, "o")
+    .replace(/é/g, "e").replace(/ü/g, "u")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 export function getAllSchools(): School[] {
@@ -46,6 +56,7 @@ export function getAllSchools(): School[] {
       id: cols[0],
       name: cols[1],
       municipality: cols[2],
+      municipalitySlug: muniSlug(cols[2]),
       address: cols[3],
       meritValue,
       schoolType: cols[5],
@@ -56,7 +67,6 @@ export function getAllSchools(): School[] {
     });
   }
 
-  // Sort by merit descending, assign ranks
   schools.sort((a, b) => b.meritValue - a.meritValue);
   schools.forEach((s, i) => (s.rank = i + 1));
 
@@ -68,13 +78,20 @@ export function getSchoolBySlug(slug: string): School | undefined {
   return getAllSchools().find((s) => s.slug === slug);
 }
 
-export function getSchoolsByMunicipality(municipality: string): School[] {
-  return getAllSchools().filter((s) => s.municipality === municipality);
+export function getSchoolsByMunicipalitySlug(slug: string): School[] {
+  return getAllSchools().filter((s) => s.municipalitySlug === slug);
 }
 
-export function getAllMunicipalities(): string[] {
-  const munis = new Set(getAllSchools().map((s) => s.municipality));
-  return Array.from(munis).sort();
+export function getAllMunicipalities(): { name: string; slug: string }[] {
+  const map = new Map<string, string>();
+  for (const s of getAllSchools()) {
+    if (!map.has(s.municipalitySlug)) {
+      map.set(s.municipalitySlug, s.municipality);
+    }
+  }
+  return Array.from(map.entries())
+    .map(([slug, name]) => ({ slug, name }))
+    .sort((a, b) => a.name.localeCompare(b.name, "sv"));
 }
 
 export function getSchoolsJSON(): string {
@@ -83,6 +100,7 @@ export function getSchoolsJSON(): string {
       id: s.id,
       n: s.name,
       m: s.municipality,
+      ms: s.municipalitySlug,
       mv: s.meritValue,
       t: s.schoolType,
       la: s.lat,

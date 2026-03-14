@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ranking`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/kommuner`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     ...municipalities.map((m) => ({
-      url: `${base}/kommun/${encodeURIComponent(m)}`,
+      url: `${base}/kommun/${m.slug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,

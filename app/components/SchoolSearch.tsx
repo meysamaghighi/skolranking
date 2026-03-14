@@ -8,7 +8,7 @@ export default function SchoolSearch({
   municipalities,
 }: {
   schoolsJSON: string;
-  municipalities: string[];
+  municipalities: { name: string; slug: string }[];
 }) {
   const [search, setSearch] = useState("");
   const [municipality, setMunicipality] = useState("");
@@ -30,7 +30,7 @@ export default function SchoolSearch({
         >
           <option value="">Alla kommuner</option>
           {municipalities.map((m) => (
-            <option key={m} value={m}>{m}</option>
+            <option key={m.slug} value={m.name}>{m.name}</option>
           ))}
         </select>
       </div>

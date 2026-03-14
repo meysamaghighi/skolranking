@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getAllSchools, getAllMunicipalities, getSchoolsJSON } from "./lib/schools";
+import { getAllSchools, getAllMunicipalities, getSchoolsJSON, muniSlug } from "./lib/schools";
 import SchoolSearch from "./components/SchoolSearch";
 
 export const metadata: Metadata = {
@@ -76,7 +76,7 @@ export default function Home() {
                       </Link>
                     </td>
                     <td className="py-3 px-2">
-                      <Link href={`/kommun/${encodeURIComponent(s.municipality)}`} className="text-gray-600 dark:text-gray-400 hover:underline">
+                      <Link href={`/kommun/${s.municipalitySlug}`} className="text-gray-600 dark:text-gray-400 hover:underline">
                         {s.municipality}
                       </Link>
                     </td>
@@ -103,7 +103,7 @@ export default function Home() {
             {["Stockholm", "Göteborg", "Malmö", "Uppsala", "Linköping", "Västerås", "Örebro", "Helsingborg", "Norrköping", "Lund", "Umeå", "Jönköping", "Sundsvall", "Solna", "Nacka", "Lidingö"].map((m) => (
               <Link
                 key={m}
-                href={`/kommun/${encodeURIComponent(m)}`}
+                href={`/kommun/${muniSlug(m)}`}
                 className="px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 hover:border-blue-300 hover:text-blue-600 transition-colors"
               >
                 {m}

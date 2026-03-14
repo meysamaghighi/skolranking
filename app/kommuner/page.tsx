@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllMunicipalities, getSchoolsByMunicipality } from "../lib/schools";
+import { getAllMunicipalities, getSchoolsByMunicipalitySlug } from "../lib/schools";
 
 export const metadata: Metadata = {
   title: "Alla kommuner | Skolranking Sverige 2025",
@@ -10,9 +10,9 @@ export const metadata: Metadata = {
 export default function KommunerPage() {
   const municipalities = getAllMunicipalities();
   const muniData = municipalities.map((m) => {
-    const schools = getSchoolsByMunicipality(m);
+    const schools = getSchoolsByMunicipalitySlug(m.slug);
     const avg = schools.reduce((s, c) => s + c.meritValue, 0) / schools.length;
-    return { name: m, count: schools.length, avg };
+    return { name: m.name, slug: m.slug, count: schools.length, avg };
   }).sort((a, b) => b.avg - a.avg);
 
   return (
@@ -37,10 +37,10 @@ export default function KommunerPage() {
             </thead>
             <tbody>
               {muniData.map((m, i) => (
-                <tr key={m.name} className="border-b border-gray-100 dark:border-gray-800 hover:bg-blue-50 dark:hover:bg-gray-900/50">
+                <tr key={m.slug} className="border-b border-gray-100 dark:border-gray-800 hover:bg-blue-50 dark:hover:bg-gray-900/50">
                   <td className="py-3 px-2 text-gray-400 font-bold">{i + 1}</td>
                   <td className="py-3 px-2">
-                    <Link href={`/kommun/${encodeURIComponent(m.name)}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                    <Link href={`/kommun/${m.slug}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
                       {m.name}
                     </Link>
                   </td>
