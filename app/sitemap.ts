@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllSchools, getAllMunicipalities } from "./lib/schools";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://skolranking.vercel.app";
+  const base = "https://skolranking.com";
   const schools = getAllSchools();
   const municipalities = getAllMunicipalities();
 

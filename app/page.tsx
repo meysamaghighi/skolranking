@@ -4,9 +4,9 @@ import { getAllSchools, getAllMunicipalities, getSchoolsJSON, muniSlug } from ".
 import SchoolSearch from "./components/SchoolSearch";
 
 export const metadata: Metadata = {
-  title: "Skolranking Sverige 2025 | Bästa grundskolor efter meritvärde",
+  title: "Skolranking Sverige 2025 | Grundskolor & meritvärde",
   description:
-    "Interaktiv karta och ranking av alla 1 545 grundskolor i Sverige baserat på meritvärde (slutbetyg årskurs 9). Sök skola, filtrera på kommun, jämför skolor. Data från Skolverket 2025.",
+    "Ranking av alla 1 545 grundskolor i Sverige efter meritvärde. Interaktiv karta, sök skola, filtrera kommun. Data från Skolverket.",
   keywords: [
     "skolranking sverige",
     "bästa grundskola",

@@ -14,9 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skolranking Sverige 2025 | Bästa grundskolor efter meritvärde",
+  metadataBase: new URL("https://skolranking.com"),
+  title: "Skolranking Sverige 2025 | Grundskolor & meritvärde",
   description:
-    "Interaktiv karta och ranking av alla grundskolor i Sverige baserat på meritvärde. Data från Skolverket 2025.",
+    "Ranking av alla grundskolor i Sverige baserat på meritvärde. Interaktiv karta, sök och jämför. Data från Skolverket.",
+  openGraph: {
+    title: "Skolranking Sverige 2025",
+    description: "Ranking av alla grundskolor i Sverige baserat på meritvärde. Data från Skolverket.",
+    type: "website",
+    siteName: "Skolranking",
+  },
   other: {
     "google-adsense-account": "ca-pub-2621005924235240",
   },
