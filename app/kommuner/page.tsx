@@ -52,6 +52,28 @@ export default function KommunerPage() {
           </table>
         </div>
       </main>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "Kommuner i Sverige - Skolranking",
+            description: `Ranking av ${municipalities.length} kommuner efter genomsnittligt meritvärde`,
+            numberOfItems: muniData.length,
+            itemListElement: muniData.slice(0, 20).map((m, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              item: {
+                "@type": "Place",
+                name: m.name,
+                url: `https://skolranking.com/kommun/${m.slug}`,
+              },
+            })),
+          }),
+        }}
+      />
     </div>
   );
 }

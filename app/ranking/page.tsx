@@ -57,6 +57,28 @@ export default function RankingPage() {
           </table>
         </div>
       </main>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "Alla grundskolor i Sverige rankade efter meritvärde 2025",
+            description: `Komplett ranking av ${schools.length} grundskolor i Sverige efter genomsnittligt meritvärde`,
+            numberOfItems: schools.length,
+            itemListElement: schools.slice(0, 10).map((s, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              item: {
+                "@type": "School",
+                name: s.name,
+                url: `https://skolranking.com/skola/${s.slug}`,
+              },
+            })),
+          }),
+        }}
+      />
     </div>
   );
 }
