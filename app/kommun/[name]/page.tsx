@@ -94,6 +94,28 @@ export default async function MunicipalityPage({ params }: Props) {
       <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-100 dark:border-gray-800 mt-16">
         <p>Data från Skolverket 2025. Endast för informationsändamål.</p>
       </footer>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: `Grundskolor i ${municipality}`,
+            description: `Ranking av ${sorted.length} grundskolor i ${municipality} efter meritvärde`,
+            numberOfItems: sorted.length,
+            itemListElement: sorted.slice(0, 10).map((s, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              item: {
+                "@type": "School",
+                name: s.name,
+                url: `https://skolranking.com/skola/${s.slug}`,
+              },
+            })),
+          }),
+        }}
+      />
     </div>
   );
 }
