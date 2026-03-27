@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllSchools, getSchoolBySlug, getSchoolsByMunicipalitySlug } from "../../lib/schools";
+import { getAllSchools, getSchoolBySlug, getSchoolsByMunicipalitySlug, getSalsaForSchool } from "../../lib/schools";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -46,6 +46,9 @@ export default async function SchoolPage({ params }: Props) {
   const nearby = allSchools.filter((s) => Math.abs(s.rank - school.rank) <= 3 && s.id !== school.id);
 
   const percentile = Math.round(((total - school.rank) / total) * 100);
+
+  // SALSA data
+  const salsa = getSalsaForSchool(school.id);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-950 dark:to-gray-900">
@@ -93,6 +96,48 @@ export default async function SchoolPage({ params }: Props) {
             <span>340</span>
           </div>
         </div>
+
+        {/* SALSA */}
+        {salsa && salsa.deviation !== null && (
+          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-6 mb-10">
+            <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-3">
+              SALSA-analys
+            </h2>
+            <div className="grid grid-cols-3 gap-4 mb-4">
+              <div>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Faktiskt meritvärde</p>
+                <p className="text-xl font-bold text-gray-900 dark:text-white">{school.meritValue.toFixed(1)}</p>
+              </div>
+              <div>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Förväntat (SALSA)</p>
+                <p className="text-xl font-bold text-gray-900 dark:text-white">
+                  {salsa.expected !== null ? salsa.expected.toFixed(1) : "—"}
+                </p>
+              </div>
+              <div>
+                <p className="text-xs text-gray-500 dark:text-gray-400">Avvikelse</p>
+                <p className={`text-xl font-bold ${
+                  salsa.deviation > 0
+                    ? "text-green-600 dark:text-green-400"
+                    : salsa.deviation < 0
+                      ? "text-red-600 dark:text-red-400"
+                      : "text-gray-500"
+                }`}>
+                  {salsa.deviation > 0 ? "+" : ""}{salsa.deviation.toFixed(1)}
+                </p>
+              </div>
+            </div>
+            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">
+              SALSA justerar för socioekonomiska faktorer (föräldrars utbildningsnivå, andel nyanlända m.m.).{" "}
+              {salsa.deviation > 0
+                ? "Positivt värde innebär att eleverna presterar bättre än förväntat givet skolans elevsammansättning."
+                : salsa.deviation < 0
+                  ? "Negativt värde innebär att eleverna presterar under förväntan givet skolans elevsammansättning."
+                  : "Noll innebär att eleverna presterar exakt som förväntat."}{" "}
+              Data: Kolada (SALSA) {salsa.year}.
+            </p>
+          </div>
+        )}
 
         {/* Nearby in ranking */}
         <section className="mb-10">

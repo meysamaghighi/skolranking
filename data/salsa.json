@@ -1,0 +1,7982 @@
+{
+  "10023937": {
+    "deviation": -9,
+    "expected": 254,
+    "koladaOu": "V15E228107401",
+    "year": 2024
+  },
+  "10035236": {
+    "deviation": -8,
+    "expected": 205,
+    "koladaOu": "V15E013601202",
+    "year": 2024
+  },
+  "10063280": {
+    "deviation": 13,
+    "expected": 234,
+    "koladaOu": "V15E10063280",
+    "year": 2024
+  },
+  "10132939": {
+    "deviation": 4,
+    "expected": 232,
+    "koladaOu": "V15E149003401",
+    "year": 2024
+  },
+  "10155751": {
+    "deviation": 3,
+    "expected": 222,
+    "koladaOu": "V15E068700301",
+    "year": 2024
+  },
+  "10170655": {
+    "deviation": -28,
+    "expected": 225,
+    "koladaOu": "V15E10170655",
+    "year": 2024
+  },
+  "10175276": {
+    "deviation": -25,
+    "expected": 219,
+    "koladaOu": "V15E10175276",
+    "year": 2024
+  },
+  "10185533": {
+    "deviation": -6,
+    "expected": 242,
+    "koladaOu": "V15E258102201",
+    "year": 2024
+  },
+  "10245367": {
+    "deviation": 3,
+    "expected": 185,
+    "koladaOu": "V15E10245367",
+    "year": 2024
+  },
+  "10257640": {
+    "deviation": -1,
+    "expected": 246,
+    "koladaOu": "V15E149009901",
+    "year": 2024
+  },
+  "10360193": {
+    "deviation": 7,
+    "expected": 224,
+    "koladaOu": "V15E018065801",
+    "year": 2024
+  },
+  "10405686": {
+    "deviation": -4,
+    "expected": 230,
+    "koladaOu": "V15E148504101",
+    "year": 2024
+  },
+  "10428442": {
+    "deviation": -5,
+    "expected": 219,
+    "koladaOu": "V15E146301301",
+    "year": 2024
+  },
+  "10435966": {
+    "deviation": 29,
+    "expected": 223,
+    "koladaOu": "V15E10435966",
+    "year": 2024
+  },
+  "10443922": {
+    "deviation": -3,
+    "expected": 232,
+    "koladaOu": "V15E10443922",
+    "year": 2024
+  },
+  "10453232": {
+    "deviation": -10,
+    "expected": 212,
+    "koladaOu": "V15E198001101",
+    "year": 2024
+  },
+  "10609045": {
+    "deviation": -21,
+    "expected": 231,
+    "koladaOu": "V15E058604501",
+    "year": 2024
+  },
+  "10617819": {
+    "deviation": -9,
+    "expected": 228,
+    "koladaOu": "V15E251401501",
+    "year": 2024
+  },
+  "10661388": {
+    "deviation": -26,
+    "expected": 254,
+    "koladaOu": "V15E018101201",
+    "year": 2024
+  },
+  "10662754": {
+    "deviation": -19,
+    "expected": 239,
+    "koladaOu": "V15E108003301",
+    "year": 2024
+  },
+  "10715898": {
+    "deviation": 25,
+    "expected": 250,
+    "koladaOu": "V15E011701601",
+    "year": 2024
+  },
+  "10757780": {
+    "deviation": -23,
+    "expected": 228,
+    "koladaOu": "V15E125700901",
+    "year": 2024
+  },
+  "10822811": {
+    "deviation": 14,
+    "expected": 220,
+    "koladaOu": "V15E127600101",
+    "year": 2024
+  },
+  "10902849": {
+    "deviation": 13,
+    "expected": 256,
+    "koladaOu": "V15E138401901",
+    "year": 2024
+  },
+  "10954341": {
+    "deviation": -21,
+    "expected": 247,
+    "koladaOu": "V15E10954341",
+    "year": 2024
+  },
+  "10979668": {
+    "deviation": -20,
+    "expected": 225,
+    "koladaOu": "V15E098003401",
+    "year": 2024
+  },
+  "10982633": {
+    "deviation": -22,
+    "expected": 251,
+    "koladaOu": "V15E148703201",
+    "year": 2024
+  },
+  "11018018": {
+    "deviation": 18,
+    "expected": 253,
+    "koladaOu": "V15E11018018",
+    "year": 2024
+  },
+  "11043800": {
+    "deviation": 8,
+    "expected": 225,
+    "koladaOu": "V15E11043800",
+    "year": 2024
+  },
+  "11159060": {
+    "deviation": -37,
+    "expected": 213,
+    "koladaOu": "V15E228201901",
+    "year": 2024
+  },
+  "11181258": {
+    "deviation": -6,
+    "expected": 228,
+    "koladaOu": "V15E228102204",
+    "year": 2024
+  },
+  "11193969": {
+    "deviation": 6,
+    "expected": 230,
+    "koladaOu": "V15E11193969",
+    "year": 2024
+  },
+  "11295861": {
+    "deviation": -12,
+    "expected": 206,
+    "koladaOu": "V15E148027401",
+    "year": 2024
+  },
+  "11340770": {
+    "deviation": -24,
+    "expected": 258,
+    "koladaOu": "V15E11340770",
+    "year": 2024
+  },
+  "11364996": {
+    "deviation": 10,
+    "expected": 254,
+    "koladaOu": "V15E012002001",
+    "year": 2024
+  },
+  "11406792": {
+    "deviation": -15,
+    "expected": 212,
+    "koladaOu": "V15E208101601",
+    "year": 2024
+  },
+  "11442396": {
+    "deviation": 99,
+    "expected": 158,
+    "koladaOu": "V15E018079201",
+    "year": 2024
+  },
+  "11465652": {
+    "deviation": -4,
+    "expected": 228,
+    "koladaOu": "V15E11465652",
+    "year": 2024
+  },
+  "11476454": {
+    "deviation": 26,
+    "expected": 195,
+    "koladaOu": "V15E218008201",
+    "year": 2024
+  },
+  "11496096": {
+    "deviation": 23,
+    "expected": 266,
+    "koladaOu": "V15E018208501",
+    "year": 2024
+  },
+  "11588924": {
+    "deviation": -10,
+    "expected": 209,
+    "koladaOu": "V15E148805801",
+    "year": 2024
+  },
+  "11662899": {
+    "deviation": -19,
+    "expected": 207,
+    "koladaOu": "V15E127700303",
+    "year": 2024
+  },
+  "11664326": {
+    "deviation": -3,
+    "expected": 241,
+    "koladaOu": "V15E11664326",
+    "year": 2024
+  },
+  "11777750": {
+    "deviation": 9,
+    "expected": 243,
+    "koladaOu": "V15E018201401",
+    "year": 2024
+  },
+  "11814097": {
+    "deviation": -31,
+    "expected": 227,
+    "koladaOu": "V15E11814097",
+    "year": 2024
+  },
+  "11885832": {
+    "deviation": 20,
+    "expected": 248,
+    "koladaOu": "V15E123302001",
+    "year": 2024
+  },
+  "11909268": {
+    "deviation": 8,
+    "expected": 244,
+    "koladaOu": "V15E188003001",
+    "year": 2024
+  },
+  "11914814": {
+    "deviation": 7,
+    "expected": 225,
+    "koladaOu": "V15E018104701",
+    "year": 2024
+  },
+  "12053461": {
+    "deviation": -6,
+    "expected": 221,
+    "koladaOu": "V15E12053461",
+    "year": 2024
+  },
+  "12079022": {
+    "deviation": -8,
+    "expected": 210,
+    "koladaOu": "V15E12079022",
+    "year": 2024
+  },
+  "12247315": {
+    "deviation": -3,
+    "expected": 224,
+    "koladaOu": "V15E148400501",
+    "year": 2024
+  },
+  "12248380": {
+    "deviation": -31,
+    "expected": 233,
+    "koladaOu": "V15E188006901",
+    "year": 2024
+  },
+  "12259212": {
+    "deviation": 18,
+    "expected": 247,
+    "koladaOu": "V15E12259212",
+    "year": 2024
+  },
+  "12275851": {
+    "deviation": -2,
+    "expected": 219,
+    "koladaOu": "V15E038006002",
+    "year": 2024
+  },
+  "12286029": {
+    "deviation": 2,
+    "expected": 235,
+    "koladaOu": "V15E078000301",
+    "year": 2024
+  },
+  "12289594": {
+    "deviation": 0,
+    "expected": 216,
+    "koladaOu": "V15E086002201",
+    "year": 2024
+  },
+  "12332278": {
+    "deviation": 19,
+    "expected": 257,
+    "koladaOu": "V15E016005601",
+    "year": 2024
+  },
+  "12443258": {
+    "deviation": 9,
+    "expected": 218,
+    "koladaOu": "V15E252100202",
+    "year": 2024
+  },
+  "12636945": {
+    "deviation": 32,
+    "expected": 241,
+    "koladaOu": "V15E128029601",
+    "year": 2024
+  },
+  "12753670": {
+    "deviation": 30,
+    "expected": 190,
+    "koladaOu": "V15E038101601",
+    "year": 2024
+  },
+  "12757193": {
+    "deviation": 37,
+    "expected": 237,
+    "koladaOu": "V15E018110301",
+    "year": 2024
+  },
+  "12759583": {
+    "deviation": -8,
+    "expected": 198,
+    "koladaOu": "V15E068007101",
+    "year": 2024
+  },
+  "13124830": {
+    "deviation": -1,
+    "expected": 229,
+    "koladaOu": "V15E018074801",
+    "year": 2024
+  },
+  "13175575": {
+    "deviation": 24,
+    "expected": 223,
+    "koladaOu": "V15E128308801",
+    "year": 2024
+  },
+  "13299659": {
+    "deviation": -7,
+    "expected": 254,
+    "koladaOu": "V15E128011201",
+    "year": 2024
+  },
+  "13301127": {
+    "deviation": 19,
+    "expected": 251,
+    "koladaOu": "V15E13301127",
+    "year": 2024
+  },
+  "13384795": {
+    "deviation": 21,
+    "expected": 247,
+    "koladaOu": "V15E13384795",
+    "year": 2024
+  },
+  "13390547": {
+    "deviation": 5,
+    "expected": 240,
+    "koladaOu": "V15E188005501",
+    "year": 2024
+  },
+  "13490988": {
+    "deviation": -20,
+    "expected": 235,
+    "koladaOu": "V15E13490988",
+    "year": 2024
+  },
+  "13493243": {
+    "deviation": 24,
+    "expected": 260,
+    "koladaOu": "V15E016203801",
+    "year": 2024
+  },
+  "13578112": {
+    "deviation": 4,
+    "expected": 241,
+    "koladaOu": "V15E126101901",
+    "year": 2024
+  },
+  "13579948": {
+    "deviation": 1,
+    "expected": 218,
+    "koladaOu": "V15E019100902",
+    "year": 2024
+  },
+  "13582062": {
+    "deviation": 28,
+    "expected": 191,
+    "koladaOu": "V15E13582062",
+    "year": 2024
+  },
+  "13654969": {
+    "deviation": 11,
+    "expected": 220,
+    "koladaOu": "V15E012606101",
+    "year": 2024
+  },
+  "13666864": {
+    "deviation": -27,
+    "expected": 214,
+    "koladaOu": "V15E146300301",
+    "year": 2024
+  },
+  "13679897": {
+    "deviation": -10,
+    "expected": 240,
+    "koladaOu": "V15E018000301",
+    "year": 2024
+  },
+  "13756290": {
+    "deviation": -13,
+    "expected": 237,
+    "koladaOu": "V15E129007604",
+    "year": 2024
+  },
+  "13854755": {
+    "deviation": -10,
+    "expected": 213,
+    "koladaOu": "V15E198400203",
+    "year": 2024
+  },
+  "13936858": {
+    "deviation": 7,
+    "expected": 231,
+    "koladaOu": "V15E088006801",
+    "year": 2024
+  },
+  "14037390": {
+    "deviation": 12,
+    "expected": 261,
+    "koladaOu": "V15E14037390",
+    "year": 2024
+  },
+  "14040970": {
+    "deviation": 6,
+    "expected": 251,
+    "koladaOu": "V15E018203501",
+    "year": 2024
+  },
+  "14121892": {
+    "deviation": 19,
+    "expected": 203,
+    "koladaOu": "V15E018021901",
+    "year": 2024
+  },
+  "14261356": {
+    "deviation": -18,
+    "expected": 202,
+    "koladaOu": "V15E019102501",
+    "year": 2024
+  },
+  "14290135": {
+    "deviation": 32,
+    "expected": 220,
+    "koladaOu": "V15E14290135",
+    "year": 2024
+  },
+  "14327803": {
+    "deviation": -8,
+    "expected": 204,
+    "koladaOu": "V15E14327803",
+    "year": 2024
+  },
+  "14472068": {
+    "deviation": 28,
+    "expected": 224,
+    "koladaOu": "V15E018026201",
+    "year": 2024
+  },
+  "14555807": {
+    "deviation": -5,
+    "expected": 244,
+    "koladaOu": "V15E129006001",
+    "year": 2024
+  },
+  "14808086": {
+    "deviation": -27,
+    "expected": 211,
+    "koladaOu": "V15E14808086",
+    "year": 2024
+  },
+  "14896115": {
+    "deviation": -41,
+    "expected": 231,
+    "koladaOu": "V15E198004401",
+    "year": 2024
+  },
+  "15080815": {
+    "deviation": -12,
+    "expected": 231,
+    "koladaOu": "V15E012302401",
+    "year": 2024
+  },
+  "15081255": {
+    "deviation": 22,
+    "expected": 240,
+    "koladaOu": "V15E030502001",
+    "year": 2024
+  },
+  "15218794": {
+    "deviation": 4,
+    "expected": 220,
+    "koladaOu": "V15E15218794",
+    "year": 2024
+  },
+  "15312030": {
+    "deviation": -30,
+    "expected": 205,
+    "koladaOu": "V15E018800301",
+    "year": 2024
+  },
+  "15331669": {
+    "deviation": 7,
+    "expected": 239,
+    "koladaOu": "V15E018071301",
+    "year": 2024
+  },
+  "15339442": {
+    "deviation": 15,
+    "expected": 246,
+    "koladaOu": "V15E15339442",
+    "year": 2024
+  },
+  "15401823": {
+    "deviation": -25,
+    "expected": 218,
+    "koladaOu": "V15E15401823",
+    "year": 2024
+  },
+  "15416514": {
+    "deviation": -5,
+    "expected": 205,
+    "koladaOu": "V15E036000201",
+    "year": 2024
+  },
+  "15483394": {
+    "deviation": 1,
+    "expected": 230,
+    "koladaOu": "V15E012601501",
+    "year": 2024
+  },
+  "15547680": {
+    "deviation": 20,
+    "expected": 249,
+    "koladaOu": "V15E016305601",
+    "year": 2024
+  },
+  "15579589": {
+    "deviation": -20,
+    "expected": 222,
+    "koladaOu": "V15E258006301",
+    "year": 2024
+  },
+  "15594566": {
+    "deviation": 24,
+    "expected": 263,
+    "koladaOu": "V15E018006201",
+    "year": 2024
+  },
+  "15610637": {
+    "deviation": 10,
+    "expected": 256,
+    "koladaOu": "V15E126200801",
+    "year": 2024
+  },
+  "15700323": {
+    "deviation": 15,
+    "expected": 251,
+    "koladaOu": "V15E15700323",
+    "year": 2024
+  },
+  "15716434": {
+    "deviation": -19,
+    "expected": 221,
+    "koladaOu": "V15E15716434",
+    "year": 2024
+  },
+  "15720147": {
+    "deviation": 16,
+    "expected": 206,
+    "koladaOu": "V15E15720147",
+    "year": 2024
+  },
+  "15766661": {
+    "deviation": -17,
+    "expected": 209,
+    "koladaOu": "V15E188200201",
+    "year": 2024
+  },
+  "16013826": {
+    "deviation": 17,
+    "expected": 224,
+    "koladaOu": "V15E058113601",
+    "year": 2024
+  },
+  "16057411": {
+    "deviation": -13,
+    "expected": 240,
+    "koladaOu": "V15E16057411",
+    "year": 2024
+  },
+  "16068461": {
+    "deviation": -2,
+    "expected": 230,
+    "koladaOu": "V15E018108501",
+    "year": 2024
+  },
+  "16081769": {
+    "deviation": 0,
+    "expected": 220,
+    "koladaOu": "V15E128702901",
+    "year": 2024
+  },
+  "16148785": {
+    "deviation": -3,
+    "expected": 232,
+    "koladaOu": "V15E127800101",
+    "year": 2024
+  },
+  "16183719": {
+    "deviation": -20,
+    "expected": 265,
+    "koladaOu": "V15E248001401",
+    "year": 2024
+  },
+  "16348406": {
+    "deviation": 26,
+    "expected": 245,
+    "koladaOu": "V15E018003501",
+    "year": 2024
+  },
+  "16394249": {
+    "deviation": 23,
+    "expected": 191,
+    "koladaOu": "V15E16394249",
+    "year": 2024
+  },
+  "16426165": {
+    "deviation": 13,
+    "expected": 251,
+    "koladaOu": "V15E018054101",
+    "year": 2024
+  },
+  "16464648": {
+    "deviation": -17,
+    "expected": 189,
+    "koladaOu": "V15E16464648",
+    "year": 2024
+  },
+  "16490220": {
+    "deviation": 5,
+    "expected": 223,
+    "koladaOu": "V15E16490220",
+    "year": 2024
+  },
+  "16547623": {
+    "deviation": -15,
+    "expected": 223,
+    "koladaOu": "V15E088302301",
+    "year": 2024
+  },
+  "16603772": {
+    "deviation": -7,
+    "expected": 237,
+    "koladaOu": "V15E048303901",
+    "year": 2024
+  },
+  "16650439": {
+    "deviation": -3,
+    "expected": 232,
+    "koladaOu": "V15E123301201",
+    "year": 2024
+  },
+  "16656370": {
+    "deviation": 10,
+    "expected": 227,
+    "koladaOu": "V15E141900701",
+    "year": 2024
+  },
+  "16688128": {
+    "deviation": -4,
+    "expected": 222,
+    "koladaOu": "V15E128309801",
+    "year": 2024
+  },
+  "16727370": {
+    "deviation": -7,
+    "expected": 234,
+    "koladaOu": "V15E058603501",
+    "year": 2024
+  },
+  "16767324": {
+    "deviation": 9,
+    "expected": 223,
+    "koladaOu": "V15E108201701",
+    "year": 2024
+  },
+  "16858929": {
+    "deviation": -7,
+    "expected": 249,
+    "koladaOu": "V15E238010001",
+    "year": 2024
+  },
+  "16891307": {
+    "deviation": -10,
+    "expected": 211,
+    "koladaOu": "V15E176400101",
+    "year": 2024
+  },
+  "16954837": {
+    "deviation": -21,
+    "expected": 240,
+    "koladaOu": "V15E16954837",
+    "year": 2024
+  },
+  "16969143": {
+    "deviation": 25,
+    "expected": 222,
+    "koladaOu": "V15E013900503",
+    "year": 2024
+  },
+  "16983719": {
+    "deviation": -3,
+    "expected": 202,
+    "koladaOu": "V15E013900401",
+    "year": 2024
+  },
+  "17024808": {
+    "deviation": -12,
+    "expected": 210,
+    "koladaOu": "V15E17024808",
+    "year": 2024
+  },
+  "17033155": {
+    "deviation": -17,
+    "expected": 227,
+    "koladaOu": "V15E208000102",
+    "year": 2024
+  },
+  "17089857": {
+    "deviation": -1,
+    "expected": 215,
+    "koladaOu": "V15E143900101",
+    "year": 2024
+  },
+  "17176734": {
+    "deviation": 1,
+    "expected": 210,
+    "koladaOu": "V15E126500113",
+    "year": 2024
+  },
+  "17208837": {
+    "deviation": 13,
+    "expected": 221,
+    "koladaOu": "V15E202300501",
+    "year": 2024
+  },
+  "17233525": {
+    "deviation": 20,
+    "expected": 234,
+    "koladaOu": "V15E218104301",
+    "year": 2024
+  },
+  "17240817": {
+    "deviation": -1,
+    "expected": 215,
+    "koladaOu": "V15E036000102",
+    "year": 2024
+  },
+  "17250578": {
+    "deviation": -9,
+    "expected": 210,
+    "koladaOu": "V15E17250578",
+    "year": 2024
+  },
+  "17287315": {
+    "deviation": -3,
+    "expected": 216,
+    "koladaOu": "V15E012302801",
+    "year": 2024
+  },
+  "17315625": {
+    "deviation": 8,
+    "expected": 225,
+    "koladaOu": "V15E17315625",
+    "year": 2024
+  },
+  "17514337": {
+    "deviation": -3,
+    "expected": 205,
+    "koladaOu": "V15E226000402",
+    "year": 2024
+  },
+  "17517182": {
+    "deviation": 15,
+    "expected": 254,
+    "koladaOu": "V15E148051401",
+    "year": 2024
+  },
+  "17640364": {
+    "deviation": 16,
+    "expected": 244,
+    "koladaOu": "V15E018017901",
+    "year": 2024
+  },
+  "17911537": {
+    "deviation": -9,
+    "expected": 221,
+    "koladaOu": "V15E149903201",
+    "year": 2024
+  },
+  "17957898": {
+    "deviation": 5,
+    "expected": 222,
+    "koladaOu": "V15E013607201",
+    "year": 2024
+  },
+  "18002855": {
+    "deviation": 2,
+    "expected": 227,
+    "koladaOu": "V15E18002855",
+    "year": 2024
+  },
+  "18053776": {
+    "deviation": 20,
+    "expected": 213,
+    "koladaOu": "V15E18053776",
+    "year": 2024
+  },
+  "18058977": {
+    "deviation": -20,
+    "expected": 209,
+    "koladaOu": "V15E18058977",
+    "year": 2024
+  },
+  "18116804": {
+    "deviation": -11,
+    "expected": 233,
+    "koladaOu": "V15E18116804",
+    "year": 2024
+  },
+  "18195751": {
+    "deviation": 1,
+    "expected": 220,
+    "koladaOu": "V15E127200101",
+    "year": 2024
+  },
+  "18275028": {
+    "deviation": 6,
+    "expected": 210,
+    "koladaOu": "V15E18275028",
+    "year": 2024
+  },
+  "18315553": {
+    "deviation": -1,
+    "expected": 211,
+    "koladaOu": "V15E178301201",
+    "year": 2024
+  },
+  "18339846": {
+    "deviation": -17,
+    "expected": 240,
+    "koladaOu": "V15E258101001",
+    "year": 2024
+  },
+  "18476537": {
+    "deviation": 20,
+    "expected": 226,
+    "koladaOu": "V15E068701901",
+    "year": 2024
+  },
+  "18595907": {
+    "deviation": 14,
+    "expected": 233,
+    "koladaOu": "V15E18595907",
+    "year": 2024
+  },
+  "18636287": {
+    "deviation": 8,
+    "expected": 209,
+    "koladaOu": "V15E129010601",
+    "year": 2024
+  },
+  "18790096": {
+    "deviation": -14,
+    "expected": 223,
+    "koladaOu": "V15E18790096",
+    "year": 2024
+  },
+  "18915192": {
+    "deviation": 0,
+    "expected": 229,
+    "koladaOu": "V15E048005501",
+    "year": 2024
+  },
+  "19024032": {
+    "deviation": 26,
+    "expected": 245,
+    "koladaOu": "V15E128018001",
+    "year": 2024
+  },
+  "19118399": {
+    "deviation": -1,
+    "expected": 219,
+    "koladaOu": "V15E068201101",
+    "year": 2024
+  },
+  "19353396": {
+    "deviation": 15,
+    "expected": 207,
+    "koladaOu": "V15E018001401",
+    "year": 2024
+  },
+  "19504051": {
+    "deviation": 11,
+    "expected": 244,
+    "koladaOu": "V15E126102501",
+    "year": 2024
+  },
+  "19570704": {
+    "deviation": 16,
+    "expected": 258,
+    "koladaOu": "V15E126201101",
+    "year": 2024
+  },
+  "19657993": {
+    "deviation": -15,
+    "expected": 241,
+    "koladaOu": "V15E018076001",
+    "year": 2024
+  },
+  "19694910": {
+    "deviation": -22,
+    "expected": 220,
+    "koladaOu": "V15E203400501",
+    "year": 2024
+  },
+  "19742982": {
+    "deviation": -44,
+    "expected": 223,
+    "koladaOu": "V15E188011101",
+    "year": 2024
+  },
+  "19804936": {
+    "deviation": -26,
+    "expected": 255,
+    "koladaOu": "V15E19804936",
+    "year": 2024
+  },
+  "20002379": {
+    "deviation": -13,
+    "expected": 238,
+    "koladaOu": "V15E20002379",
+    "year": 2024
+  },
+  "20104143": {
+    "deviation": -21,
+    "expected": 241,
+    "koladaOu": "V15E258006901",
+    "year": 2024
+  },
+  "20137688": {
+    "deviation": 15,
+    "expected": 255,
+    "koladaOu": "V15E018604501",
+    "year": 2024
+  },
+  "20191380": {
+    "deviation": -19,
+    "expected": 235,
+    "koladaOu": "V15E20191380",
+    "year": 2024
+  },
+  "20197159": {
+    "deviation": 7,
+    "expected": 216,
+    "koladaOu": "V15E228301601",
+    "year": 2024
+  },
+  "20253736": {
+    "deviation": 18,
+    "expected": 262,
+    "koladaOu": "V15E016302001",
+    "year": 2024
+  },
+  "20361674": {
+    "deviation": -7,
+    "expected": 251,
+    "koladaOu": "V15E20361674",
+    "year": 2024
+  },
+  "20525218": {
+    "deviation": -30,
+    "expected": 224,
+    "koladaOu": "V15E251403201",
+    "year": 2024
+  },
+  "20545871": {
+    "deviation": 0,
+    "expected": 208,
+    "koladaOu": "V15E202101001",
+    "year": 2024
+  },
+  "20566987": {
+    "deviation": 1,
+    "expected": 228,
+    "koladaOu": "V15E20566987",
+    "year": 2024
+  },
+  "20683111": {
+    "deviation": -5,
+    "expected": 205,
+    "koladaOu": "V15E018000801",
+    "year": 2024
+  },
+  "20696736": {
+    "deviation": -3,
+    "expected": 244,
+    "koladaOu": "V15E068000101",
+    "year": 2024
+  },
+  "20877276": {
+    "deviation": 11,
+    "expected": 208,
+    "koladaOu": "V15E20877276",
+    "year": 2024
+  },
+  "20930818": {
+    "deviation": -4,
+    "expected": 215,
+    "koladaOu": "V15E231300701",
+    "year": 2024
+  },
+  "21085818": {
+    "deviation": 35,
+    "expected": 238,
+    "koladaOu": "V15E21085818",
+    "year": 2024
+  },
+  "21086074": {
+    "deviation": -13,
+    "expected": 196,
+    "koladaOu": "V15E048602701",
+    "year": 2024
+  },
+  "21120076": {
+    "deviation": 15,
+    "expected": 247,
+    "koladaOu": "V15E128033901",
+    "year": 2024
+  },
+  "21157015": {
+    "deviation": -17,
+    "expected": 224,
+    "koladaOu": "V15E21157015",
+    "year": 2024
+  },
+  "21176313": {
+    "deviation": -10,
+    "expected": 248,
+    "koladaOu": "V15E21176313",
+    "year": 2024
+  },
+  "21231498": {
+    "deviation": -8,
+    "expected": 214,
+    "koladaOu": "V15E148010701",
+    "year": 2024
+  },
+  "21250086": {
+    "deviation": 7,
+    "expected": 257,
+    "koladaOu": "V15E228109301",
+    "year": 2024
+  },
+  "21423670": {
+    "deviation": -3,
+    "expected": 235,
+    "koladaOu": "V15E21423670",
+    "year": 2024
+  },
+  "21497343": {
+    "deviation": 16,
+    "expected": 260,
+    "koladaOu": "V15E148051501",
+    "year": 2024
+  },
+  "21550555": {
+    "deviation": -12,
+    "expected": 225,
+    "koladaOu": "V15E058400501",
+    "year": 2024
+  },
+  "21568934": {
+    "deviation": 1,
+    "expected": 218,
+    "koladaOu": "V15E173700801",
+    "year": 2024
+  },
+  "21608206": {
+    "deviation": -6,
+    "expected": 174,
+    "koladaOu": "V15E108006901",
+    "year": 2024
+  },
+  "21617136": {
+    "deviation": -19,
+    "expected": 237,
+    "koladaOu": "V15E21617136",
+    "year": 2024
+  },
+  "21724208": {
+    "deviation": 43,
+    "expected": 200,
+    "koladaOu": "V15E018005001",
+    "year": 2024
+  },
+  "21736926": {
+    "deviation": -7,
+    "expected": 225,
+    "koladaOu": "V15E21736926",
+    "year": 2024
+  },
+  "21871265": {
+    "deviation": 32,
+    "expected": 270,
+    "koladaOu": "V15E016300501",
+    "year": 2024
+  },
+  "21917957": {
+    "deviation": 4,
+    "expected": 230,
+    "koladaOu": "V15E148201501",
+    "year": 2024
+  },
+  "21969379": {
+    "deviation": -11,
+    "expected": 240,
+    "koladaOu": "V15E21969379",
+    "year": 2024
+  },
+  "21997077": {
+    "deviation": 24,
+    "expected": 217,
+    "koladaOu": "V15E016305101",
+    "year": 2024
+  },
+  "22019000": {
+    "deviation": 2,
+    "expected": 259,
+    "koladaOu": "V15E012605301",
+    "year": 2024
+  },
+  "22049068": {
+    "deviation": 1,
+    "expected": 187,
+    "koladaOu": "V15E22049068",
+    "year": 2024
+  },
+  "22049573": {
+    "deviation": -1,
+    "expected": 227,
+    "koladaOu": "V15E188000101",
+    "year": 2024
+  },
+  "22091017": {
+    "deviation": -12,
+    "expected": 229,
+    "koladaOu": "V15E22091017",
+    "year": 2024
+  },
+  "22127801": {
+    "deviation": 21,
+    "expected": 233,
+    "koladaOu": "V15E22127801",
+    "year": 2024
+  },
+  "22316816": {
+    "deviation": 28,
+    "expected": 220,
+    "koladaOu": "V15E230300301",
+    "year": 2024
+  },
+  "22335099": {
+    "deviation": 4,
+    "expected": 240,
+    "koladaOu": "V15E22335099",
+    "year": 2024
+  },
+  "22462490": {
+    "deviation": 3,
+    "expected": 209,
+    "koladaOu": "V15E22462490",
+    "year": 2024
+  },
+  "22474777": {
+    "deviation": 1,
+    "expected": 243,
+    "koladaOu": "V15E22474777",
+    "year": 2024
+  },
+  "22509001": {
+    "deviation": -10,
+    "expected": 211,
+    "koladaOu": "V15E128029301",
+    "year": 2024
+  },
+  "22512947": {
+    "deviation": -31,
+    "expected": 217,
+    "koladaOu": "V15E146200101",
+    "year": 2024
+  },
+  "22513261": {
+    "deviation": 18,
+    "expected": 197,
+    "koladaOu": "V15E22513261",
+    "year": 2024
+  },
+  "22807677": {
+    "deviation": 2,
+    "expected": 247,
+    "koladaOu": "V15E016000101",
+    "year": 2024
+  },
+  "22847273": {
+    "deviation": 6,
+    "expected": 213,
+    "koladaOu": "V15E018300101",
+    "year": 2024
+  },
+  "22957852": {
+    "deviation": -13,
+    "expected": 265,
+    "koladaOu": "V15E126102001",
+    "year": 2024
+  },
+  "23066257": {
+    "deviation": -5,
+    "expected": 261,
+    "koladaOu": "V15E018054701",
+    "year": 2024
+  },
+  "23108037": {
+    "deviation": -3,
+    "expected": 182,
+    "koladaOu": "V15E149000701",
+    "year": 2024
+  },
+  "23192281": {
+    "deviation": -10,
+    "expected": 221,
+    "koladaOu": "V15E068301101",
+    "year": 2024
+  },
+  "23250615": {
+    "deviation": 9,
+    "expected": 235,
+    "koladaOu": "V15E068008801",
+    "year": 2024
+  },
+  "23312767": {
+    "deviation": -4,
+    "expected": 268,
+    "koladaOu": "V15E016004201",
+    "year": 2024
+  },
+  "23345056": {
+    "deviation": -9,
+    "expected": 236,
+    "koladaOu": "V15E23345056",
+    "year": 2024
+  },
+  "23414344": {
+    "deviation": -49,
+    "expected": 244,
+    "koladaOu": "V15E018046001",
+    "year": 2024
+  },
+  "23521056": {
+    "deviation": 7,
+    "expected": 226,
+    "koladaOu": "V15E138300303",
+    "year": 2024
+  },
+  "23617768": {
+    "deviation": 18,
+    "expected": 249,
+    "koladaOu": "V15E018031001",
+    "year": 2024
+  },
+  "23786565": {
+    "deviation": -21,
+    "expected": 225,
+    "koladaOu": "V15E218401001",
+    "year": 2024
+  },
+  "23908629": {
+    "deviation": 19,
+    "expected": 253,
+    "koladaOu": "V15E188012401",
+    "year": 2024
+  },
+  "23992844": {
+    "deviation": -7,
+    "expected": 217,
+    "koladaOu": "V15E23992844",
+    "year": 2024
+  },
+  "24103764": {
+    "deviation": -10,
+    "expected": 245,
+    "koladaOu": "V15E24103764",
+    "year": 2024
+  },
+  "24142153": {
+    "deviation": 18,
+    "expected": 249,
+    "koladaOu": "V15E016004501",
+    "year": 2024
+  },
+  "24146389": {
+    "deviation": 6,
+    "expected": 206,
+    "koladaOu": "V15E018801001",
+    "year": 2024
+  },
+  "24172067": {
+    "deviation": 21,
+    "expected": 264,
+    "koladaOu": "V15E018048401",
+    "year": 2024
+  },
+  "24181728": {
+    "deviation": -11,
+    "expected": 236,
+    "koladaOu": "V15E123301301",
+    "year": 2024
+  },
+  "24306424": {
+    "deviation": 2,
+    "expected": 203,
+    "koladaOu": "V15E176001201",
+    "year": 2024
+  },
+  "24339301": {
+    "deviation": 38,
+    "expected": 247,
+    "koladaOu": "V15E128013301",
+    "year": 2024
+  },
+  "24352906": {
+    "deviation": 0,
+    "expected": 206,
+    "koladaOu": "V15E24352906",
+    "year": 2024
+  },
+  "24374886": {
+    "deviation": -10,
+    "expected": 202,
+    "koladaOu": "V15E011402401",
+    "year": 2024
+  },
+  "24379201": {
+    "deviation": -11,
+    "expected": 197,
+    "koladaOu": "V15E198300101",
+    "year": 2024
+  },
+  "24396451": {
+    "deviation": -11,
+    "expected": 225,
+    "koladaOu": "V15E228401811",
+    "year": 2024
+  },
+  "24402537": {
+    "deviation": 44,
+    "expected": 234,
+    "koladaOu": "V15E24402537",
+    "year": 2024
+  },
+  "24429776": {
+    "deviation": 1,
+    "expected": 214,
+    "koladaOu": "V15E098004001",
+    "year": 2024
+  },
+  "24445412": {
+    "deviation": 10,
+    "expected": 238,
+    "koladaOu": "V15E129101901",
+    "year": 2024
+  },
+  "24561769": {
+    "deviation": -7,
+    "expected": 220,
+    "koladaOu": "V15E24561769",
+    "year": 2024
+  },
+  "24625357": {
+    "deviation": -4,
+    "expected": 239,
+    "koladaOu": "V15E24625357",
+    "year": 2024
+  },
+  "24716970": {
+    "deviation": 9,
+    "expected": 241,
+    "koladaOu": "V15E018002501",
+    "year": 2024
+  },
+  "24748604": {
+    "deviation": 8,
+    "expected": 215,
+    "koladaOu": "V15E186000201",
+    "year": 2024
+  },
+  "24947938": {
+    "deviation": 3,
+    "expected": 193,
+    "koladaOu": "V15E128701101",
+    "year": 2024
+  },
+  "25036714": {
+    "deviation": 2,
+    "expected": 231,
+    "koladaOu": "V15E230901101",
+    "year": 2024
+  },
+  "25278170": {
+    "deviation": 20,
+    "expected": 248,
+    "koladaOu": "V15E25278170",
+    "year": 2024
+  },
+  "25309669": {
+    "deviation": 27,
+    "expected": 247,
+    "koladaOu": "V15E016004101",
+    "year": 2024
+  },
+  "25486432": {
+    "deviation": -16,
+    "expected": 211,
+    "koladaOu": "V15E149400103",
+    "year": 2024
+  },
+  "25636648": {
+    "deviation": -3,
+    "expected": 225,
+    "koladaOu": "V15E176600401",
+    "year": 2024
+  },
+  "25749057": {
+    "deviation": -15,
+    "expected": 233,
+    "koladaOu": "V15E088304701",
+    "year": 2024
+  },
+  "25790317": {
+    "deviation": -34,
+    "expected": 237,
+    "koladaOu": "V15E148203801",
+    "year": 2024
+  },
+  "25852980": {
+    "deviation": 3,
+    "expected": 232,
+    "koladaOu": "V15E148023101",
+    "year": 2024
+  },
+  "25894254": {
+    "deviation": -6,
+    "expected": 264,
+    "koladaOu": "V15E148027001",
+    "year": 2024
+  },
+  "25918983": {
+    "deviation": -7,
+    "expected": 197,
+    "koladaOu": "V15E012703401",
+    "year": 2024
+  },
+  "26140079": {
+    "deviation": 15,
+    "expected": 208,
+    "koladaOu": "V15E26140079",
+    "year": 2024
+  },
+  "26255239": {
+    "deviation": -8,
+    "expected": 214,
+    "koladaOu": "V15E058009501",
+    "year": 2024
+  },
+  "26281697": {
+    "deviation": 1,
+    "expected": 231,
+    "koladaOu": "V15E26281697",
+    "year": 2024
+  },
+  "26377128": {
+    "deviation": 28,
+    "expected": 247,
+    "koladaOu": "V15E176000401",
+    "year": 2024
+  },
+  "26387738": {
+    "deviation": -20,
+    "expected": 206,
+    "koladaOu": "V15E058100701",
+    "year": 2024
+  },
+  "26579492": {
+    "deviation": 22,
+    "expected": 230,
+    "koladaOu": "V15E138301801",
+    "year": 2024
+  },
+  "26645758": {
+    "deviation": -3,
+    "expected": 215,
+    "koladaOu": "V15E128503101",
+    "year": 2024
+  },
+  "26666728": {
+    "deviation": 29,
+    "expected": 222,
+    "koladaOu": "V15E038006004",
+    "year": 2024
+  },
+  "27153243": {
+    "deviation": -17,
+    "expected": 235,
+    "koladaOu": "V15E208000401",
+    "year": 2024
+  },
+  "27265374": {
+    "deviation": 11,
+    "expected": 233,
+    "koladaOu": "V15E148040201",
+    "year": 2024
+  },
+  "27274628": {
+    "deviation": -1,
+    "expected": 250,
+    "koladaOu": "V15E140103101",
+    "year": 2024
+  },
+  "27323097": {
+    "deviation": 26,
+    "expected": 256,
+    "koladaOu": "V15E018405301",
+    "year": 2024
+  },
+  "27418903": {
+    "deviation": -21,
+    "expected": 249,
+    "koladaOu": "V15E178010501",
+    "year": 2024
+  },
+  "27459423": {
+    "deviation": 5,
+    "expected": 229,
+    "koladaOu": "V15E27459423",
+    "year": 2024
+  },
+  "27489448": {
+    "deviation": -17,
+    "expected": 233,
+    "koladaOu": "V15E148505201",
+    "year": 2024
+  },
+  "27489659": {
+    "deviation": 30,
+    "expected": 208,
+    "koladaOu": "V15E068200102",
+    "year": 2024
+  },
+  "27506076": {
+    "deviation": -2,
+    "expected": 219,
+    "koladaOu": "V15E208001701",
+    "year": 2024
+  },
+  "27508103": {
+    "deviation": 7,
+    "expected": 232,
+    "koladaOu": "V15E27508103",
+    "year": 2024
+  },
+  "27526205": {
+    "deviation": -10,
+    "expected": 164,
+    "koladaOu": "V15E27526205",
+    "year": 2024
+  },
+  "27595656": {
+    "deviation": -4,
+    "expected": 240,
+    "koladaOu": "V15E012502501",
+    "year": 2024
+  },
+  "27675952": {
+    "deviation": -3,
+    "expected": 215,
+    "koladaOu": "V15E27675952",
+    "year": 2024
+  },
+  "28006480": {
+    "deviation": 10,
+    "expected": 235,
+    "koladaOu": "V15E038001003",
+    "year": 2024
+  },
+  "28023150": {
+    "deviation": 16,
+    "expected": 237,
+    "koladaOu": "V15E123301101",
+    "year": 2024
+  },
+  "28059616": {
+    "deviation": -26,
+    "expected": 236,
+    "koladaOu": "V15E28059616",
+    "year": 2024
+  },
+  "28060171": {
+    "deviation": -11,
+    "expected": 202,
+    "koladaOu": "V15E128307201",
+    "year": 2024
+  },
+  "28067210": {
+    "deviation": 3,
+    "expected": 260,
+    "koladaOu": "V15E188010801",
+    "year": 2024
+  },
+  "28080863": {
+    "deviation": -9,
+    "expected": 209,
+    "koladaOu": "V15E149100308",
+    "year": 2024
+  },
+  "28156767": {
+    "deviation": -18,
+    "expected": 223,
+    "koladaOu": "V15E064200101",
+    "year": 2024
+  },
+  "28230949": {
+    "deviation": 12,
+    "expected": 209,
+    "koladaOu": "V15E208500201",
+    "year": 2024
+  },
+  "28306495": {
+    "deviation": -5,
+    "expected": 252,
+    "koladaOu": "V15E030502101",
+    "year": 2024
+  },
+  "28424574": {
+    "deviation": 20,
+    "expected": 228,
+    "koladaOu": "V15E128303001",
+    "year": 2024
+  },
+  "28454424": {
+    "deviation": -2,
+    "expected": 202,
+    "koladaOu": "V15E241800115",
+    "year": 2024
+  },
+  "28459364": {
+    "deviation": -9,
+    "expected": 247,
+    "koladaOu": "V15E138003701",
+    "year": 2024
+  },
+  "28484259": {
+    "deviation": 30,
+    "expected": 209,
+    "koladaOu": "V15E146000101",
+    "year": 2024
+  },
+  "28504550": {
+    "deviation": 0,
+    "expected": 221,
+    "koladaOu": "V15E068401401",
+    "year": 2024
+  },
+  "28562125": {
+    "deviation": -18,
+    "expected": 252,
+    "koladaOu": "V15E084001001",
+    "year": 2024
+  },
+  "28599917": {
+    "deviation": -22,
+    "expected": 229,
+    "koladaOu": "V15E208000201",
+    "year": 2024
+  },
+  "28729598": {
+    "deviation": -14,
+    "expected": 240,
+    "koladaOu": "V15E28729598",
+    "year": 2024
+  },
+  "28753548": {
+    "deviation": 13,
+    "expected": 247,
+    "koladaOu": "V15E128104501",
+    "year": 2024
+  },
+  "28754789": {
+    "deviation": 25,
+    "expected": 233,
+    "koladaOu": "V15E128314601",
+    "year": 2024
+  },
+  "28784410": {
+    "deviation": 3,
+    "expected": 241,
+    "koladaOu": "V15E123000603",
+    "year": 2024
+  },
+  "28803215": {
+    "deviation": -17,
+    "expected": 251,
+    "koladaOu": "V15E138402401",
+    "year": 2024
+  },
+  "28804882": {
+    "deviation": 19,
+    "expected": 248,
+    "koladaOu": "V15E129304601",
+    "year": 2024
+  },
+  "28836025": {
+    "deviation": -22,
+    "expected": 235,
+    "koladaOu": "V15E28836025",
+    "year": 2024
+  },
+  "28849109": {
+    "deviation": -19,
+    "expected": 233,
+    "koladaOu": "V15E068003001",
+    "year": 2024
+  },
+  "28958120": {
+    "deviation": -14,
+    "expected": 247,
+    "koladaOu": "V15E248011101",
+    "year": 2024
+  },
+  "29069124": {
+    "deviation": -11,
+    "expected": 237,
+    "koladaOu": "V15E29069124",
+    "year": 2024
+  },
+  "29158808": {
+    "deviation": 14,
+    "expected": 230,
+    "koladaOu": "V15E29158808",
+    "year": 2024
+  },
+  "29270748": {
+    "deviation": -81,
+    "expected": 244,
+    "koladaOu": "V15E29270748",
+    "year": 2024
+  },
+  "29278599": {
+    "deviation": 9,
+    "expected": 258,
+    "koladaOu": "V15E011501701",
+    "year": 2024
+  },
+  "29289355": {
+    "deviation": -9,
+    "expected": 232,
+    "koladaOu": "V15E149301101",
+    "year": 2024
+  },
+  "29299366": {
+    "deviation": -5,
+    "expected": 206,
+    "koladaOu": "V15E030501601",
+    "year": 2024
+  },
+  "29371242": {
+    "deviation": 33,
+    "expected": 266,
+    "koladaOu": "V15E29371242",
+    "year": 2024
+  },
+  "29410344": {
+    "deviation": 33,
+    "expected": 248,
+    "koladaOu": "V15E018029301",
+    "year": 2024
+  },
+  "29497099": {
+    "deviation": 33,
+    "expected": 228,
+    "koladaOu": "V15E29497099",
+    "year": 2024
+  },
+  "29524966": {
+    "deviation": 56,
+    "expected": 192,
+    "koladaOu": "V15E012703901",
+    "year": 2024
+  },
+  "29541747": {
+    "deviation": -3,
+    "expected": 201,
+    "koladaOu": "V15E128200301",
+    "year": 2024
+  },
+  "29574820": {
+    "deviation": -13,
+    "expected": 226,
+    "koladaOu": "V15E29574820",
+    "year": 2024
+  },
+  "29677535": {
+    "deviation": -11,
+    "expected": 241,
+    "koladaOu": "V15E038017001",
+    "year": 2024
+  },
+  "29689372": {
+    "deviation": -5,
+    "expected": 219,
+    "koladaOu": "V15E129300101",
+    "year": 2024
+  },
+  "29725531": {
+    "deviation": 32,
+    "expected": 243,
+    "koladaOu": "V15E018034701",
+    "year": 2024
+  },
+  "29744401": {
+    "deviation": -11,
+    "expected": 197,
+    "koladaOu": "V15E29744401",
+    "year": 2024
+  },
+  "29751275": {
+    "deviation": -5,
+    "expected": 224,
+    "koladaOu": "V15E078000201",
+    "year": 2024
+  },
+  "29991096": {
+    "deviation": -12,
+    "expected": 216,
+    "koladaOu": "V15E258300201",
+    "year": 2024
+  },
+  "30181143": {
+    "deviation": 22,
+    "expected": 237,
+    "koladaOu": "V15E048602601",
+    "year": 2024
+  },
+  "30313010": {
+    "deviation": 8,
+    "expected": 235,
+    "koladaOu": "V15E198013501",
+    "year": 2024
+  },
+  "30454178": {
+    "deviation": -17,
+    "expected": 211,
+    "koladaOu": "V15E30454178",
+    "year": 2024
+  },
+  "30499176": {
+    "deviation": -5,
+    "expected": 210,
+    "koladaOu": "V15E30499176",
+    "year": 2024
+  },
+  "30576881": {
+    "deviation": 10,
+    "expected": 259,
+    "koladaOu": "V15E198009701",
+    "year": 2024
+  },
+  "30622727": {
+    "deviation": 4,
+    "expected": 230,
+    "koladaOu": "V15E30622727",
+    "year": 2024
+  },
+  "30731471": {
+    "deviation": 8,
+    "expected": 240,
+    "koladaOu": "V15E30731471",
+    "year": 2024
+  },
+  "30917018": {
+    "deviation": 18,
+    "expected": 198,
+    "koladaOu": "V15E203100109",
+    "year": 2024
+  },
+  "30917121": {
+    "deviation": 14,
+    "expected": 235,
+    "koladaOu": "V15E128201601",
+    "year": 2024
+  },
+  "31015204": {
+    "deviation": -2,
+    "expected": 212,
+    "koladaOu": "V15E31015204",
+    "year": 2024
+  },
+  "31018677": {
+    "deviation": 12,
+    "expected": 191,
+    "koladaOu": "V15E011400201",
+    "year": 2024
+  },
+  "31127129": {
+    "deviation": -42,
+    "expected": 181,
+    "koladaOu": "V15E31127129",
+    "year": 2024
+  },
+  "31281674": {
+    "deviation": -1,
+    "expected": 210,
+    "koladaOu": "V15E013803601",
+    "year": 2024
+  },
+  "31319179": {
+    "deviation": -13,
+    "expected": 216,
+    "koladaOu": "V15E198301201",
+    "year": 2024
+  },
+  "31381375": {
+    "deviation": 10,
+    "expected": 219,
+    "koladaOu": "V15E144400901",
+    "year": 2024
+  },
+  "31528772": {
+    "deviation": -18,
+    "expected": 239,
+    "koladaOu": "V15E018108901",
+    "year": 2024
+  },
+  "31658010": {
+    "deviation": -31,
+    "expected": 243,
+    "koladaOu": "V15E058015001",
+    "year": 2024
+  },
+  "31733366": {
+    "deviation": -25,
+    "expected": 233,
+    "koladaOu": "V15E31733366",
+    "year": 2024
+  },
+  "31851256": {
+    "deviation": -3,
+    "expected": 223,
+    "koladaOu": "V15E018800201",
+    "year": 2024
+  },
+  "31872640": {
+    "deviation": -20,
+    "expected": 243,
+    "koladaOu": "V15E148033301",
+    "year": 2024
+  },
+  "31975018": {
+    "deviation": -4,
+    "expected": 225,
+    "koladaOu": "V15E31975018",
+    "year": 2024
+  },
+  "31980822": {
+    "deviation": 24,
+    "expected": 231,
+    "koladaOu": "V15E048603801",
+    "year": 2024
+  },
+  "31996111": {
+    "deviation": 27,
+    "expected": 252,
+    "koladaOu": "V15E128009301",
+    "year": 2024
+  },
+  "32017880": {
+    "deviation": -5,
+    "expected": 219,
+    "koladaOu": "V15E32017880",
+    "year": 2024
+  },
+  "32231541": {
+    "deviation": 6,
+    "expected": 257,
+    "koladaOu": "V15E016003501",
+    "year": 2024
+  },
+  "32309720": {
+    "deviation": -16,
+    "expected": 248,
+    "koladaOu": "V15E148103201",
+    "year": 2024
+  },
+  "32492959": {
+    "deviation": 10,
+    "expected": 223,
+    "koladaOu": "V15E32492959",
+    "year": 2024
+  },
+  "32721673": {
+    "deviation": -14,
+    "expected": 222,
+    "koladaOu": "V15E218200501",
+    "year": 2024
+  },
+  "32758035": {
+    "deviation": 1,
+    "expected": 224,
+    "koladaOu": "V15E196101801",
+    "year": 2024
+  },
+  "32965692": {
+    "deviation": 5,
+    "expected": 251,
+    "koladaOu": "V15E018208201",
+    "year": 2024
+  },
+  "32970785": {
+    "deviation": 13,
+    "expected": 211,
+    "koladaOu": "V15E256000801",
+    "year": 2024
+  },
+  "33369644": {
+    "deviation": -2,
+    "expected": 227,
+    "koladaOu": "V15E33369644",
+    "year": 2024
+  },
+  "33439128": {
+    "deviation": 2,
+    "expected": 231,
+    "koladaOu": "V15E33439128",
+    "year": 2024
+  },
+  "33732345": {
+    "deviation": 9,
+    "expected": 222,
+    "koladaOu": "V15E33732345",
+    "year": 2024
+  },
+  "33759766": {
+    "deviation": -10,
+    "expected": 214,
+    "koladaOu": "V15E145200101",
+    "year": 2024
+  },
+  "33877675": {
+    "deviation": -10,
+    "expected": 206,
+    "koladaOu": "V15E061700215",
+    "year": 2024
+  },
+  "34135484": {
+    "deviation": 18,
+    "expected": 237,
+    "koladaOu": "V15E018204101",
+    "year": 2024
+  },
+  "34148887": {
+    "deviation": 23,
+    "expected": 193,
+    "koladaOu": "V15E018100101",
+    "year": 2024
+  },
+  "34231336": {
+    "deviation": -7,
+    "expected": 232,
+    "koladaOu": "V15E144600106",
+    "year": 2024
+  },
+  "34246393": {
+    "deviation": 4,
+    "expected": 226,
+    "koladaOu": "V15E34246393",
+    "year": 2024
+  },
+  "34255565": {
+    "deviation": 8,
+    "expected": 220,
+    "koladaOu": "V15E050900701",
+    "year": 2024
+  },
+  "34314029": {
+    "deviation": 13,
+    "expected": 257,
+    "koladaOu": "V15E128017001",
+    "year": 2024
+  },
+  "34401115": {
+    "deviation": 12,
+    "expected": 245,
+    "koladaOu": "V15E34401115",
+    "year": 2024
+  },
+  "34540901": {
+    "deviation": 38,
+    "expected": 246,
+    "koladaOu": "V15E018006701",
+    "year": 2024
+  },
+  "34557677": {
+    "deviation": 2,
+    "expected": 224,
+    "koladaOu": "V15E142100404",
+    "year": 2024
+  },
+  "34671510": {
+    "deviation": -17,
+    "expected": 219,
+    "koladaOu": "V15E230500401",
+    "year": 2024
+  },
+  "34699165": {
+    "deviation": -6,
+    "expected": 220,
+    "koladaOu": "V15E34699165",
+    "year": 2024
+  },
+  "34767418": {
+    "deviation": -4,
+    "expected": 225,
+    "koladaOu": "V15E188301401",
+    "year": 2024
+  },
+  "34900938": {
+    "deviation": -15,
+    "expected": 221,
+    "koladaOu": "V15E147100201",
+    "year": 2024
+  },
+  "35008423": {
+    "deviation": 20,
+    "expected": 225,
+    "koladaOu": "V15E019104201",
+    "year": 2024
+  },
+  "35110948": {
+    "deviation": -3,
+    "expected": 223,
+    "koladaOu": "V15E35110948",
+    "year": 2024
+  },
+  "35129114": {
+    "deviation": 19,
+    "expected": 248,
+    "koladaOu": "V15E35129114",
+    "year": 2024
+  },
+  "35136963": {
+    "deviation": 7,
+    "expected": 236,
+    "koladaOu": "V15E138204801",
+    "year": 2024
+  },
+  "35139330": {
+    "deviation": 2,
+    "expected": 211,
+    "koladaOu": "V15E218203001",
+    "year": 2024
+  },
+  "35494110": {
+    "deviation": -19,
+    "expected": 213,
+    "koladaOu": "V15E35494110",
+    "year": 2024
+  },
+  "35547286": {
+    "deviation": 39,
+    "expected": 257,
+    "koladaOu": "V15E018006601",
+    "year": 2024
+  },
+  "35561766": {
+    "deviation": -19,
+    "expected": 233,
+    "koladaOu": "V15E038020501",
+    "year": 2024
+  },
+  "35609364": {
+    "deviation": 1,
+    "expected": 231,
+    "koladaOu": "V15E058100201",
+    "year": 2024
+  },
+  "35670754": {
+    "deviation": -15,
+    "expected": 239,
+    "koladaOu": "V15E126701501",
+    "year": 2024
+  },
+  "35890890": {
+    "deviation": 30,
+    "expected": 209,
+    "koladaOu": "V15E018051101",
+    "year": 2024
+  },
+  "36031993": {
+    "deviation": 7,
+    "expected": 221,
+    "koladaOu": "V15E018005301",
+    "year": 2024
+  },
+  "36066067": {
+    "deviation": 39,
+    "expected": 266,
+    "koladaOu": "V15E018045401",
+    "year": 2024
+  },
+  "36262199": {
+    "deviation": -30,
+    "expected": 234,
+    "koladaOu": "V15E016005301",
+    "year": 2024
+  },
+  "36276828": {
+    "deviation": 35,
+    "expected": 257,
+    "koladaOu": "V15E36276828",
+    "year": 2024
+  },
+  "36281817": {
+    "deviation": 21,
+    "expected": 258,
+    "koladaOu": "V15E018027301",
+    "year": 2024
+  },
+  "36350546": {
+    "deviation": 3,
+    "expected": 213,
+    "koladaOu": "V15E012702101",
+    "year": 2024
+  },
+  "36374693": {
+    "deviation": -2,
+    "expected": 210,
+    "koladaOu": "V15E033101401",
+    "year": 2024
+  },
+  "36409468": {
+    "deviation": 31,
+    "expected": 219,
+    "koladaOu": "V15E188009101",
+    "year": 2024
+  },
+  "36425969": {
+    "deviation": -12,
+    "expected": 204,
+    "koladaOu": "V15E216100601",
+    "year": 2024
+  },
+  "36759013": {
+    "deviation": 17,
+    "expected": 216,
+    "koladaOu": "V15E048407501",
+    "year": 2024
+  },
+  "36819574": {
+    "deviation": -3,
+    "expected": 224,
+    "koladaOu": "V15E202600203",
+    "year": 2024
+  },
+  "37112288": {
+    "deviation": 11,
+    "expected": 260,
+    "koladaOu": "V15E018303101",
+    "year": 2024
+  },
+  "37140962": {
+    "deviation": -5,
+    "expected": 243,
+    "koladaOu": "V15E252303101",
+    "year": 2024
+  },
+  "37147254": {
+    "deviation": -6,
+    "expected": 229,
+    "koladaOu": "V15E013800301",
+    "year": 2024
+  },
+  "37299127": {
+    "deviation": 0,
+    "expected": 220,
+    "koladaOu": "V15E228102301",
+    "year": 2024
+  },
+  "37310404": {
+    "deviation": -17,
+    "expected": 218,
+    "koladaOu": "V15E058604001",
+    "year": 2024
+  },
+  "37324136": {
+    "deviation": 40,
+    "expected": 218,
+    "koladaOu": "V15E128002101",
+    "year": 2024
+  },
+  "37416253": {
+    "deviation": 32,
+    "expected": 177,
+    "koladaOu": "V15E018006301",
+    "year": 2024
+  },
+  "37556682": {
+    "deviation": 61,
+    "expected": 187,
+    "koladaOu": "V15E018073701",
+    "year": 2024
+  },
+  "37707717": {
+    "deviation": -20,
+    "expected": 224,
+    "koladaOu": "V15E149400201",
+    "year": 2024
+  },
+  "37716305": {
+    "deviation": -1,
+    "expected": 207,
+    "koladaOu": "V15E086200201",
+    "year": 2024
+  },
+  "37772170": {
+    "deviation": 6,
+    "expected": 257,
+    "koladaOu": "V15E140102701",
+    "year": 2024
+  },
+  "37796564": {
+    "deviation": 12,
+    "expected": 196,
+    "koladaOu": "V15E018009201",
+    "year": 2024
+  },
+  "37915996": {
+    "deviation": -10,
+    "expected": 218,
+    "koladaOu": "V15E37915996",
+    "year": 2024
+  },
+  "37995642": {
+    "deviation": -14,
+    "expected": 225,
+    "koladaOu": "V15E128503301",
+    "year": 2024
+  },
+  "38198417": {
+    "deviation": -11,
+    "expected": 226,
+    "koladaOu": "V15E088102701",
+    "year": 2024
+  },
+  "38278821": {
+    "deviation": 7,
+    "expected": 248,
+    "koladaOu": "V15E38278821",
+    "year": 2024
+  },
+  "38299211": {
+    "deviation": -8,
+    "expected": 216,
+    "koladaOu": "V15E126601901",
+    "year": 2024
+  },
+  "38353942": {
+    "deviation": 0,
+    "expected": 224,
+    "koladaOu": "V15E148201301",
+    "year": 2024
+  },
+  "38375490": {
+    "deviation": -7,
+    "expected": 223,
+    "koladaOu": "V15E38375490",
+    "year": 2024
+  },
+  "38394561": {
+    "deviation": 6,
+    "expected": 213,
+    "koladaOu": "V15E018109001",
+    "year": 2024
+  },
+  "38539206": {
+    "deviation": -11,
+    "expected": 224,
+    "koladaOu": "V15E38539206",
+    "year": 2024
+  },
+  "38553494": {
+    "deviation": -6,
+    "expected": 234,
+    "koladaOu": "V15E064300301",
+    "year": 2024
+  },
+  "38653015": {
+    "deviation": 2,
+    "expected": 229,
+    "koladaOu": "V15E018103701",
+    "year": 2024
+  },
+  "38661388": {
+    "deviation": 0,
+    "expected": 225,
+    "koladaOu": "V15E012702801",
+    "year": 2024
+  },
+  "38758770": {
+    "deviation": 8,
+    "expected": 230,
+    "koladaOu": "V15E018022601",
+    "year": 2024
+  },
+  "38786603": {
+    "deviation": 5,
+    "expected": 227,
+    "koladaOu": "V15E148800105",
+    "year": 2024
+  },
+  "38786895": {
+    "deviation": -4,
+    "expected": 244,
+    "koladaOu": "V15E141501901",
+    "year": 2024
+  },
+  "38854084": {
+    "deviation": 21,
+    "expected": 216,
+    "koladaOu": "V15E38854084",
+    "year": 2024
+  },
+  "38935587": {
+    "deviation": 19,
+    "expected": 248,
+    "koladaOu": "V15E018047701",
+    "year": 2024
+  },
+  "38936292": {
+    "deviation": 31,
+    "expected": 220,
+    "koladaOu": "V15E058112801",
+    "year": 2024
+  },
+  "38944084": {
+    "deviation": -3,
+    "expected": 221,
+    "koladaOu": "V15E066502201",
+    "year": 2024
+  },
+  "38975788": {
+    "deviation": 13,
+    "expected": 206,
+    "koladaOu": "V15E013604401",
+    "year": 2024
+  },
+  "39000072": {
+    "deviation": 19,
+    "expected": 207,
+    "koladaOu": "V15E148024901",
+    "year": 2024
+  },
+  "39117429": {
+    "deviation": -28,
+    "expected": 231,
+    "koladaOu": "V15E248009801",
+    "year": 2024
+  },
+  "39124119": {
+    "deviation": 55,
+    "expected": 165,
+    "koladaOu": "V15E39124119",
+    "year": 2024
+  },
+  "39160736": {
+    "deviation": -15,
+    "expected": 217,
+    "koladaOu": "V15E39160736",
+    "year": 2024
+  },
+  "39171821": {
+    "deviation": -16,
+    "expected": 228,
+    "koladaOu": "V15E018006002",
+    "year": 2024
+  },
+  "39229061": {
+    "deviation": 1,
+    "expected": 216,
+    "koladaOu": "V15E012602514",
+    "year": 2024
+  },
+  "39307298": {
+    "deviation": 10,
+    "expected": 257,
+    "koladaOu": "V15E128108301",
+    "year": 2024
+  },
+  "39345593": {
+    "deviation": -2,
+    "expected": 213,
+    "koladaOu": "V15E088400201",
+    "year": 2024
+  },
+  "39351914": {
+    "deviation": -14,
+    "expected": 204,
+    "koladaOu": "V15E39351914",
+    "year": 2024
+  },
+  "39396701": {
+    "deviation": 1,
+    "expected": 223,
+    "koladaOu": "V15E148803301",
+    "year": 2024
+  },
+  "39517088": {
+    "deviation": -16,
+    "expected": 224,
+    "koladaOu": "V15E39517088",
+    "year": 2024
+  },
+  "39690579": {
+    "deviation": 10,
+    "expected": 220,
+    "koladaOu": "V15E39690579",
+    "year": 2024
+  },
+  "39701961": {
+    "deviation": -13,
+    "expected": 189,
+    "koladaOu": "V15E39701961",
+    "year": 2024
+  },
+  "39907811": {
+    "deviation": 18,
+    "expected": 243,
+    "koladaOu": "V15E39907811",
+    "year": 2024
+  },
+  "39992436": {
+    "deviation": -6,
+    "expected": 251,
+    "koladaOu": "V15E39992436",
+    "year": 2024
+  },
+  "40025257": {
+    "deviation": -24,
+    "expected": 234,
+    "koladaOu": "V15E230900101",
+    "year": 2024
+  },
+  "40035084": {
+    "deviation": 7,
+    "expected": 243,
+    "koladaOu": "V15E128018701",
+    "year": 2024
+  },
+  "40175889": {
+    "deviation": 6,
+    "expected": 206,
+    "koladaOu": "V15E018104501",
+    "year": 2024
+  },
+  "40248457": {
+    "deviation": 25,
+    "expected": 253,
+    "koladaOu": "V15E128105401",
+    "year": 2024
+  },
+  "40275917": {
+    "deviation": 9,
+    "expected": 230,
+    "koladaOu": "V15E40275917",
+    "year": 2024
+  },
+  "40385157": {
+    "deviation": 17,
+    "expected": 244,
+    "koladaOu": "V15E128304601",
+    "year": 2024
+  },
+  "40393888": {
+    "deviation": -13,
+    "expected": 236,
+    "koladaOu": "V15E058103201",
+    "year": 2024
+  },
+  "40467992": {
+    "deviation": 32,
+    "expected": 236,
+    "koladaOu": "V15E016305201",
+    "year": 2024
+  },
+  "40470449": {
+    "deviation": -2,
+    "expected": 247,
+    "koladaOu": "V15E128027501",
+    "year": 2024
+  },
+  "40517936": {
+    "deviation": -2,
+    "expected": 208,
+    "koladaOu": "V15E178500201",
+    "year": 2024
+  },
+  "40526633": {
+    "deviation": 38,
+    "expected": 210,
+    "koladaOu": "V15E40526633",
+    "year": 2024
+  },
+  "40546319": {
+    "deviation": -21,
+    "expected": 250,
+    "koladaOu": "V15E068013001",
+    "year": 2024
+  },
+  "40576389": {
+    "deviation": -14,
+    "expected": 224,
+    "koladaOu": "V15E068300101",
+    "year": 2024
+  },
+  "40577779": {
+    "deviation": -25,
+    "expected": 242,
+    "koladaOu": "V15E148101101",
+    "year": 2024
+  },
+  "40648796": {
+    "deviation": 1,
+    "expected": 233,
+    "koladaOu": "V15E40648796",
+    "year": 2024
+  },
+  "40684137": {
+    "deviation": -11,
+    "expected": 220,
+    "koladaOu": "V15E188400701",
+    "year": 2024
+  },
+  "40708452": {
+    "deviation": -22,
+    "expected": 239,
+    "koladaOu": "V15E258204101",
+    "year": 2024
+  },
+  "40731205": {
+    "deviation": 14,
+    "expected": 222,
+    "koladaOu": "V15E40731205",
+    "year": 2024
+  },
+  "40847752": {
+    "deviation": 4,
+    "expected": 236,
+    "koladaOu": "V15E012300101",
+    "year": 2024
+  },
+  "40898556": {
+    "deviation": 34,
+    "expected": 245,
+    "koladaOu": "V15E40898556",
+    "year": 2024
+  },
+  "40944032": {
+    "deviation": -22,
+    "expected": 207,
+    "koladaOu": "V15E218000214",
+    "year": 2024
+  },
+  "40991541": {
+    "deviation": -20,
+    "expected": 208,
+    "koladaOu": "V15E066202901",
+    "year": 2024
+  },
+  "41081474": {
+    "deviation": 4,
+    "expected": 223,
+    "koladaOu": "V15E41081474",
+    "year": 2024
+  },
+  "41176931": {
+    "deviation": 27,
+    "expected": 248,
+    "koladaOu": "V15E018001701",
+    "year": 2024
+  },
+  "41181908": {
+    "deviation": 0,
+    "expected": 244,
+    "koladaOu": "V15E41181908",
+    "year": 2024
+  },
+  "41197162": {
+    "deviation": 32,
+    "expected": 257,
+    "koladaOu": "V15E123300601",
+    "year": 2024
+  },
+  "41213404": {
+    "deviation": -4,
+    "expected": 237,
+    "koladaOu": "V15E012602201",
+    "year": 2024
+  },
+  "41254600": {
+    "deviation": 18,
+    "expected": 257,
+    "koladaOu": "V15E126200503",
+    "year": 2024
+  },
+  "41584790": {
+    "deviation": -5,
+    "expected": 240,
+    "koladaOu": "V15E018109401",
+    "year": 2024
+  },
+  "41605059": {
+    "deviation": 5,
+    "expected": 216,
+    "koladaOu": "V15E41605059",
+    "year": 2024
+  },
+  "41641029": {
+    "deviation": 32,
+    "expected": 174,
+    "koladaOu": "V15E41641029",
+    "year": 2024
+  },
+  "41729877": {
+    "deviation": 3,
+    "expected": 226,
+    "koladaOu": "V15E068300901",
+    "year": 2024
+  },
+  "41793797": {
+    "deviation": -40,
+    "expected": 216,
+    "koladaOu": "V15E218302201",
+    "year": 2024
+  },
+  "41811292": {
+    "deviation": -2,
+    "expected": 229,
+    "koladaOu": "V15E128300201",
+    "year": 2024
+  },
+  "41865593": {
+    "deviation": -21,
+    "expected": 210,
+    "koladaOu": "V15E41865593",
+    "year": 2024
+  },
+  "41921747": {
+    "deviation": -6,
+    "expected": 239,
+    "koladaOu": "V15E41921747",
+    "year": 2024
+  },
+  "42149666": {
+    "deviation": 30,
+    "expected": 186,
+    "koladaOu": "V15E018033101",
+    "year": 2024
+  },
+  "42162288": {
+    "deviation": 10,
+    "expected": 221,
+    "koladaOu": "V15E42162288",
+    "year": 2024
+  },
+  "42164778": {
+    "deviation": 14,
+    "expected": 236,
+    "koladaOu": "V15E128310201",
+    "year": 2024
+  },
+  "42247223": {
+    "deviation": -10,
+    "expected": 225,
+    "koladaOu": "V15E42247223",
+    "year": 2024
+  },
+  "42296356": {
+    "deviation": 2,
+    "expected": 226,
+    "koladaOu": "V15E258100501",
+    "year": 2024
+  },
+  "42328518": {
+    "deviation": 28,
+    "expected": 263,
+    "koladaOu": "V15E018018501",
+    "year": 2024
+  },
+  "42422737": {
+    "deviation": -7,
+    "expected": 253,
+    "koladaOu": "V15E138006501",
+    "year": 2024
+  },
+  "42434583": {
+    "deviation": 10,
+    "expected": 230,
+    "koladaOu": "V15E012001101",
+    "year": 2024
+  },
+  "42454305": {
+    "deviation": -12,
+    "expected": 238,
+    "koladaOu": "V15E42454305",
+    "year": 2024
+  },
+  "42518434": {
+    "deviation": 5,
+    "expected": 229,
+    "koladaOu": "V15E098008502",
+    "year": 2024
+  },
+  "42568760": {
+    "deviation": 7,
+    "expected": 244,
+    "koladaOu": "V15E138404701",
+    "year": 2024
+  },
+  "42601396": {
+    "deviation": 33,
+    "expected": 233,
+    "koladaOu": "V15E012600901",
+    "year": 2024
+  },
+  "42641767": {
+    "deviation": -9,
+    "expected": 227,
+    "koladaOu": "V15E42641767",
+    "year": 2024
+  },
+  "42752416": {
+    "deviation": -17,
+    "expected": 236,
+    "koladaOu": "V15E248008701",
+    "year": 2024
+  },
+  "42754004": {
+    "deviation": -11,
+    "expected": 252,
+    "koladaOu": "V15E42754004",
+    "year": 2024
+  },
+  "42817980": {
+    "deviation": -9,
+    "expected": 249,
+    "koladaOu": "V15E148012601",
+    "year": 2024
+  },
+  "42908219": {
+    "deviation": 7,
+    "expected": 248,
+    "koladaOu": "V15E128202701",
+    "year": 2024
+  },
+  "42908622": {
+    "deviation": 5,
+    "expected": 247,
+    "koladaOu": "V15E148106501",
+    "year": 2024
+  },
+  "42986451": {
+    "deviation": 18,
+    "expected": 254,
+    "koladaOu": "V15E016200201",
+    "year": 2024
+  },
+  "43055932": {
+    "deviation": -10,
+    "expected": 215,
+    "koladaOu": "V15E43055932",
+    "year": 2024
+  },
+  "43088454": {
+    "deviation": 0,
+    "expected": 245,
+    "koladaOu": "V15E018003806",
+    "year": 2024
+  },
+  "43138370": {
+    "deviation": 20,
+    "expected": 245,
+    "koladaOu": "V15E018303201",
+    "year": 2024
+  },
+  "43172419": {
+    "deviation": 4,
+    "expected": 201,
+    "koladaOu": "V15E061700105",
+    "year": 2024
+  },
+  "43238662": {
+    "deviation": -2,
+    "expected": 209,
+    "koladaOu": "V15E012700101",
+    "year": 2024
+  },
+  "43269172": {
+    "deviation": -16,
+    "expected": 225,
+    "koladaOu": "V15E43269172",
+    "year": 2024
+  },
+  "43351950": {
+    "deviation": -26,
+    "expected": 218,
+    "koladaOu": "V15E258403701",
+    "year": 2024
+  },
+  "43362307": {
+    "deviation": 11,
+    "expected": 224,
+    "koladaOu": "V15E212100701",
+    "year": 2024
+  },
+  "43375546": {
+    "deviation": 29,
+    "expected": 254,
+    "koladaOu": "V15E43375546",
+    "year": 2024
+  },
+  "43403496": {
+    "deviation": 8,
+    "expected": 215,
+    "koladaOu": "V15E43403496",
+    "year": 2024
+  },
+  "43539193": {
+    "deviation": -10,
+    "expected": 219,
+    "koladaOu": "V15E258008701",
+    "year": 2024
+  },
+  "43545297": {
+    "deviation": -6,
+    "expected": 227,
+    "koladaOu": "V15E43545297",
+    "year": 2024
+  },
+  "43632318": {
+    "deviation": 63,
+    "expected": 182,
+    "koladaOu": "V15E018065501",
+    "year": 2024
+  },
+  "43697331": {
+    "deviation": 28,
+    "expected": 182,
+    "koladaOu": "V15E43697331",
+    "year": 2024
+  },
+  "43833784": {
+    "deviation": -3,
+    "expected": 218,
+    "koladaOu": "V15E246300103",
+    "year": 2024
+  },
+  "43859477": {
+    "deviation": -3,
+    "expected": 230,
+    "koladaOu": "V15E43859477",
+    "year": 2024
+  },
+  "43869172": {
+    "deviation": 4,
+    "expected": 242,
+    "koladaOu": "V15E011702501",
+    "year": 2024
+  },
+  "43959135": {
+    "deviation": 20,
+    "expected": 235,
+    "koladaOu": "V15E43959135",
+    "year": 2024
+  },
+  "44046131": {
+    "deviation": 11,
+    "expected": 228,
+    "koladaOu": "V15E018004901",
+    "year": 2024
+  },
+  "44175786": {
+    "deviation": 40,
+    "expected": 250,
+    "koladaOu": "V15E018202801",
+    "year": 2024
+  },
+  "44227469": {
+    "deviation": 10,
+    "expected": 227,
+    "koladaOu": "V15E011400805",
+    "year": 2024
+  },
+  "44243725": {
+    "deviation": -15,
+    "expected": 232,
+    "koladaOu": "V15E188102701",
+    "year": 2024
+  },
+  "44263951": {
+    "deviation": -21,
+    "expected": 223,
+    "koladaOu": "V15E121400201",
+    "year": 2024
+  },
+  "44284183": {
+    "deviation": 20,
+    "expected": 249,
+    "koladaOu": "V15E198016901",
+    "year": 2024
+  },
+  "44373961": {
+    "deviation": 2,
+    "expected": 253,
+    "koladaOu": "V15E018206501",
+    "year": 2024
+  },
+  "44459183": {
+    "deviation": -4,
+    "expected": 243,
+    "koladaOu": "V15E44459183",
+    "year": 2024
+  },
+  "44605298": {
+    "deviation": -11,
+    "expected": 196,
+    "koladaOu": "V15E44605298",
+    "year": 2024
+  },
+  "44650086": {
+    "deviation": -10,
+    "expected": 216,
+    "koladaOu": "V15E143000202",
+    "year": 2024
+  },
+  "44673074": {
+    "deviation": 26,
+    "expected": 239,
+    "koladaOu": "V15E018000101",
+    "year": 2024
+  },
+  "44785862": {
+    "deviation": 4,
+    "expected": 251,
+    "koladaOu": "V15E078007601",
+    "year": 2024
+  },
+  "45104329": {
+    "deviation": 16,
+    "expected": 258,
+    "koladaOu": "V15E018603901",
+    "year": 2024
+  },
+  "45270097": {
+    "deviation": -8,
+    "expected": 223,
+    "koladaOu": "V15E147001201",
+    "year": 2024
+  },
+  "45436515": {
+    "deviation": 23,
+    "expected": 247,
+    "koladaOu": "V15E018004601",
+    "year": 2024
+  },
+  "45500152": {
+    "deviation": 3,
+    "expected": 210,
+    "koladaOu": "V15E048800101",
+    "year": 2024
+  },
+  "45535775": {
+    "deviation": 1,
+    "expected": 216,
+    "koladaOu": "V15E148506801",
+    "year": 2024
+  },
+  "45553352": {
+    "deviation": 50,
+    "expected": 255,
+    "koladaOu": "V15E018072601",
+    "year": 2024
+  },
+  "45558673": {
+    "deviation": 11,
+    "expected": 204,
+    "koladaOu": "V15E125701901",
+    "year": 2024
+  },
+  "45769922": {
+    "deviation": 29,
+    "expected": 228,
+    "koladaOu": "V15E45769922",
+    "year": 2024
+  },
+  "45776214": {
+    "deviation": -2,
+    "expected": 256,
+    "koladaOu": "V15E128019401",
+    "year": 2024
+  },
+  "45882318": {
+    "deviation": 15,
+    "expected": 240,
+    "koladaOu": "V15E016300806",
+    "year": 2024
+  },
+  "45984740": {
+    "deviation": -85,
+    "expected": 249,
+    "koladaOu": "V15E016006201",
+    "year": 2024
+  },
+  "46013569": {
+    "deviation": -25,
+    "expected": 243,
+    "koladaOu": "V15E149502101",
+    "year": 2024
+  },
+  "46042136": {
+    "deviation": 9,
+    "expected": 229,
+    "koladaOu": "V15E198015701",
+    "year": 2024
+  },
+  "46097781": {
+    "deviation": 16,
+    "expected": 260,
+    "koladaOu": "V15E46097781",
+    "year": 2024
+  },
+  "46107605": {
+    "deviation": 0,
+    "expected": 237,
+    "koladaOu": "V15E126100301",
+    "year": 2024
+  },
+  "46165232": {
+    "deviation": 17,
+    "expected": 255,
+    "koladaOu": "V15E018003601",
+    "year": 2024
+  },
+  "46165416": {
+    "deviation": -9,
+    "expected": 236,
+    "koladaOu": "V15E46165416",
+    "year": 2024
+  },
+  "46191968": {
+    "deviation": 3,
+    "expected": 246,
+    "koladaOu": "V15E123002501",
+    "year": 2024
+  },
+  "46206050": {
+    "deviation": 8,
+    "expected": 248,
+    "koladaOu": "V15E011502901",
+    "year": 2024
+  },
+  "46211392": {
+    "deviation": -9,
+    "expected": 244,
+    "koladaOu": "V15E129010301",
+    "year": 2024
+  },
+  "46323920": {
+    "deviation": -8,
+    "expected": 251,
+    "koladaOu": "V15E258005005",
+    "year": 2024
+  },
+  "46399291": {
+    "deviation": -3,
+    "expected": 189,
+    "koladaOu": "V15E46399291",
+    "year": 2024
+  },
+  "46512685": {
+    "deviation": 41,
+    "expected": 204,
+    "koladaOu": "V15E148014601",
+    "year": 2024
+  },
+  "46581319": {
+    "deviation": 20,
+    "expected": 197,
+    "koladaOu": "V15E018032201",
+    "year": 2024
+  },
+  "46660811": {
+    "deviation": 5,
+    "expected": 217,
+    "koladaOu": "V15E46660811",
+    "year": 2024
+  },
+  "46706680": {
+    "deviation": 19,
+    "expected": 231,
+    "koladaOu": "V15E46706680",
+    "year": 2024
+  },
+  "46721838": {
+    "deviation": 0,
+    "expected": 217,
+    "koladaOu": "V15E46721838",
+    "year": 2024
+  },
+  "46725455": {
+    "deviation": -18,
+    "expected": 255,
+    "koladaOu": "V15E123301901",
+    "year": 2024
+  },
+  "46796995": {
+    "deviation": 13,
+    "expected": 249,
+    "koladaOu": "V15E018063901",
+    "year": 2024
+  },
+  "46945514": {
+    "deviation": 8,
+    "expected": 255,
+    "koladaOu": "V15E123300701",
+    "year": 2024
+  },
+  "47003034": {
+    "deviation": 21,
+    "expected": 233,
+    "koladaOu": "V15E232100701",
+    "year": 2024
+  },
+  "47043218": {
+    "deviation": -16,
+    "expected": 231,
+    "koladaOu": "V15E47043218",
+    "year": 2024
+  },
+  "47120557": {
+    "deviation": 29,
+    "expected": 172,
+    "koladaOu": "V15E47120557",
+    "year": 2024
+  },
+  "47236914": {
+    "deviation": 8,
+    "expected": 199,
+    "koladaOu": "V15E066200101",
+    "year": 2024
+  },
+  "47243834": {
+    "deviation": 16,
+    "expected": 248,
+    "koladaOu": "V15E018200104",
+    "year": 2024
+  },
+  "47462120": {
+    "deviation": 22,
+    "expected": 223,
+    "koladaOu": "V15E016306901",
+    "year": 2024
+  },
+  "47579620": {
+    "deviation": 9,
+    "expected": 237,
+    "koladaOu": "V15E47579620",
+    "year": 2024
+  },
+  "47640376": {
+    "deviation": -83,
+    "expected": 227,
+    "koladaOu": "V15E47640376",
+    "year": 2024
+  },
+  "47684564": {
+    "deviation": -4,
+    "expected": 239,
+    "koladaOu": "V15E188005002",
+    "year": 2024
+  },
+  "47736072": {
+    "deviation": -11,
+    "expected": 219,
+    "koladaOu": "V15E208500301",
+    "year": 2024
+  },
+  "47986219": {
+    "deviation": 35,
+    "expected": 262,
+    "koladaOu": "V15E016307201",
+    "year": 2024
+  },
+  "48016437": {
+    "deviation": -21,
+    "expected": 213,
+    "koladaOu": "V15E149300201",
+    "year": 2024
+  },
+  "48108874": {
+    "deviation": -4,
+    "expected": 215,
+    "koladaOu": "V15E068600501",
+    "year": 2024
+  },
+  "48134074": {
+    "deviation": 11,
+    "expected": 223,
+    "koladaOu": "V15E038019001",
+    "year": 2024
+  },
+  "48228294": {
+    "deviation": -15,
+    "expected": 221,
+    "koladaOu": "V15E176300101",
+    "year": 2024
+  },
+  "48240990": {
+    "deviation": 10,
+    "expected": 198,
+    "koladaOu": "V15E208401807",
+    "year": 2024
+  },
+  "48328583": {
+    "deviation": -2,
+    "expected": 238,
+    "koladaOu": "V15E018001104",
+    "year": 2024
+  },
+  "48373752": {
+    "deviation": -1,
+    "expected": 214,
+    "koladaOu": "V15E250500601",
+    "year": 2024
+  },
+  "48457931": {
+    "deviation": -12,
+    "expected": 228,
+    "koladaOu": "V15E068600101",
+    "year": 2024
+  },
+  "48760074": {
+    "deviation": 25,
+    "expected": 237,
+    "koladaOu": "V15E018406101",
+    "year": 2024
+  },
+  "48798589": {
+    "deviation": 35,
+    "expected": 246,
+    "koladaOu": "V15E128311901",
+    "year": 2024
+  },
+  "48874671": {
+    "deviation": -1,
+    "expected": 227,
+    "koladaOu": "V15E128000301",
+    "year": 2024
+  },
+  "48983548": {
+    "deviation": -2,
+    "expected": 230,
+    "koladaOu": "V15E48983548",
+    "year": 2024
+  },
+  "49021135": {
+    "deviation": 32,
+    "expected": 235,
+    "koladaOu": "V15E011402801",
+    "year": 2024
+  },
+  "49233138": {
+    "deviation": 9,
+    "expected": 205,
+    "koladaOu": "V15E49233138",
+    "year": 2024
+  },
+  "49323438": {
+    "deviation": -16,
+    "expected": 263,
+    "koladaOu": "V15E148202001",
+    "year": 2024
+  },
+  "49419497": {
+    "deviation": -4,
+    "expected": 231,
+    "koladaOu": "V15E49419497",
+    "year": 2024
+  },
+  "49474076": {
+    "deviation": -8,
+    "expected": 244,
+    "koladaOu": "V15E49474076",
+    "year": 2024
+  },
+  "49525819": {
+    "deviation": -8,
+    "expected": 198,
+    "koladaOu": "V15E148802901",
+    "year": 2024
+  },
+  "49631077": {
+    "deviation": 9,
+    "expected": 251,
+    "koladaOu": "V15E018603601",
+    "year": 2024
+  },
+  "49665496": {
+    "deviation": -37,
+    "expected": 214,
+    "koladaOu": "V15E198302401",
+    "year": 2024
+  },
+  "49674763": {
+    "deviation": 15,
+    "expected": 188,
+    "koladaOu": "V15E030501801",
+    "year": 2024
+  },
+  "49748045": {
+    "deviation": 9,
+    "expected": 212,
+    "koladaOu": "V15E228301004",
+    "year": 2024
+  },
+  "49779956": {
+    "deviation": -13,
+    "expected": 187,
+    "koladaOu": "V15E218000601",
+    "year": 2024
+  },
+  "49933363": {
+    "deviation": -4,
+    "expected": 236,
+    "koladaOu": "V15E49933363",
+    "year": 2024
+  },
+  "49975985": {
+    "deviation": -18,
+    "expected": 232,
+    "koladaOu": "V15E49975985",
+    "year": 2024
+  },
+  "50029898": {
+    "deviation": 5,
+    "expected": 251,
+    "koladaOu": "V15E50029898",
+    "year": 2024
+  },
+  "50048111": {
+    "deviation": 28,
+    "expected": 237,
+    "koladaOu": "V15E048408601",
+    "year": 2024
+  },
+  "50060022": {
+    "deviation": 31,
+    "expected": 200,
+    "koladaOu": "V15E018030001",
+    "year": 2024
+  },
+  "50095535": {
+    "deviation": 0,
+    "expected": 232,
+    "koladaOu": "V15E198009001",
+    "year": 2024
+  },
+  "50126333": {
+    "deviation": -3,
+    "expected": 225,
+    "koladaOu": "V15E50126333",
+    "year": 2024
+  },
+  "50150550": {
+    "deviation": 3,
+    "expected": 224,
+    "koladaOu": "V15E138100801",
+    "year": 2024
+  },
+  "50172802": {
+    "deviation": -24,
+    "expected": 221,
+    "koladaOu": "V15E50172802",
+    "year": 2024
+  },
+  "50190330": {
+    "deviation": -16,
+    "expected": 238,
+    "koladaOu": "V15E218400201",
+    "year": 2024
+  },
+  "50675351": {
+    "deviation": 0,
+    "expected": 243,
+    "koladaOu": "V15E50675351",
+    "year": 2024
+  },
+  "50698424": {
+    "deviation": -11,
+    "expected": 221,
+    "koladaOu": "V15E048005701",
+    "year": 2024
+  },
+  "50756758": {
+    "deviation": 18,
+    "expected": 198,
+    "koladaOu": "V15E149001601",
+    "year": 2024
+  },
+  "50783450": {
+    "deviation": 11,
+    "expected": 248,
+    "koladaOu": "V15E012603001",
+    "year": 2024
+  },
+  "50826766": {
+    "deviation": 6,
+    "expected": 219,
+    "koladaOu": "V15E138010901",
+    "year": 2024
+  },
+  "50848996": {
+    "deviation": 20,
+    "expected": 233,
+    "koladaOu": "V15E018065901",
+    "year": 2024
+  },
+  "50999973": {
+    "deviation": 4,
+    "expected": 223,
+    "koladaOu": "V15E50999973",
+    "year": 2024
+  },
+  "51014228": {
+    "deviation": -22,
+    "expected": 189,
+    "koladaOu": "V15E128300701",
+    "year": 2024
+  },
+  "51044218": {
+    "deviation": 3,
+    "expected": 234,
+    "koladaOu": "V15E048800901",
+    "year": 2024
+  },
+  "51079534": {
+    "deviation": -6,
+    "expected": 224,
+    "koladaOu": "V15E51079534",
+    "year": 2024
+  },
+  "51175885": {
+    "deviation": -2,
+    "expected": 236,
+    "koladaOu": "V15E51175885",
+    "year": 2024
+  },
+  "51210001": {
+    "deviation": 23,
+    "expected": 191,
+    "koladaOu": "V15E018100401",
+    "year": 2024
+  },
+  "51305351": {
+    "deviation": 15,
+    "expected": 239,
+    "koladaOu": "V15E011703301",
+    "year": 2024
+  },
+  "51341279": {
+    "deviation": 7,
+    "expected": 201,
+    "koladaOu": "V15E018001501",
+    "year": 2024
+  },
+  "51387807": {
+    "deviation": -11,
+    "expected": 226,
+    "koladaOu": "V15E218000101",
+    "year": 2024
+  },
+  "51392146": {
+    "deviation": -16,
+    "expected": 235,
+    "koladaOu": "V15E51392146",
+    "year": 2024
+  },
+  "51403955": {
+    "deviation": -21,
+    "expected": 239,
+    "koladaOu": "V15E51403955",
+    "year": 2024
+  },
+  "51565567": {
+    "deviation": 14,
+    "expected": 259,
+    "koladaOu": "V15E51565567",
+    "year": 2024
+  },
+  "51596946": {
+    "deviation": -14,
+    "expected": 235,
+    "koladaOu": "V15E148200401",
+    "year": 2024
+  },
+  "51597705": {
+    "deviation": 11,
+    "expected": 211,
+    "koladaOu": "V15E228401002",
+    "year": 2024
+  },
+  "51610240": {
+    "deviation": -19,
+    "expected": 236,
+    "koladaOu": "V15E140200601",
+    "year": 2024
+  },
+  "51786225": {
+    "deviation": 22,
+    "expected": 231,
+    "koladaOu": "V15E51786225",
+    "year": 2024
+  },
+  "51848797": {
+    "deviation": -4,
+    "expected": 229,
+    "koladaOu": "V15E088002001",
+    "year": 2024
+  },
+  "51867275": {
+    "deviation": -11,
+    "expected": 249,
+    "koladaOu": "V15E033015501",
+    "year": 2024
+  },
+  "51877656": {
+    "deviation": -20,
+    "expected": 230,
+    "koladaOu": "V15E228100301",
+    "year": 2024
+  },
+  "52025747": {
+    "deviation": 15,
+    "expected": 265,
+    "koladaOu": "V15E126200701",
+    "year": 2024
+  },
+  "52037312": {
+    "deviation": 11,
+    "expected": 249,
+    "koladaOu": "V15E128106001",
+    "year": 2024
+  },
+  "52152242": {
+    "deviation": -10,
+    "expected": 230,
+    "koladaOu": "V15E149400302",
+    "year": 2024
+  },
+  "52217632": {
+    "deviation": -3,
+    "expected": 236,
+    "koladaOu": "V15E012500101",
+    "year": 2024
+  },
+  "52229866": {
+    "deviation": -5,
+    "expected": 239,
+    "koladaOu": "V15E098007701",
+    "year": 2024
+  },
+  "52293921": {
+    "deviation": 16,
+    "expected": 249,
+    "koladaOu": "V15E011502301",
+    "year": 2024
+  },
+  "52538248": {
+    "deviation": 7,
+    "expected": 258,
+    "koladaOu": "V15E148009801",
+    "year": 2024
+  },
+  "52561988": {
+    "deviation": 26,
+    "expected": 221,
+    "koladaOu": "V15E242100209",
+    "year": 2024
+  },
+  "52665905": {
+    "deviation": -17,
+    "expected": 249,
+    "koladaOu": "V15E126601101",
+    "year": 2024
+  },
+  "52734580": {
+    "deviation": -21,
+    "expected": 252,
+    "koladaOu": "V15E258010001",
+    "year": 2024
+  },
+  "52846430": {
+    "deviation": 6,
+    "expected": 241,
+    "koladaOu": "V15E52846430",
+    "year": 2024
+  },
+  "52863414": {
+    "deviation": 17,
+    "expected": 250,
+    "koladaOu": "V15E018037401",
+    "year": 2024
+  },
+  "52925821": {
+    "deviation": 15,
+    "expected": 253,
+    "koladaOu": "V15E52925821",
+    "year": 2024
+  },
+  "52965560": {
+    "deviation": 20,
+    "expected": 257,
+    "koladaOu": "V15E018067201",
+    "year": 2024
+  },
+  "53075005": {
+    "deviation": 4,
+    "expected": 256,
+    "koladaOu": "V15E018066301",
+    "year": 2024
+  },
+  "53155267": {
+    "deviation": -15,
+    "expected": 216,
+    "koladaOu": "V15E108102101",
+    "year": 2024
+  },
+  "53259263": {
+    "deviation": -92,
+    "expected": 241,
+    "koladaOu": "V15E018406001",
+    "year": 2024
+  },
+  "53326735": {
+    "deviation": -14,
+    "expected": 240,
+    "koladaOu": "V15E53326735",
+    "year": 2024
+  },
+  "53442807": {
+    "deviation": -8,
+    "expected": 260,
+    "koladaOu": "V15E148100101",
+    "year": 2024
+  },
+  "53515359": {
+    "deviation": -1,
+    "expected": 247,
+    "koladaOu": "V15E128310501",
+    "year": 2024
+  },
+  "53536862": {
+    "deviation": 0,
+    "expected": 241,
+    "koladaOu": "V15E232100901",
+    "year": 2024
+  },
+  "53603984": {
+    "deviation": 7,
+    "expected": 220,
+    "koladaOu": "V15E106000401",
+    "year": 2024
+  },
+  "53620708": {
+    "deviation": 0,
+    "expected": 212,
+    "koladaOu": "V15E056301301",
+    "year": 2024
+  },
+  "53655678": {
+    "deviation": -7,
+    "expected": 250,
+    "koladaOu": "V15E53655678",
+    "year": 2024
+  },
+  "53662534": {
+    "deviation": -9,
+    "expected": 229,
+    "koladaOu": "V15E53662534",
+    "year": 2024
+  },
+  "53803818": {
+    "deviation": -19,
+    "expected": 221,
+    "koladaOu": "V15E53803818",
+    "year": 2024
+  },
+  "53847396": {
+    "deviation": 15,
+    "expected": 242,
+    "koladaOu": "V15E53847396",
+    "year": 2024
+  },
+  "53952728": {
+    "deviation": 0,
+    "expected": 230,
+    "koladaOu": "V15E218008701",
+    "year": 2024
+  },
+  "53993567": {
+    "deviation": 13,
+    "expected": 239,
+    "koladaOu": "V15E53993567",
+    "year": 2024
+  },
+  "54332921": {
+    "deviation": -53,
+    "expected": 199,
+    "koladaOu": "V15E016003901",
+    "year": 2024
+  },
+  "54367867": {
+    "deviation": 3,
+    "expected": 232,
+    "koladaOu": "V15E54367867",
+    "year": 2024
+  },
+  "54391347": {
+    "deviation": -4,
+    "expected": 251,
+    "koladaOu": "V15E128100501",
+    "year": 2024
+  },
+  "54436997": {
+    "deviation": -5,
+    "expected": 233,
+    "koladaOu": "V15E54436997",
+    "year": 2024
+  },
+  "54516737": {
+    "deviation": -3,
+    "expected": 235,
+    "koladaOu": "V15E012600701",
+    "year": 2024
+  },
+  "54605092": {
+    "deviation": -2,
+    "expected": 235,
+    "koladaOu": "V15E048409401",
+    "year": 2024
+  },
+  "54719506": {
+    "deviation": -12,
+    "expected": 233,
+    "koladaOu": "V15E231300501",
+    "year": 2024
+  },
+  "54725950": {
+    "deviation": 8,
+    "expected": 259,
+    "koladaOu": "V15E128024601",
+    "year": 2024
+  },
+  "54742485": {
+    "deviation": 17,
+    "expected": 233,
+    "koladaOu": "V15E038000901",
+    "year": 2024
+  },
+  "54765026": {
+    "deviation": 3,
+    "expected": 214,
+    "koladaOu": "V15E54765026",
+    "year": 2024
+  },
+  "54802332": {
+    "deviation": 8,
+    "expected": 246,
+    "koladaOu": "V15E228109501",
+    "year": 2024
+  },
+  "54806839": {
+    "deviation": 25,
+    "expected": 211,
+    "koladaOu": "V15E018805301",
+    "year": 2024
+  },
+  "54847211": {
+    "deviation": -9,
+    "expected": 238,
+    "koladaOu": "V15E54847211",
+    "year": 2024
+  },
+  "54881559": {
+    "deviation": -6,
+    "expected": 245,
+    "koladaOu": "V15E148103401",
+    "year": 2024
+  },
+  "54990077": {
+    "deviation": -11,
+    "expected": 224,
+    "koladaOu": "V15E54990077",
+    "year": 2024
+  },
+  "55040455": {
+    "deviation": -4,
+    "expected": 260,
+    "koladaOu": "V15E128009401",
+    "year": 2024
+  },
+  "55124975": {
+    "deviation": -14,
+    "expected": 220,
+    "koladaOu": "V15E148016401",
+    "year": 2024
+  },
+  "55200547": {
+    "deviation": -1,
+    "expected": 240,
+    "koladaOu": "V15E128311201",
+    "year": 2024
+  },
+  "55252119": {
+    "deviation": 15,
+    "expected": 204,
+    "koladaOu": "V15E55252119",
+    "year": 2024
+  },
+  "55343483": {
+    "deviation": -15,
+    "expected": 221,
+    "koladaOu": "V15E55343483",
+    "year": 2024
+  },
+  "55373417": {
+    "deviation": 24,
+    "expected": 211,
+    "koladaOu": "V15E218007201",
+    "year": 2024
+  },
+  "55508705": {
+    "deviation": 14,
+    "expected": 221,
+    "koladaOu": "V15E019101501",
+    "year": 2024
+  },
+  "55597667": {
+    "deviation": -15,
+    "expected": 229,
+    "koladaOu": "V15E55597667",
+    "year": 2024
+  },
+  "55731587": {
+    "deviation": -8,
+    "expected": 224,
+    "koladaOu": "V15E55731587",
+    "year": 2024
+  },
+  "55740795": {
+    "deviation": -26,
+    "expected": 221,
+    "koladaOu": "V15E228102501",
+    "year": 2024
+  },
+  "55815397": {
+    "deviation": -13,
+    "expected": 253,
+    "koladaOu": "V15E248010101",
+    "year": 2024
+  },
+  "55958613": {
+    "deviation": -13,
+    "expected": 221,
+    "koladaOu": "V15E55958613",
+    "year": 2024
+  },
+  "56130729": {
+    "deviation": -25,
+    "expected": 224,
+    "koladaOu": "V15E013803201",
+    "year": 2024
+  },
+  "56168083": {
+    "deviation": 2,
+    "expected": 252,
+    "koladaOu": "V15E148012701",
+    "year": 2024
+  },
+  "56285442": {
+    "deviation": 12,
+    "expected": 245,
+    "koladaOu": "V15E56285442",
+    "year": 2024
+  },
+  "56328727": {
+    "deviation": -12,
+    "expected": 244,
+    "koladaOu": "V15E56328727",
+    "year": 2024
+  },
+  "56331671": {
+    "deviation": -21,
+    "expected": 227,
+    "koladaOu": "V15E56331671",
+    "year": 2024
+  },
+  "56361478": {
+    "deviation": -7,
+    "expected": 205,
+    "koladaOu": "V15E076301601",
+    "year": 2024
+  },
+  "56363473": {
+    "deviation": 12,
+    "expected": 230,
+    "koladaOu": "V15E128020701",
+    "year": 2024
+  },
+  "56398338": {
+    "deviation": 12,
+    "expected": 205,
+    "koladaOu": "V15E56398338",
+    "year": 2024
+  },
+  "56417100": {
+    "deviation": 16,
+    "expected": 186,
+    "koladaOu": "V15E012703101",
+    "year": 2024
+  },
+  "56442130": {
+    "deviation": 19,
+    "expected": 185,
+    "koladaOu": "V15E208101402",
+    "year": 2024
+  },
+  "56446888": {
+    "deviation": 1,
+    "expected": 237,
+    "koladaOu": "V15E038000505",
+    "year": 2024
+  },
+  "56521117": {
+    "deviation": -8,
+    "expected": 229,
+    "koladaOu": "V15E038101501",
+    "year": 2024
+  },
+  "56528690": {
+    "deviation": -9,
+    "expected": 220,
+    "koladaOu": "V15E056100201",
+    "year": 2024
+  },
+  "56568612": {
+    "deviation": 14,
+    "expected": 201,
+    "koladaOu": "V15E018105301",
+    "year": 2024
+  },
+  "56655808": {
+    "deviation": 8,
+    "expected": 254,
+    "koladaOu": "V15E56655808",
+    "year": 2024
+  },
+  "56666435": {
+    "deviation": -1,
+    "expected": 188,
+    "koladaOu": "V15E128031401",
+    "year": 2024
+  },
+  "56710032": {
+    "deviation": 15,
+    "expected": 203,
+    "koladaOu": "V15E238007401",
+    "year": 2024
+  },
+  "56759222": {
+    "deviation": -17,
+    "expected": 216,
+    "koladaOu": "V15E56759222",
+    "year": 2024
+  },
+  "56818726": {
+    "deviation": -16,
+    "expected": 177,
+    "koladaOu": "V15E56818726",
+    "year": 2024
+  },
+  "56858061": {
+    "deviation": 1,
+    "expected": 237,
+    "koladaOu": "V15E012801001",
+    "year": 2024
+  },
+  "56867001": {
+    "deviation": -15,
+    "expected": 249,
+    "koladaOu": "V15E038019101",
+    "year": 2024
+  },
+  "56867397": {
+    "deviation": 31,
+    "expected": 253,
+    "koladaOu": "V15E016307101",
+    "year": 2024
+  },
+  "56884611": {
+    "deviation": -11,
+    "expected": 253,
+    "koladaOu": "V15E148805901",
+    "year": 2024
+  },
+  "57034070": {
+    "deviation": -86,
+    "expected": 248,
+    "koladaOu": "V15E018068101",
+    "year": 2024
+  },
+  "57184925": {
+    "deviation": 15,
+    "expected": 212,
+    "koladaOu": "V15E018002701",
+    "year": 2024
+  },
+  "57206066": {
+    "deviation": 28,
+    "expected": 226,
+    "koladaOu": "V15E016002901",
+    "year": 2024
+  },
+  "57228484": {
+    "deviation": -22,
+    "expected": 202,
+    "koladaOu": "V15E012703201",
+    "year": 2024
+  },
+  "57243353": {
+    "deviation": 20,
+    "expected": 221,
+    "koladaOu": "V15E198014401",
+    "year": 2024
+  },
+  "57317316": {
+    "deviation": 10,
+    "expected": 252,
+    "koladaOu": "V15E57317316",
+    "year": 2024
+  },
+  "57329777": {
+    "deviation": 12,
+    "expected": 238,
+    "koladaOu": "V15E57329777",
+    "year": 2024
+  },
+  "57386343": {
+    "deviation": 20,
+    "expected": 235,
+    "koladaOu": "V15E128014501",
+    "year": 2024
+  },
+  "57444890": {
+    "deviation": -4,
+    "expected": 245,
+    "koladaOu": "V15E208003301",
+    "year": 2024
+  },
+  "57467562": {
+    "deviation": 2,
+    "expected": 234,
+    "koladaOu": "V15E57467562",
+    "year": 2024
+  },
+  "57470446": {
+    "deviation": -13,
+    "expected": 243,
+    "koladaOu": "V15E57470446",
+    "year": 2024
+  },
+  "57484572": {
+    "deviation": -16,
+    "expected": 254,
+    "koladaOu": "V15E038008801",
+    "year": 2024
+  },
+  "57510246": {
+    "deviation": -48,
+    "expected": 243,
+    "koladaOu": "V15E018073901",
+    "year": 2024
+  },
+  "57534630": {
+    "deviation": 17,
+    "expected": 252,
+    "koladaOu": "V15E128006301",
+    "year": 2024
+  },
+  "57538739": {
+    "deviation": 14,
+    "expected": 195,
+    "koladaOu": "V15E129010101",
+    "year": 2024
+  },
+  "57548666": {
+    "deviation": -18,
+    "expected": 204,
+    "koladaOu": "V15E038200601",
+    "year": 2024
+  },
+  "57578095": {
+    "deviation": -15,
+    "expected": 238,
+    "koladaOu": "V15E218008901",
+    "year": 2024
+  },
+  "57590681": {
+    "deviation": 3,
+    "expected": 241,
+    "koladaOu": "V15E128309501",
+    "year": 2024
+  },
+  "57966953": {
+    "deviation": 13,
+    "expected": 189,
+    "koladaOu": "V15E57966953",
+    "year": 2024
+  },
+  "58102266": {
+    "deviation": -4,
+    "expected": 223,
+    "koladaOu": "V15E016305801",
+    "year": 2024
+  },
+  "58185455": {
+    "deviation": -5,
+    "expected": 226,
+    "koladaOu": "V15E240100201",
+    "year": 2024
+  },
+  "58294404": {
+    "deviation": 0,
+    "expected": 250,
+    "koladaOu": "V15E58294404",
+    "year": 2024
+  },
+  "58310322": {
+    "deviation": 3,
+    "expected": 246,
+    "koladaOu": "V15E012705701",
+    "year": 2024
+  },
+  "58354320": {
+    "deviation": 2,
+    "expected": 241,
+    "koladaOu": "V15E149010201",
+    "year": 2024
+  },
+  "58385274": {
+    "deviation": 10,
+    "expected": 226,
+    "koladaOu": "V15E012800301",
+    "year": 2024
+  },
+  "58395955": {
+    "deviation": -42,
+    "expected": 233,
+    "koladaOu": "V15E58395955",
+    "year": 2024
+  },
+  "58419840": {
+    "deviation": -8,
+    "expected": 226,
+    "koladaOu": "V15E58419840",
+    "year": 2024
+  },
+  "58622330": {
+    "deviation": 7,
+    "expected": 258,
+    "koladaOu": "V15E58622330",
+    "year": 2024
+  },
+  "58680588": {
+    "deviation": -24,
+    "expected": 218,
+    "koladaOu": "V15E58680588",
+    "year": 2024
+  },
+  "58712142": {
+    "deviation": 5,
+    "expected": 242,
+    "koladaOu": "V15E123100701",
+    "year": 2024
+  },
+  "58922041": {
+    "deviation": 11,
+    "expected": 259,
+    "koladaOu": "V15E238009401",
+    "year": 2024
+  },
+  "58980145": {
+    "deviation": -5,
+    "expected": 245,
+    "koladaOu": "V15E128602801",
+    "year": 2024
+  },
+  "58981647": {
+    "deviation": 15,
+    "expected": 241,
+    "koladaOu": "V15E121402201",
+    "year": 2024
+  },
+  "58994715": {
+    "deviation": 24,
+    "expected": 238,
+    "koladaOu": "V15E123300501",
+    "year": 2024
+  },
+  "59001324": {
+    "deviation": -38,
+    "expected": 205,
+    "koladaOu": "V15E076700701",
+    "year": 2024
+  },
+  "59092675": {
+    "deviation": 3,
+    "expected": 225,
+    "koladaOu": "V15E226200301",
+    "year": 2024
+  },
+  "59249600": {
+    "deviation": 0,
+    "expected": 241,
+    "koladaOu": "V15E018001202",
+    "year": 2024
+  },
+  "59457803": {
+    "deviation": -42,
+    "expected": 222,
+    "koladaOu": "V15E59457803",
+    "year": 2024
+  },
+  "59468219": {
+    "deviation": 18,
+    "expected": 203,
+    "koladaOu": "V15E018032801",
+    "year": 2024
+  },
+  "59497255": {
+    "deviation": -2,
+    "expected": 208,
+    "koladaOu": "V15E013604101",
+    "year": 2024
+  },
+  "59758107": {
+    "deviation": -13,
+    "expected": 220,
+    "koladaOu": "V15E59758107",
+    "year": 2024
+  },
+  "59900714": {
+    "deviation": 3,
+    "expected": 226,
+    "koladaOu": "V15E018050801",
+    "year": 2024
+  },
+  "59944028": {
+    "deviation": 21,
+    "expected": 199,
+    "koladaOu": "V15E59944028",
+    "year": 2024
+  },
+  "59958745": {
+    "deviation": -5,
+    "expected": 246,
+    "koladaOu": "V15E129100801",
+    "year": 2024
+  },
+  "59975651": {
+    "deviation": -18,
+    "expected": 219,
+    "koladaOu": "V15E018801801",
+    "year": 2024
+  },
+  "59983229": {
+    "deviation": 0,
+    "expected": 216,
+    "koladaOu": "V15E068401501",
+    "year": 2024
+  },
+  "60111640": {
+    "deviation": -13,
+    "expected": 227,
+    "koladaOu": "V15E208200102",
+    "year": 2024
+  },
+  "60217642": {
+    "deviation": 5,
+    "expected": 216,
+    "koladaOu": "V15E126401401",
+    "year": 2024
+  },
+  "60372258": {
+    "deviation": 7,
+    "expected": 227,
+    "koladaOu": "V15E144300101",
+    "year": 2024
+  },
+  "60492534": {
+    "deviation": 7,
+    "expected": 263,
+    "koladaOu": "V15E128104801",
+    "year": 2024
+  },
+  "60526603": {
+    "deviation": 32,
+    "expected": 227,
+    "koladaOu": "V15E148022801",
+    "year": 2024
+  },
+  "60557814": {
+    "deviation": -8,
+    "expected": 221,
+    "koladaOu": "V15E60557814",
+    "year": 2024
+  },
+  "60570294": {
+    "deviation": 30,
+    "expected": 206,
+    "koladaOu": "V15E018100201",
+    "year": 2024
+  },
+  "60633912": {
+    "deviation": -11,
+    "expected": 232,
+    "koladaOu": "V15E258200301",
+    "year": 2024
+  },
+  "60641880": {
+    "deviation": 4,
+    "expected": 233,
+    "koladaOu": "V15E60641880",
+    "year": 2024
+  },
+  "60700608": {
+    "deviation": -23,
+    "expected": 225,
+    "koladaOu": "V15E098005101",
+    "year": 2024
+  },
+  "60782519": {
+    "deviation": 2,
+    "expected": 209,
+    "koladaOu": "V15E038003503",
+    "year": 2024
+  },
+  "60904587": {
+    "deviation": 10,
+    "expected": 245,
+    "koladaOu": "V15E60904587",
+    "year": 2024
+  },
+  "60956248": {
+    "deviation": 14,
+    "expected": 215,
+    "koladaOu": "V15E128202801",
+    "year": 2024
+  },
+  "61002601": {
+    "deviation": -6,
+    "expected": 239,
+    "koladaOu": "V15E61002601",
+    "year": 2024
+  },
+  "61003071": {
+    "deviation": 21,
+    "expected": 259,
+    "koladaOu": "V15E038008101",
+    "year": 2024
+  },
+  "61056172": {
+    "deviation": 6,
+    "expected": 210,
+    "koladaOu": "V15E019101801",
+    "year": 2024
+  },
+  "61128264": {
+    "deviation": 15,
+    "expected": 234,
+    "koladaOu": "V15E61128264",
+    "year": 2024
+  },
+  "61454000": {
+    "deviation": 19,
+    "expected": 240,
+    "koladaOu": "V15E058113801",
+    "year": 2024
+  },
+  "61582926": {
+    "deviation": 13,
+    "expected": 231,
+    "koladaOu": "V15E138007101",
+    "year": 2024
+  },
+  "61686233": {
+    "deviation": 2,
+    "expected": 245,
+    "koladaOu": "V15E018002801",
+    "year": 2024
+  },
+  "61994062": {
+    "deviation": 28,
+    "expected": 223,
+    "koladaOu": "V15E61994062",
+    "year": 2024
+  },
+  "62222568": {
+    "deviation": 7,
+    "expected": 220,
+    "koladaOu": "V15E148500301",
+    "year": 2024
+  },
+  "62270371": {
+    "deviation": -1,
+    "expected": 229,
+    "koladaOu": "V15E216102301",
+    "year": 2024
+  },
+  "62288230": {
+    "deviation": 42,
+    "expected": 194,
+    "koladaOu": "V15E018104901",
+    "year": 2024
+  },
+  "62419611": {
+    "deviation": -13,
+    "expected": 218,
+    "koladaOu": "V15E62419611",
+    "year": 2024
+  },
+  "62533129": {
+    "deviation": 16,
+    "expected": 251,
+    "koladaOu": "V15E62533129",
+    "year": 2024
+  },
+  "62569730": {
+    "deviation": 34,
+    "expected": 245,
+    "koladaOu": "V15E62569730",
+    "year": 2024
+  },
+  "62677187": {
+    "deviation": -8,
+    "expected": 239,
+    "koladaOu": "V15E62677187",
+    "year": 2024
+  },
+  "62694008": {
+    "deviation": -12,
+    "expected": 230,
+    "koladaOu": "V15E149300119",
+    "year": 2024
+  },
+  "62764006": {
+    "deviation": 37,
+    "expected": 259,
+    "koladaOu": "V15E62764006",
+    "year": 2024
+  },
+  "62862066": {
+    "deviation": 7,
+    "expected": 241,
+    "koladaOu": "V15E62862066",
+    "year": 2024
+  },
+  "62868982": {
+    "deviation": 26,
+    "expected": 212,
+    "koladaOu": "V15E62868982",
+    "year": 2024
+  },
+  "62958817": {
+    "deviation": 6,
+    "expected": 205,
+    "koladaOu": "V15E190400101",
+    "year": 2024
+  },
+  "63287550": {
+    "deviation": 1,
+    "expected": 220,
+    "koladaOu": "V15E230500101",
+    "year": 2024
+  },
+  "63315515": {
+    "deviation": -9,
+    "expected": 197,
+    "koladaOu": "V15E63315515",
+    "year": 2024
+  },
+  "63323984": {
+    "deviation": -28,
+    "expected": 237,
+    "koladaOu": "V15E108003201",
+    "year": 2024
+  },
+  "63399058": {
+    "deviation": -26,
+    "expected": 225,
+    "koladaOu": "V15E63399058",
+    "year": 2024
+  },
+  "63423770": {
+    "deviation": 15,
+    "expected": 241,
+    "koladaOu": "V15E048603101",
+    "year": 2024
+  },
+  "63503591": {
+    "deviation": -18,
+    "expected": 211,
+    "koladaOu": "V15E186100401",
+    "year": 2024
+  },
+  "63592981": {
+    "deviation": 16,
+    "expected": 232,
+    "koladaOu": "V15E63592981",
+    "year": 2024
+  },
+  "63621283": {
+    "deviation": -1,
+    "expected": 238,
+    "koladaOu": "V15E148205101",
+    "year": 2024
+  },
+  "63742407": {
+    "deviation": -1,
+    "expected": 221,
+    "koladaOu": "V15E63742407",
+    "year": 2024
+  },
+  "63826797": {
+    "deviation": 1,
+    "expected": 267,
+    "koladaOu": "V15E63826797",
+    "year": 2024
+  },
+  "63846783": {
+    "deviation": -8,
+    "expected": 234,
+    "koladaOu": "V15E126700301",
+    "year": 2024
+  },
+  "63951601": {
+    "deviation": 31,
+    "expected": 225,
+    "koladaOu": "V15E128019001",
+    "year": 2024
+  },
+  "63954028": {
+    "deviation": 8,
+    "expected": 241,
+    "koladaOu": "V15E018059301",
+    "year": 2024
+  },
+  "63957271": {
+    "deviation": -9,
+    "expected": 178,
+    "koladaOu": "V15E128300601",
+    "year": 2024
+  },
+  "64029211": {
+    "deviation": -34,
+    "expected": 215,
+    "koladaOu": "V15E228102604",
+    "year": 2024
+  },
+  "64065082": {
+    "deviation": 67,
+    "expected": 247,
+    "koladaOu": "V15E018035101",
+    "year": 2024
+  },
+  "64402572": {
+    "deviation": -17,
+    "expected": 222,
+    "koladaOu": "V15E128007101",
+    "year": 2024
+  },
+  "64490264": {
+    "deviation": 4,
+    "expected": 248,
+    "koladaOu": "V15E148104201",
+    "year": 2024
+  },
+  "64558930": {
+    "deviation": -11,
+    "expected": 223,
+    "koladaOu": "V15E64558930",
+    "year": 2024
+  },
+  "64620570": {
+    "deviation": -4,
+    "expected": 220,
+    "koladaOu": "V15E048601001",
+    "year": 2024
+  },
+  "64720166": {
+    "deviation": -4,
+    "expected": 214,
+    "koladaOu": "V15E149003901",
+    "year": 2024
+  },
+  "64728140": {
+    "deviation": -4,
+    "expected": 219,
+    "koladaOu": "V15E128308901",
+    "year": 2024
+  },
+  "64736967": {
+    "deviation": 23,
+    "expected": 246,
+    "koladaOu": "V15E018054401",
+    "year": 2024
+  },
+  "64778601": {
+    "deviation": 8,
+    "expected": 210,
+    "koladaOu": "V15E230901001",
+    "year": 2024
+  },
+  "64800741": {
+    "deviation": -15,
+    "expected": 237,
+    "koladaOu": "V15E038009601",
+    "year": 2024
+  },
+  "64936034": {
+    "deviation": 0,
+    "expected": 220,
+    "koladaOu": "V15E64936034",
+    "year": 2024
+  },
+  "64949601": {
+    "deviation": -7,
+    "expected": 193,
+    "koladaOu": "V15E012603501",
+    "year": 2024
+  },
+  "65024773": {
+    "deviation": -4,
+    "expected": 200,
+    "koladaOu": "V15E65024773",
+    "year": 2024
+  },
+  "65025285": {
+    "deviation": -23,
+    "expected": 209,
+    "koladaOu": "V15E65025285",
+    "year": 2024
+  },
+  "65125762": {
+    "deviation": -26,
+    "expected": 232,
+    "koladaOu": "V15E228107001",
+    "year": 2024
+  },
+  "65153737": {
+    "deviation": 4,
+    "expected": 211,
+    "koladaOu": "V15E036000702",
+    "year": 2024
+  },
+  "65161034": {
+    "deviation": -5,
+    "expected": 227,
+    "koladaOu": "V15E078007301",
+    "year": 2024
+  },
+  "65212509": {
+    "deviation": -13,
+    "expected": 203,
+    "koladaOu": "V15E65212509",
+    "year": 2024
+  },
+  "65417636": {
+    "deviation": -37,
+    "expected": 229,
+    "koladaOu": "V15E248204005",
+    "year": 2024
+  },
+  "65483259": {
+    "deviation": -6,
+    "expected": 221,
+    "koladaOu": "V15E198400115",
+    "year": 2024
+  },
+  "65487720": {
+    "deviation": -13,
+    "expected": 216,
+    "koladaOu": "V15E056200601",
+    "year": 2024
+  },
+  "65487837": {
+    "deviation": 29,
+    "expected": 250,
+    "koladaOu": "V15E018077101",
+    "year": 2024
+  },
+  "65494903": {
+    "deviation": -6,
+    "expected": 251,
+    "koladaOu": "V15E208007301",
+    "year": 2024
+  },
+  "65569784": {
+    "deviation": -14,
+    "expected": 217,
+    "koladaOu": "V15E126300101",
+    "year": 2024
+  },
+  "65651613": {
+    "deviation": -8,
+    "expected": 254,
+    "koladaOu": "V15E65651613",
+    "year": 2024
+  },
+  "65654358": {
+    "deviation": 0,
+    "expected": 213,
+    "koladaOu": "V15E188302201",
+    "year": 2024
+  },
+  "65677988": {
+    "deviation": 8,
+    "expected": 220,
+    "koladaOu": "V15E140701001",
+    "year": 2024
+  },
+  "65688769": {
+    "deviation": -3,
+    "expected": 235,
+    "koladaOu": "V15E65688769",
+    "year": 2024
+  },
+  "65717061": {
+    "deviation": -7,
+    "expected": 225,
+    "koladaOu": "V15E019200201",
+    "year": 2024
+  },
+  "65736810": {
+    "deviation": -20,
+    "expected": 216,
+    "koladaOu": "V15E198015201",
+    "year": 2024
+  },
+  "65831760": {
+    "deviation": -8,
+    "expected": 205,
+    "koladaOu": "V15E65831760",
+    "year": 2024
+  },
+  "65836771": {
+    "deviation": 20,
+    "expected": 194,
+    "koladaOu": "V15E128001601",
+    "year": 2024
+  },
+  "65839656": {
+    "deviation": 14,
+    "expected": 242,
+    "koladaOu": "V15E016004401",
+    "year": 2024
+  },
+  "65857121": {
+    "deviation": -22,
+    "expected": 256,
+    "koladaOu": "V15E058003001",
+    "year": 2024
+  },
+  "65892623": {
+    "deviation": -6,
+    "expected": 249,
+    "koladaOu": "V15E128703401",
+    "year": 2024
+  },
+  "66142210": {
+    "deviation": -34,
+    "expected": 187,
+    "koladaOu": "V15E198000601",
+    "year": 2024
+  },
+  "66351593": {
+    "deviation": -47,
+    "expected": 231,
+    "koladaOu": "V15E128304201",
+    "year": 2024
+  },
+  "66382532": {
+    "deviation": -20,
+    "expected": 215,
+    "koladaOu": "V15E188003908",
+    "year": 2024
+  },
+  "66394964": {
+    "deviation": 7,
+    "expected": 237,
+    "koladaOu": "V15E068200801",
+    "year": 2024
+  },
+  "66414430": {
+    "deviation": 4,
+    "expected": 200,
+    "koladaOu": "V15E148800401",
+    "year": 2024
+  },
+  "66455663": {
+    "deviation": 25,
+    "expected": 233,
+    "koladaOu": "V15E018074001",
+    "year": 2024
+  },
+  "66475520": {
+    "deviation": 12,
+    "expected": 241,
+    "koladaOu": "V15E012501001",
+    "year": 2024
+  },
+  "66634449": {
+    "deviation": 26,
+    "expected": 222,
+    "koladaOu": "V15E012305101",
+    "year": 2024
+  },
+  "66656783": {
+    "deviation": 11,
+    "expected": 203,
+    "koladaOu": "V15E128030601",
+    "year": 2024
+  },
+  "66890810": {
+    "deviation": 14,
+    "expected": 248,
+    "koladaOu": "V15E148012501",
+    "year": 2024
+  },
+  "67020135": {
+    "deviation": 2,
+    "expected": 257,
+    "koladaOu": "V15E128100403",
+    "year": 2024
+  },
+  "67130748": {
+    "deviation": -19,
+    "expected": 237,
+    "koladaOu": "V15E128011701",
+    "year": 2024
+  },
+  "67183147": {
+    "deviation": -6,
+    "expected": 215,
+    "koladaOu": "V15E67183147",
+    "year": 2024
+  },
+  "67224193": {
+    "deviation": -16,
+    "expected": 226,
+    "koladaOu": "V15E67224193",
+    "year": 2024
+  },
+  "67272295": {
+    "deviation": 16,
+    "expected": 245,
+    "koladaOu": "V15E128007501",
+    "year": 2024
+  },
+  "67454907": {
+    "deviation": -15,
+    "expected": 206,
+    "koladaOu": "V15E149000201",
+    "year": 2024
+  },
+  "67509465": {
+    "deviation": -7,
+    "expected": 238,
+    "koladaOu": "V15E108003801",
+    "year": 2024
+  },
+  "67542970": {
+    "deviation": 5,
+    "expected": 233,
+    "koladaOu": "V15E67542970",
+    "year": 2024
+  },
+  "67543412": {
+    "deviation": 34,
+    "expected": 202,
+    "koladaOu": "V15E148039404",
+    "year": 2024
+  },
+  "67578984": {
+    "deviation": -12,
+    "expected": 242,
+    "koladaOu": "V15E67578984",
+    "year": 2024
+  },
+  "67662754": {
+    "deviation": 7,
+    "expected": 232,
+    "koladaOu": "V15E018077401",
+    "year": 2024
+  },
+  "67721487": {
+    "deviation": 8,
+    "expected": 210,
+    "koladaOu": "V15E128305002",
+    "year": 2024
+  },
+  "67723630": {
+    "deviation": 5,
+    "expected": 237,
+    "koladaOu": "V15E038102601",
+    "year": 2024
+  },
+  "67731691": {
+    "deviation": -81,
+    "expected": 236,
+    "koladaOu": "V15E018085301",
+    "year": 2024
+  },
+  "67742754": {
+    "deviation": 22,
+    "expected": 194,
+    "koladaOu": "V15E012703301",
+    "year": 2024
+  },
+  "67788311": {
+    "deviation": 14,
+    "expected": 212,
+    "koladaOu": "V15E018303301",
+    "year": 2024
+  },
+  "67809657": {
+    "deviation": 4,
+    "expected": 228,
+    "koladaOu": "V15E67809657",
+    "year": 2024
+  },
+  "67822057": {
+    "deviation": -3,
+    "expected": 258,
+    "koladaOu": "V15E148100401",
+    "year": 2024
+  },
+  "68201054": {
+    "deviation": 13,
+    "expected": 215,
+    "koladaOu": "V15E128100701",
+    "year": 2024
+  },
+  "68326694": {
+    "deviation": -31,
+    "expected": 225,
+    "koladaOu": "V15E68326694",
+    "year": 2024
+  },
+  "68358072": {
+    "deviation": -8,
+    "expected": 256,
+    "koladaOu": "V15E140200901",
+    "year": 2024
+  },
+  "68361133": {
+    "deviation": 12,
+    "expected": 211,
+    "koladaOu": "V15E68361133",
+    "year": 2024
+  },
+  "68403656": {
+    "deviation": 18,
+    "expected": 244,
+    "koladaOu": "V15E011401301",
+    "year": 2024
+  },
+  "68533503": {
+    "deviation": -9,
+    "expected": 230,
+    "koladaOu": "V15E176300201",
+    "year": 2024
+  },
+  "68602166": {
+    "deviation": -10,
+    "expected": 242,
+    "koladaOu": "V15E68602166",
+    "year": 2024
+  },
+  "68613823": {
+    "deviation": -8,
+    "expected": 233,
+    "koladaOu": "V15E138303101",
+    "year": 2024
+  },
+  "68653982": {
+    "deviation": -10,
+    "expected": 246,
+    "koladaOu": "V15E68653982",
+    "year": 2024
+  },
+  "68663553": {
+    "deviation": -15,
+    "expected": 232,
+    "koladaOu": "V15E206200201",
+    "year": 2024
+  },
+  "68702432": {
+    "deviation": 9,
+    "expected": 211,
+    "koladaOu": "V15E068301201",
+    "year": 2024
+  },
+  "68814096": {
+    "deviation": 21,
+    "expected": 227,
+    "koladaOu": "V15E206100104",
+    "year": 2024
+  },
+  "69004747": {
+    "deviation": 2,
+    "expected": 199,
+    "koladaOu": "V15E69004747",
+    "year": 2024
+  },
+  "69088221": {
+    "deviation": 13,
+    "expected": 250,
+    "koladaOu": "V15E016000501",
+    "year": 2024
+  },
+  "69147256": {
+    "deviation": -16,
+    "expected": 190,
+    "koladaOu": "V15E228103901",
+    "year": 2024
+  },
+  "69195602": {
+    "deviation": 12,
+    "expected": 245,
+    "koladaOu": "V15E69195602",
+    "year": 2024
+  },
+  "69241995": {
+    "deviation": -12,
+    "expected": 220,
+    "koladaOu": "V15E036000601",
+    "year": 2024
+  },
+  "69266159": {
+    "deviation": 20,
+    "expected": 196,
+    "koladaOu": "V15E018022101",
+    "year": 2024
+  },
+  "69329486": {
+    "deviation": 24,
+    "expected": 249,
+    "koladaOu": "V15E018604201",
+    "year": 2024
+  },
+  "69372123": {
+    "deviation": -16,
+    "expected": 227,
+    "koladaOu": "V15E69372123",
+    "year": 2024
+  },
+  "69405762": {
+    "deviation": 0,
+    "expected": 265,
+    "koladaOu": "V15E038010601",
+    "year": 2024
+  },
+  "69454219": {
+    "deviation": -12,
+    "expected": 235,
+    "koladaOu": "V15E228003201",
+    "year": 2024
+  },
+  "69564434": {
+    "deviation": -16,
+    "expected": 221,
+    "koladaOu": "V15E068502701",
+    "year": 2024
+  },
+  "69664897": {
+    "deviation": -8,
+    "expected": 197,
+    "koladaOu": "V15E69664897",
+    "year": 2024
+  },
+  "69699568": {
+    "deviation": -19,
+    "expected": 226,
+    "koladaOu": "V15E076400501",
+    "year": 2024
+  },
+  "69723336": {
+    "deviation": -12,
+    "expected": 247,
+    "koladaOu": "V15E69723336",
+    "year": 2024
+  },
+  "69895255": {
+    "deviation": 10,
+    "expected": 253,
+    "koladaOu": "V15E018003401",
+    "year": 2024
+  },
+  "70044059": {
+    "deviation": 10,
+    "expected": 265,
+    "koladaOu": "V15E128102801",
+    "year": 2024
+  },
+  "70072964": {
+    "deviation": 15,
+    "expected": 221,
+    "koladaOu": "V15E128204101",
+    "year": 2024
+  },
+  "70398560": {
+    "deviation": 11,
+    "expected": 247,
+    "koladaOu": "V15E018074401",
+    "year": 2024
+  },
+  "70460569": {
+    "deviation": -26,
+    "expected": 227,
+    "koladaOu": "V15E138303301",
+    "year": 2024
+  },
+  "70510891": {
+    "deviation": -4,
+    "expected": 220,
+    "koladaOu": "V15E208105801",
+    "year": 2024
+  },
+  "70592143": {
+    "deviation": -3,
+    "expected": 251,
+    "koladaOu": "V15E70592143",
+    "year": 2024
+  },
+  "70803452": {
+    "deviation": -7,
+    "expected": 221,
+    "koladaOu": "V15E128204801",
+    "year": 2024
+  },
+  "70811599": {
+    "deviation": -15,
+    "expected": 247,
+    "koladaOu": "V15E70811599",
+    "year": 2024
+  },
+  "70954223": {
+    "deviation": -3,
+    "expected": 214,
+    "koladaOu": "V15E066200701",
+    "year": 2024
+  },
+  "71069736": {
+    "deviation": 26,
+    "expected": 185,
+    "koladaOu": "V15E128312601",
+    "year": 2024
+  },
+  "71078874": {
+    "deviation": 17,
+    "expected": 240,
+    "koladaOu": "V15E013801401",
+    "year": 2024
+  },
+  "71204165": {
+    "deviation": -3,
+    "expected": 232,
+    "koladaOu": "V15E71204165",
+    "year": 2024
+  },
+  "71367825": {
+    "deviation": 9,
+    "expected": 251,
+    "koladaOu": "V15E123300201",
+    "year": 2024
+  },
+  "71387206": {
+    "deviation": 25,
+    "expected": 227,
+    "koladaOu": "V15E144002401",
+    "year": 2024
+  },
+  "71396086": {
+    "deviation": -3,
+    "expected": 206,
+    "koladaOu": "V15E231300101",
+    "year": 2024
+  },
+  "71449540": {
+    "deviation": 7,
+    "expected": 240,
+    "koladaOu": "V15E71449540",
+    "year": 2024
+  },
+  "71454628": {
+    "deviation": 17,
+    "expected": 241,
+    "koladaOu": "V15E128027901",
+    "year": 2024
+  },
+  "71677992": {
+    "deviation": -4,
+    "expected": 256,
+    "koladaOu": "V15E012800401",
+    "year": 2024
+  },
+  "71729095": {
+    "deviation": 5,
+    "expected": 227,
+    "koladaOu": "V15E71729095",
+    "year": 2024
+  },
+  "71762216": {
+    "deviation": 13,
+    "expected": 214,
+    "koladaOu": "V15E188301901",
+    "year": 2024
+  },
+  "71893438": {
+    "deviation": -6,
+    "expected": 232,
+    "koladaOu": "V15E71893438",
+    "year": 2024
+  },
+  "71951060": {
+    "deviation": 1,
+    "expected": 264,
+    "koladaOu": "V15E038012201",
+    "year": 2024
+  },
+  "72066259": {
+    "deviation": -16,
+    "expected": 229,
+    "koladaOu": "V15E72066259",
+    "year": 2024
+  },
+  "72090315": {
+    "deviation": 12,
+    "expected": 242,
+    "koladaOu": "V15E138400701",
+    "year": 2024
+  },
+  "72248694": {
+    "deviation": 29,
+    "expected": 255,
+    "koladaOu": "V15E018026301",
+    "year": 2024
+  },
+  "72266104": {
+    "deviation": -21,
+    "expected": 217,
+    "koladaOu": "V15E013603201",
+    "year": 2024
+  },
+  "72295998": {
+    "deviation": 27,
+    "expected": 238,
+    "koladaOu": "V15E236101001",
+    "year": 2024
+  },
+  "72378947": {
+    "deviation": 20,
+    "expected": 245,
+    "koladaOu": "V15E011502401",
+    "year": 2024
+  },
+  "72471883": {
+    "deviation": 11,
+    "expected": 225,
+    "koladaOu": "V15E018801601",
+    "year": 2024
+  },
+  "72491525": {
+    "deviation": -3,
+    "expected": 223,
+    "koladaOu": "V15E129006201",
+    "year": 2024
+  },
+  "72526185": {
+    "deviation": 20,
+    "expected": 220,
+    "koladaOu": "V15E058116001",
+    "year": 2024
+  },
+  "72624886": {
+    "deviation": 18,
+    "expected": 248,
+    "koladaOu": "V15E72624886",
+    "year": 2024
+  },
+  "72625090": {
+    "deviation": -1,
+    "expected": 254,
+    "koladaOu": "V15E208003201",
+    "year": 2024
+  },
+  "72627865": {
+    "deviation": -6,
+    "expected": 228,
+    "koladaOu": "V15E018017201",
+    "year": 2024
+  },
+  "72668294": {
+    "deviation": -1,
+    "expected": 231,
+    "koladaOu": "V15E72668294",
+    "year": 2024
+  },
+  "72672270": {
+    "deviation": -22,
+    "expected": 243,
+    "koladaOu": "V15E018000201",
+    "year": 2024
+  },
+  "72904597": {
+    "deviation": -4,
+    "expected": 223,
+    "koladaOu": "V15E088302801",
+    "year": 2024
+  },
+  "73077490": {
+    "deviation": 22,
+    "expected": 206,
+    "koladaOu": "V15E076000601",
+    "year": 2024
+  },
+  "73093445": {
+    "deviation": 3,
+    "expected": 262,
+    "koladaOu": "V15E198004601",
+    "year": 2024
+  },
+  "73184968": {
+    "deviation": -23,
+    "expected": 200,
+    "koladaOu": "V15E013604201",
+    "year": 2024
+  },
+  "73269899": {
+    "deviation": 7,
+    "expected": 211,
+    "koladaOu": "V15E73269899",
+    "year": 2024
+  },
+  "73272488": {
+    "deviation": 9,
+    "expected": 223,
+    "koladaOu": "V15E011703401",
+    "year": 2024
+  },
+  "73451967": {
+    "deviation": -13,
+    "expected": 227,
+    "koladaOu": "V15E203100801",
+    "year": 2024
+  },
+  "73462793": {
+    "deviation": -23,
+    "expected": 232,
+    "koladaOu": "V15E258009701",
+    "year": 2024
+  },
+  "73505986": {
+    "deviation": -17,
+    "expected": 225,
+    "koladaOu": "V15E148202401",
+    "year": 2024
+  },
+  "73581523": {
+    "deviation": 8,
+    "expected": 214,
+    "koladaOu": "V15E018400304",
+    "year": 2024
+  },
+  "73629371": {
+    "deviation": 12,
+    "expected": 253,
+    "koladaOu": "V15E73629371",
+    "year": 2024
+  },
+  "73806643": {
+    "deviation": 9,
+    "expected": 262,
+    "koladaOu": "V15E038019601",
+    "year": 2024
+  },
+  "73893187": {
+    "deviation": 2,
+    "expected": 260,
+    "koladaOu": "V15E018023101",
+    "year": 2024
+  },
+  "73926940": {
+    "deviation": 14,
+    "expected": 220,
+    "koladaOu": "V15E73926940",
+    "year": 2024
+  },
+  "73947432": {
+    "deviation": 15,
+    "expected": 261,
+    "koladaOu": "V15E038018301",
+    "year": 2024
+  },
+  "73995321": {
+    "deviation": -2,
+    "expected": 244,
+    "koladaOu": "V15E148023201",
+    "year": 2024
+  },
+  "74064638": {
+    "deviation": -7,
+    "expected": 240,
+    "koladaOu": "V15E148903501",
+    "year": 2024
+  },
+  "74070812": {
+    "deviation": -18,
+    "expected": 221,
+    "koladaOu": "V15E031900801",
+    "year": 2024
+  },
+  "74079446": {
+    "deviation": -39,
+    "expected": 213,
+    "koladaOu": "V15E143500101",
+    "year": 2024
+  },
+  "74170440": {
+    "deviation": 24,
+    "expected": 211,
+    "koladaOu": "V15E068400501",
+    "year": 2024
+  },
+  "74218950": {
+    "deviation": 6,
+    "expected": 197,
+    "koladaOu": "V15E076100601",
+    "year": 2024
+  },
+  "74265915": {
+    "deviation": 0,
+    "expected": 209,
+    "koladaOu": "V15E048600901",
+    "year": 2024
+  },
+  "74352559": {
+    "deviation": -23,
+    "expected": 225,
+    "koladaOu": "V15E240400108",
+    "year": 2024
+  },
+  "74358019": {
+    "deviation": 9,
+    "expected": 258,
+    "koladaOu": "V15E018209601",
+    "year": 2024
+  },
+  "74482611": {
+    "deviation": 14,
+    "expected": 246,
+    "koladaOu": "V15E018076901",
+    "year": 2024
+  },
+  "74489639": {
+    "deviation": 25,
+    "expected": 215,
+    "koladaOu": "V15E018109101",
+    "year": 2024
+  },
+  "74570653": {
+    "deviation": 3,
+    "expected": 233,
+    "koladaOu": "V15E74570653",
+    "year": 2024
+  },
+  "74582871": {
+    "deviation": -7,
+    "expected": 222,
+    "koladaOu": "V15E190700201",
+    "year": 2024
+  },
+  "74792256": {
+    "deviation": -1,
+    "expected": 218,
+    "koladaOu": "V15E74792256",
+    "year": 2024
+  },
+  "74843338": {
+    "deviation": 15,
+    "expected": 234,
+    "koladaOu": "V15E138302401",
+    "year": 2024
+  },
+  "74902204": {
+    "deviation": -24,
+    "expected": 220,
+    "koladaOu": "V15E188007801",
+    "year": 2024
+  },
+  "74972690": {
+    "deviation": 23,
+    "expected": 195,
+    "koladaOu": "V15E128030101",
+    "year": 2024
+  },
+  "75091646": {
+    "deviation": -11,
+    "expected": 217,
+    "koladaOu": "V15E127602701",
+    "year": 2024
+  },
+  "75154610": {
+    "deviation": 28,
+    "expected": 272,
+    "koladaOu": "V15E128106401",
+    "year": 2024
+  },
+  "75296593": {
+    "deviation": -20,
+    "expected": 215,
+    "koladaOu": "V15E051301001",
+    "year": 2024
+  },
+  "75318783": {
+    "deviation": 6,
+    "expected": 215,
+    "koladaOu": "V15E129303301",
+    "year": 2024
+  },
+  "75399786": {
+    "deviation": 36,
+    "expected": 181,
+    "koladaOu": "V15E128010701",
+    "year": 2024
+  },
+  "75401552": {
+    "deviation": 2,
+    "expected": 214,
+    "koladaOu": "V15E75401552",
+    "year": 2024
+  },
+  "75505688": {
+    "deviation": 16,
+    "expected": 206,
+    "koladaOu": "V15E75505688",
+    "year": 2024
+  },
+  "75580959": {
+    "deviation": 17,
+    "expected": 228,
+    "koladaOu": "V15E75580959",
+    "year": 2024
+  },
+  "75602219": {
+    "deviation": 13,
+    "expected": 246,
+    "koladaOu": "V15E75602219",
+    "year": 2024
+  },
+  "75614609": {
+    "deviation": 8,
+    "expected": 260,
+    "koladaOu": "V15E018030401",
+    "year": 2024
+  },
+  "75656508": {
+    "deviation": 26,
+    "expected": 264,
+    "koladaOu": "V15E018034001",
+    "year": 2024
+  },
+  "75658239": {
+    "deviation": 40,
+    "expected": 197,
+    "koladaOu": "V15E076001401",
+    "year": 2024
+  },
+  "75662206": {
+    "deviation": 27,
+    "expected": 209,
+    "koladaOu": "V15E218301401",
+    "year": 2024
+  },
+  "75692870": {
+    "deviation": 21,
+    "expected": 220,
+    "koladaOu": "V15E188101102",
+    "year": 2024
+  },
+  "75713343": {
+    "deviation": -14,
+    "expected": 259,
+    "koladaOu": "V15E248009201",
+    "year": 2024
+  },
+  "75834458": {
+    "deviation": 20,
+    "expected": 243,
+    "koladaOu": "V15E018201001",
+    "year": 2024
+  },
+  "75853223": {
+    "deviation": -30,
+    "expected": 223,
+    "koladaOu": "V15E078104501",
+    "year": 2024
+  },
+  "75875503": {
+    "deviation": 19,
+    "expected": 178,
+    "koladaOu": "V15E128030801",
+    "year": 2024
+  },
+  "76018506": {
+    "deviation": -3,
+    "expected": 243,
+    "koladaOu": "V15E188015401",
+    "year": 2024
+  },
+  "76192118": {
+    "deviation": -44,
+    "expected": 248,
+    "koladaOu": "V15E76192118",
+    "year": 2024
+  },
+  "76261770": {
+    "deviation": -20,
+    "expected": 229,
+    "koladaOu": "V15E76261770",
+    "year": 2024
+  },
+  "76323160": {
+    "deviation": -20,
+    "expected": 251,
+    "koladaOu": "V15E76323160",
+    "year": 2024
+  },
+  "76521863": {
+    "deviation": -8,
+    "expected": 241,
+    "koladaOu": "V15E058007201",
+    "year": 2024
+  },
+  "76684064": {
+    "deviation": 9,
+    "expected": 268,
+    "koladaOu": "V15E76684064",
+    "year": 2024
+  },
+  "76938537": {
+    "deviation": 12,
+    "expected": 260,
+    "koladaOu": "V15E148024101",
+    "year": 2024
+  },
+  "76943513": {
+    "deviation": -12,
+    "expected": 217,
+    "koladaOu": "V15E76943513",
+    "year": 2024
+  },
+  "76981284": {
+    "deviation": 9,
+    "expected": 203,
+    "koladaOu": "V15E178202101",
+    "year": 2024
+  },
+  "77005811": {
+    "deviation": 16,
+    "expected": 219,
+    "koladaOu": "V15E148504201",
+    "year": 2024
+  },
+  "77378918": {
+    "deviation": -12,
+    "expected": 249,
+    "koladaOu": "V15E77378918",
+    "year": 2024
+  },
+  "77437748": {
+    "deviation": 11,
+    "expected": 252,
+    "koladaOu": "V15E058112301",
+    "year": 2024
+  },
+  "77449846": {
+    "deviation": 5,
+    "expected": 206,
+    "koladaOu": "V15E198001001",
+    "year": 2024
+  },
+  "77460055": {
+    "deviation": 19,
+    "expected": 223,
+    "koladaOu": "V15E77460055",
+    "year": 2024
+  },
+  "77537602": {
+    "deviation": -6,
+    "expected": 224,
+    "koladaOu": "V15E77537602",
+    "year": 2024
+  },
+  "77556882": {
+    "deviation": -8,
+    "expected": 258,
+    "koladaOu": "V15E77556882",
+    "year": 2024
+  },
+  "77624936": {
+    "deviation": 1,
+    "expected": 231,
+    "koladaOu": "V15E011400101",
+    "year": 2024
+  },
+  "77743622": {
+    "deviation": -22,
+    "expected": 226,
+    "koladaOu": "V15E198015501",
+    "year": 2024
+  },
+  "77747055": {
+    "deviation": 19,
+    "expected": 238,
+    "koladaOu": "V15E77747055",
+    "year": 2024
+  },
+  "77763178": {
+    "deviation": -11,
+    "expected": 199,
+    "koladaOu": "V15E012306001",
+    "year": 2024
+  },
+  "77794757": {
+    "deviation": 3,
+    "expected": 223,
+    "koladaOu": "V15E77794757",
+    "year": 2024
+  },
+  "78100490": {
+    "deviation": -16,
+    "expected": 254,
+    "koladaOu": "V15E140202801",
+    "year": 2024
+  },
+  "78294346": {
+    "deviation": 20,
+    "expected": 219,
+    "koladaOu": "V15E142700301",
+    "year": 2024
+  },
+  "78323330": {
+    "deviation": 9,
+    "expected": 247,
+    "koladaOu": "V15E138008701",
+    "year": 2024
+  },
+  "78495763": {
+    "deviation": 13,
+    "expected": 245,
+    "koladaOu": "V15E228108101",
+    "year": 2024
+  },
+  "78508835": {
+    "deviation": 36,
+    "expected": 245,
+    "koladaOu": "V15E018027101",
+    "year": 2024
+  },
+  "78545687": {
+    "deviation": -18,
+    "expected": 209,
+    "koladaOu": "V15E230301401",
+    "year": 2024
+  },
+  "78602001": {
+    "deviation": -19,
+    "expected": 210,
+    "koladaOu": "V15E129300705",
+    "year": 2024
+  },
+  "78647439": {
+    "deviation": -7,
+    "expected": 232,
+    "koladaOu": "V15E138206801",
+    "year": 2024
+  },
+  "78673553": {
+    "deviation": -22,
+    "expected": 240,
+    "koladaOu": "V15E048405402",
+    "year": 2024
+  },
+  "78907748": {
+    "deviation": 4,
+    "expected": 198,
+    "koladaOu": "V15E78907748",
+    "year": 2024
+  },
+  "78992223": {
+    "deviation": -28,
+    "expected": 262,
+    "koladaOu": "V15E058006901",
+    "year": 2024
+  },
+  "79012102": {
+    "deviation": -6,
+    "expected": 227,
+    "koladaOu": "V15E088006701",
+    "year": 2024
+  },
+  "79012683": {
+    "deviation": 31,
+    "expected": 195,
+    "koladaOu": "V15E012603101",
+    "year": 2024
+  },
+  "79022806": {
+    "deviation": -7,
+    "expected": 225,
+    "koladaOu": "V15E236100501",
+    "year": 2024
+  },
+  "79093755": {
+    "deviation": 20,
+    "expected": 249,
+    "koladaOu": "V15E012305501",
+    "year": 2024
+  },
+  "79466321": {
+    "deviation": 21,
+    "expected": 222,
+    "koladaOu": "V15E018106001",
+    "year": 2024
+  },
+  "79522184": {
+    "deviation": -4,
+    "expected": 221,
+    "koladaOu": "V15E79522184",
+    "year": 2024
+  },
+  "79650118": {
+    "deviation": 7,
+    "expected": 213,
+    "koladaOu": "V15E088103201",
+    "year": 2024
+  },
+  "79707757": {
+    "deviation": -13,
+    "expected": 208,
+    "koladaOu": "V15E127200901",
+    "year": 2024
+  },
+  "79708334": {
+    "deviation": 35,
+    "expected": 252,
+    "koladaOu": "V15E79708334",
+    "year": 2024
+  },
+  "79716826": {
+    "deviation": 31,
+    "expected": 233,
+    "koladaOu": "V15E79716826",
+    "year": 2024
+  },
+  "79844557": {
+    "deviation": -3,
+    "expected": 224,
+    "koladaOu": "V15E146301901",
+    "year": 2024
+  },
+  "79866556": {
+    "deviation": 8,
+    "expected": 261,
+    "koladaOu": "V15E148047301",
+    "year": 2024
+  },
+  "79969356": {
+    "deviation": 20,
+    "expected": 257,
+    "koladaOu": "V15E018045301",
+    "year": 2024
+  },
+  "80009811": {
+    "deviation": 0,
+    "expected": 216,
+    "koladaOu": "V15E198009401",
+    "year": 2024
+  },
+  "80013231": {
+    "deviation": -13,
+    "expected": 215,
+    "koladaOu": "V15E098000203",
+    "year": 2024
+  },
+  "80072686": {
+    "deviation": 22,
+    "expected": 222,
+    "koladaOu": "V15E80072686",
+    "year": 2024
+  },
+  "80131736": {
+    "deviation": -5,
+    "expected": 206,
+    "koladaOu": "V15E218104501",
+    "year": 2024
+  },
+  "80177526": {
+    "deviation": -24,
+    "expected": 232,
+    "koladaOu": "V15E218002701",
+    "year": 2024
+  },
+  "80378022": {
+    "deviation": 28,
+    "expected": 214,
+    "koladaOu": "V15E012703801",
+    "year": 2024
+  },
+  "80408917": {
+    "deviation": 25,
+    "expected": 247,
+    "koladaOu": "V15E80408917",
+    "year": 2024
+  },
+  "80498460": {
+    "deviation": 18,
+    "expected": 252,
+    "koladaOu": "V15E148030401",
+    "year": 2024
+  },
+  "80509560": {
+    "deviation": 30,
+    "expected": 223,
+    "koladaOu": "V15E80509560",
+    "year": 2024
+  },
+  "80621158": {
+    "deviation": -4,
+    "expected": 236,
+    "koladaOu": "V15E80621158",
+    "year": 2024
+  },
+  "80631297": {
+    "deviation": -11,
+    "expected": 217,
+    "koladaOu": "V15E218403701",
+    "year": 2024
+  },
+  "80678068": {
+    "deviation": 3,
+    "expected": 242,
+    "koladaOu": "V15E148032801",
+    "year": 2024
+  },
+  "80693905": {
+    "deviation": 2,
+    "expected": 223,
+    "koladaOu": "V15E258403501",
+    "year": 2024
+  },
+  "80731562": {
+    "deviation": 31,
+    "expected": 219,
+    "koladaOu": "V15E80731562",
+    "year": 2024
+  },
+  "80815525": {
+    "deviation": 26,
+    "expected": 167,
+    "koladaOu": "V15E80815525",
+    "year": 2024
+  },
+  "80830464": {
+    "deviation": 10,
+    "expected": 234,
+    "koladaOu": "V15E80830464",
+    "year": 2024
+  },
+  "80852248": {
+    "deviation": -13,
+    "expected": 213,
+    "koladaOu": "V15E088500601",
+    "year": 2024
+  },
+  "81045260": {
+    "deviation": -13,
+    "expected": 251,
+    "koladaOu": "V15E81045260",
+    "year": 2024
+  },
+  "81052393": {
+    "deviation": 3,
+    "expected": 225,
+    "koladaOu": "V15E81052393",
+    "year": 2024
+  },
+  "81072495": {
+    "deviation": -1,
+    "expected": 218,
+    "koladaOu": "V15E143500501",
+    "year": 2024
+  },
+  "81136807": {
+    "deviation": -15,
+    "expected": 218,
+    "koladaOu": "V15E206100204",
+    "year": 2024
+  },
+  "81179515": {
+    "deviation": -20,
+    "expected": 249,
+    "koladaOu": "V15E148013105",
+    "year": 2024
+  },
+  "81265119": {
+    "deviation": 27,
+    "expected": 197,
+    "koladaOu": "V15E198007901",
+    "year": 2024
+  },
+  "81266343": {
+    "deviation": 18,
+    "expected": 244,
+    "koladaOu": "V15E018051501",
+    "year": 2024
+  },
+  "81342093": {
+    "deviation": -17,
+    "expected": 230,
+    "koladaOu": "V15E149700601",
+    "year": 2024
+  },
+  "81424988": {
+    "deviation": -12,
+    "expected": 233,
+    "koladaOu": "V15E178004001",
+    "year": 2024
+  },
+  "81452013": {
+    "deviation": -12,
+    "expected": 250,
+    "koladaOu": "V15E129006101",
+    "year": 2024
+  },
+  "81662991": {
+    "deviation": 2,
+    "expected": 239,
+    "koladaOu": "V15E81662991",
+    "year": 2024
+  },
+  "81680693": {
+    "deviation": 4,
+    "expected": 222,
+    "koladaOu": "V15E013602202",
+    "year": 2024
+  },
+  "81683738": {
+    "deviation": -9,
+    "expected": 215,
+    "koladaOu": "V15E125600101",
+    "year": 2024
+  },
+  "81784662": {
+    "deviation": -5,
+    "expected": 219,
+    "koladaOu": "V15E226200501",
+    "year": 2024
+  },
+  "81992480": {
+    "deviation": -30,
+    "expected": 235,
+    "koladaOu": "V15E81992480",
+    "year": 2024
+  },
+  "82075850": {
+    "deviation": -19,
+    "expected": 216,
+    "koladaOu": "V15E82075850",
+    "year": 2024
+  },
+  "82086591": {
+    "deviation": 15,
+    "expected": 232,
+    "koladaOu": "V15E058010001",
+    "year": 2024
+  },
+  "82110758": {
+    "deviation": -21,
+    "expected": 196,
+    "koladaOu": "V15E018030901",
+    "year": 2024
+  },
+  "82137009": {
+    "deviation": 24,
+    "expected": 191,
+    "koladaOu": "V15E018104404",
+    "year": 2024
+  },
+  "82183259": {
+    "deviation": -4,
+    "expected": 255,
+    "koladaOu": "V15E258008201",
+    "year": 2024
+  },
+  "82224915": {
+    "deviation": -18,
+    "expected": 227,
+    "koladaOu": "V15E058305601",
+    "year": 2024
+  },
+  "82402144": {
+    "deviation": 7,
+    "expected": 245,
+    "koladaOu": "V15E82402144",
+    "year": 2024
+  },
+  "82624830": {
+    "deviation": 10,
+    "expected": 216,
+    "koladaOu": "V15E011703201",
+    "year": 2024
+  },
+  "82651095": {
+    "deviation": 5,
+    "expected": 256,
+    "koladaOu": "V15E144101101",
+    "year": 2024
+  },
+  "82797662": {
+    "deviation": 21,
+    "expected": 178,
+    "koladaOu": "V15E128008301",
+    "year": 2024
+  },
+  "82807694": {
+    "deviation": -15,
+    "expected": 214,
+    "koladaOu": "V15E188000301",
+    "year": 2024
+  },
+  "82942801": {
+    "deviation": -10,
+    "expected": 227,
+    "koladaOu": "V15E126700201",
+    "year": 2024
+  },
+  "82943624": {
+    "deviation": 12,
+    "expected": 199,
+    "koladaOu": "V15E128309201",
+    "year": 2024
+  },
+  "82982309": {
+    "deviation": -8,
+    "expected": 223,
+    "koladaOu": "V15E82982309",
+    "year": 2024
+  },
+  "83020784": {
+    "deviation": 7,
+    "expected": 230,
+    "koladaOu": "V15E013801101",
+    "year": 2024
+  },
+  "83025413": {
+    "deviation": 12,
+    "expected": 213,
+    "koladaOu": "V15E173700306",
+    "year": 2024
+  },
+  "83045482": {
+    "deviation": 15,
+    "expected": 228,
+    "koladaOu": "V15E148049401",
+    "year": 2024
+  },
+  "83071620": {
+    "deviation": -3,
+    "expected": 255,
+    "koladaOu": "V15E148022501",
+    "year": 2024
+  },
+  "83084730": {
+    "deviation": 14,
+    "expected": 206,
+    "koladaOu": "V15E202300704",
+    "year": 2024
+  },
+  "83401016": {
+    "deviation": 7,
+    "expected": 259,
+    "koladaOu": "V15E038020401",
+    "year": 2024
+  },
+  "83416307": {
+    "deviation": 7,
+    "expected": 207,
+    "koladaOu": "V15E148500101",
+    "year": 2024
+  },
+  "83454509": {
+    "deviation": 3,
+    "expected": 258,
+    "koladaOu": "V15E016000801",
+    "year": 2024
+  },
+  "83516023": {
+    "deviation": 9,
+    "expected": 239,
+    "koladaOu": "V15E126301801",
+    "year": 2024
+  },
+  "83519502": {
+    "deviation": -11,
+    "expected": 237,
+    "koladaOu": "V15E83519502",
+    "year": 2024
+  },
+  "83526311": {
+    "deviation": 4,
+    "expected": 219,
+    "koladaOu": "V15E128500501",
+    "year": 2024
+  },
+  "83584296": {
+    "deviation": 20,
+    "expected": 248,
+    "koladaOu": "V15E83584296",
+    "year": 2024
+  },
+  "83627088": {
+    "deviation": -2,
+    "expected": 215,
+    "koladaOu": "V15E218400701",
+    "year": 2024
+  },
+  "83735665": {
+    "deviation": 45,
+    "expected": 207,
+    "koladaOu": "V15E83735665",
+    "year": 2024
+  },
+  "83803124": {
+    "deviation": -2,
+    "expected": 230,
+    "koladaOu": "V15E83803124",
+    "year": 2024
+  },
+  "83828066": {
+    "deviation": 24,
+    "expected": 250,
+    "koladaOu": "V15E018048101",
+    "year": 2024
+  },
+  "83862028": {
+    "deviation": -12,
+    "expected": 212,
+    "koladaOu": "V15E83862028",
+    "year": 2024
+  },
+  "83894630": {
+    "deviation": -8,
+    "expected": 230,
+    "koladaOu": "V15E83894630",
+    "year": 2024
+  },
+  "83896681": {
+    "deviation": -23,
+    "expected": 238,
+    "koladaOu": "V15E198015601",
+    "year": 2024
+  },
+  "83919671": {
+    "deviation": -5,
+    "expected": 234,
+    "koladaOu": "V15E068004701",
+    "year": 2024
+  },
+  "84111198": {
+    "deviation": 0,
+    "expected": 246,
+    "koladaOu": "V15E138406801",
+    "year": 2024
+  },
+  "84159690": {
+    "deviation": -14,
+    "expected": 236,
+    "koladaOu": "V15E84159690",
+    "year": 2024
+  },
+  "84179524": {
+    "deviation": -27,
+    "expected": 217,
+    "koladaOu": "V15E144200201",
+    "year": 2024
+  },
+  "84230115": {
+    "deviation": 2,
+    "expected": 214,
+    "koladaOu": "V15E84230115",
+    "year": 2024
+  },
+  "84285512": {
+    "deviation": 10,
+    "expected": 209,
+    "koladaOu": "V15E086101001",
+    "year": 2024
+  },
+  "84432632": {
+    "deviation": 6,
+    "expected": 220,
+    "koladaOu": "V15E129305101",
+    "year": 2024
+  },
+  "84461484": {
+    "deviation": -18,
+    "expected": 247,
+    "koladaOu": "V15E84461484",
+    "year": 2024
+  },
+  "84520303": {
+    "deviation": 15,
+    "expected": 236,
+    "koladaOu": "V15E84520303",
+    "year": 2024
+  },
+  "84581048": {
+    "deviation": -24,
+    "expected": 239,
+    "koladaOu": "V15E148900201",
+    "year": 2024
+  },
+  "84585645": {
+    "deviation": -8,
+    "expected": 263,
+    "koladaOu": "V15E018066001",
+    "year": 2024
+  },
+  "84590859": {
+    "deviation": -1,
+    "expected": 205,
+    "koladaOu": "V15E84590859",
+    "year": 2024
+  },
+  "84601215": {
+    "deviation": -34,
+    "expected": 224,
+    "koladaOu": "V15E208101201",
+    "year": 2024
+  },
+  "84622889": {
+    "deviation": -4,
+    "expected": 238,
+    "koladaOu": "V15E84622889",
+    "year": 2024
+  },
+  "84884375": {
+    "deviation": 9,
+    "expected": 244,
+    "koladaOu": "V15E018201701",
+    "year": 2024
+  },
+  "84902434": {
+    "deviation": -2,
+    "expected": 201,
+    "koladaOu": "V15E125600301",
+    "year": 2024
+  },
+  "84917564": {
+    "deviation": -15,
+    "expected": 237,
+    "koladaOu": "V15E84917564",
+    "year": 2024
+  },
+  "84998800": {
+    "deviation": -2,
+    "expected": 225,
+    "koladaOu": "V15E198002101",
+    "year": 2024
+  },
+  "85007077": {
+    "deviation": 0,
+    "expected": 247,
+    "koladaOu": "V15E128033601",
+    "year": 2024
+  },
+  "85013151": {
+    "deviation": -10,
+    "expected": 211,
+    "koladaOu": "V15E066201701",
+    "year": 2024
+  },
+  "85082785": {
+    "deviation": 28,
+    "expected": 194,
+    "koladaOu": "V15E128001801",
+    "year": 2024
+  },
+  "85092070": {
+    "deviation": -30,
+    "expected": 230,
+    "koladaOu": "V15E85092070",
+    "year": 2024
+  },
+  "85325551": {
+    "deviation": -11,
+    "expected": 228,
+    "koladaOu": "V15E236100901",
+    "year": 2024
+  },
+  "85335004": {
+    "deviation": 15,
+    "expected": 214,
+    "koladaOu": "V15E85335004",
+    "year": 2024
+  },
+  "85416841": {
+    "deviation": -7,
+    "expected": 224,
+    "koladaOu": "V15E068003301",
+    "year": 2024
+  },
+  "85440729": {
+    "deviation": 12,
+    "expected": 235,
+    "koladaOu": "V15E85440729",
+    "year": 2024
+  },
+  "85558618": {
+    "deviation": 3,
+    "expected": 235,
+    "koladaOu": "V15E012702201",
+    "year": 2024
+  },
+  "85601783": {
+    "deviation": -4,
+    "expected": 228,
+    "koladaOu": "V15E85601783",
+    "year": 2024
+  },
+  "85656343": {
+    "deviation": -4,
+    "expected": 219,
+    "koladaOu": "V15E148025901",
+    "year": 2024
+  },
+  "85762828": {
+    "deviation": -12,
+    "expected": 242,
+    "koladaOu": "V15E85762828",
+    "year": 2024
+  },
+  "85777315": {
+    "deviation": 9,
+    "expected": 218,
+    "koladaOu": "V15E016301301",
+    "year": 2024
+  },
+  "85796724": {
+    "deviation": 18,
+    "expected": 232,
+    "koladaOu": "V15E85796724",
+    "year": 2024
+  },
+  "85862849": {
+    "deviation": -5,
+    "expected": 247,
+    "koladaOu": "V15E140700531",
+    "year": 2024
+  },
+  "86113785": {
+    "deviation": -11,
+    "expected": 202,
+    "koladaOu": "V15E86113785",
+    "year": 2024
+  },
+  "86215855": {
+    "deviation": 0,
+    "expected": 230,
+    "koladaOu": "V15E149000401",
+    "year": 2024
+  },
+  "86323840": {
+    "deviation": -10,
+    "expected": 226,
+    "koladaOu": "V15E86323840",
+    "year": 2024
+  },
+  "86499334": {
+    "deviation": 23,
+    "expected": 229,
+    "koladaOu": "V15E068013501",
+    "year": 2024
+  },
+  "86546038": {
+    "deviation": 1,
+    "expected": 216,
+    "koladaOu": "V15E86546038",
+    "year": 2024
+  },
+  "86562542": {
+    "deviation": -4,
+    "expected": 227,
+    "koladaOu": "V15E068014301",
+    "year": 2024
+  },
+  "86573921": {
+    "deviation": -3,
+    "expected": 227,
+    "koladaOu": "V15E138011001",
+    "year": 2024
+  },
+  "86597125": {
+    "deviation": 21,
+    "expected": 232,
+    "koladaOu": "V15E018003301",
+    "year": 2024
+  },
+  "86616046": {
+    "deviation": -4,
+    "expected": 187,
+    "koladaOu": "V15E86616046",
+    "year": 2024
+  },
+  "86708639": {
+    "deviation": 1,
+    "expected": 225,
+    "koladaOu": "V15E149005001",
+    "year": 2024
+  },
+  "86758230": {
+    "deviation": 17,
+    "expected": 260,
+    "koladaOu": "V15E86758230",
+    "year": 2024
+  },
+  "86764194": {
+    "deviation": 1,
+    "expected": 189,
+    "koladaOu": "V15E128303701",
+    "year": 2024
+  },
+  "86851817": {
+    "deviation": -20,
+    "expected": 224,
+    "koladaOu": "V15E251000401",
+    "year": 2024
+  },
+  "86985859": {
+    "deviation": 13,
+    "expected": 215,
+    "koladaOu": "V15E012700601",
+    "year": 2024
+  },
+  "87088456": {
+    "deviation": -49,
+    "expected": 226,
+    "koladaOu": "V15E218006301",
+    "year": 2024
+  },
+  "87109819": {
+    "deviation": 0,
+    "expected": 252,
+    "koladaOu": "V15E148901601",
+    "year": 2024
+  },
+  "87139814": {
+    "deviation": -19,
+    "expected": 223,
+    "koladaOu": "V15E148035401",
+    "year": 2024
+  },
+  "87194036": {
+    "deviation": 4,
+    "expected": 208,
+    "koladaOu": "V15E248201501",
+    "year": 2024
+  },
+  "87197902": {
+    "deviation": -14,
+    "expected": 234,
+    "koladaOu": "V15E87197902",
+    "year": 2024
+  },
+  "87251726": {
+    "deviation": 16,
+    "expected": 246,
+    "koladaOu": "V15E128304001",
+    "year": 2024
+  },
+  "87262274": {
+    "deviation": -33,
+    "expected": 229,
+    "koladaOu": "V15E078104201",
+    "year": 2024
+  },
+  "87375656": {
+    "deviation": 8,
+    "expected": 260,
+    "koladaOu": "V15E87375656",
+    "year": 2024
+  },
+  "87425546": {
+    "deviation": 17,
+    "expected": 253,
+    "koladaOu": "V15E018206601",
+    "year": 2024
+  },
+  "87427999": {
+    "deviation": 9,
+    "expected": 232,
+    "koladaOu": "V15E148045901",
+    "year": 2024
+  },
+  "87516620": {
+    "deviation": -2,
+    "expected": 210,
+    "koladaOu": "V15E208400601",
+    "year": 2024
+  },
+  "87521048": {
+    "deviation": 16,
+    "expected": 254,
+    "koladaOu": "V15E018001001",
+    "year": 2024
+  },
+  "87527002": {
+    "deviation": 39,
+    "expected": 177,
+    "koladaOu": "V15E87527002",
+    "year": 2024
+  },
+  "87531665": {
+    "deviation": 11,
+    "expected": 208,
+    "koladaOu": "V15E058300101",
+    "year": 2024
+  },
+  "87606101": {
+    "deviation": -5,
+    "expected": 235,
+    "koladaOu": "V15E87606101",
+    "year": 2024
+  },
+  "87665835": {
+    "deviation": 15,
+    "expected": 249,
+    "koladaOu": "V15E013802301",
+    "year": 2024
+  },
+  "87737594": {
+    "deviation": 1,
+    "expected": 234,
+    "koladaOu": "V15E138010001",
+    "year": 2024
+  },
+  "87838841": {
+    "deviation": -26,
+    "expected": 199,
+    "koladaOu": "V15E018002201",
+    "year": 2024
+  },
+  "87948789": {
+    "deviation": 5,
+    "expected": 214,
+    "koladaOu": "V15E87948789",
+    "year": 2024
+  },
+  "87963970": {
+    "deviation": -7,
+    "expected": 235,
+    "koladaOu": "V15E058300501",
+    "year": 2024
+  },
+  "87999453": {
+    "deviation": -16,
+    "expected": 235,
+    "koladaOu": "V15E018079401",
+    "year": 2024
+  },
+  "88046003": {
+    "deviation": 14,
+    "expected": 245,
+    "koladaOu": "V15E048006401",
+    "year": 2024
+  },
+  "88091927": {
+    "deviation": -21,
+    "expected": 206,
+    "koladaOu": "V15E033100401",
+    "year": 2024
+  },
+  "88104795": {
+    "deviation": -4,
+    "expected": 221,
+    "koladaOu": "V15E88104795",
+    "year": 2024
+  },
+  "88176175": {
+    "deviation": -15,
+    "expected": 225,
+    "koladaOu": "V15E076400601",
+    "year": 2024
+  },
+  "88247874": {
+    "deviation": 17,
+    "expected": 249,
+    "koladaOu": "V15E148012401",
+    "year": 2024
+  },
+  "88283203": {
+    "deviation": 0,
+    "expected": 235,
+    "koladaOu": "V15E012002201",
+    "year": 2024
+  },
+  "88486410": {
+    "deviation": 4,
+    "expected": 207,
+    "koladaOu": "V15E188500306",
+    "year": 2024
+  },
+  "88590084": {
+    "deviation": 5,
+    "expected": 213,
+    "koladaOu": "V15E128016301",
+    "year": 2024
+  },
+  "88657987": {
+    "deviation": -14,
+    "expected": 209,
+    "koladaOu": "V15E198201001",
+    "year": 2024
+  },
+  "88669294": {
+    "deviation": -6,
+    "expected": 222,
+    "koladaOu": "V15E060400101",
+    "year": 2024
+  },
+  "88712672": {
+    "deviation": 5,
+    "expected": 210,
+    "koladaOu": "V15E011700601",
+    "year": 2024
+  },
+  "88746223": {
+    "deviation": -14,
+    "expected": 215,
+    "koladaOu": "V15E88746223",
+    "year": 2024
+  },
+  "88795871": {
+    "deviation": 15,
+    "expected": 234,
+    "koladaOu": "V15E018048001",
+    "year": 2024
+  },
+  "89029385": {
+    "deviation": -4,
+    "expected": 210,
+    "koladaOu": "V15E89029385",
+    "year": 2024
+  },
+  "89112467": {
+    "deviation": -12,
+    "expected": 230,
+    "koladaOu": "V15E038007901",
+    "year": 2024
+  },
+  "89387408": {
+    "deviation": 18,
+    "expected": 273,
+    "koladaOu": "V15E038020101",
+    "year": 2024
+  },
+  "89424201": {
+    "deviation": 19,
+    "expected": 245,
+    "koladaOu": "V15E016004001",
+    "year": 2024
+  },
+  "89477299": {
+    "deviation": -21,
+    "expected": 227,
+    "koladaOu": "V15E149603901",
+    "year": 2024
+  },
+  "89477984": {
+    "deviation": -12,
+    "expected": 240,
+    "koladaOu": "V15E258002403",
+    "year": 2024
+  },
+  "89487045": {
+    "deviation": -17,
+    "expected": 249,
+    "koladaOu": "V15E89487045",
+    "year": 2024
+  },
+  "89510449": {
+    "deviation": 1,
+    "expected": 251,
+    "koladaOu": "V15E012605901",
+    "year": 2024
+  },
+  "89523926": {
+    "deviation": 10,
+    "expected": 249,
+    "koladaOu": "V15E108004801",
+    "year": 2024
+  },
+  "89605548": {
+    "deviation": 14,
+    "expected": 230,
+    "koladaOu": "V15E018029901",
+    "year": 2024
+  },
+  "89624871": {
+    "deviation": -2,
+    "expected": 209,
+    "koladaOu": "V15E144700501",
+    "year": 2024
+  },
+  "89661489": {
+    "deviation": -6,
+    "expected": 240,
+    "koladaOu": "V15E89661489",
+    "year": 2024
+  },
+  "89680009": {
+    "deviation": 7,
+    "expected": 230,
+    "koladaOu": "V15E128600801",
+    "year": 2024
+  },
+  "89692072": {
+    "deviation": 7,
+    "expected": 246,
+    "koladaOu": "V15E018807501",
+    "year": 2024
+  },
+  "89693828": {
+    "deviation": -3,
+    "expected": 226,
+    "koladaOu": "V15E128314801",
+    "year": 2024
+  },
+  "89851619": {
+    "deviation": 14,
+    "expected": 223,
+    "koladaOu": "V15E89851619",
+    "year": 2024
+  },
+  "89876778": {
+    "deviation": 13,
+    "expected": 199,
+    "koladaOu": "V15E128029801",
+    "year": 2024
+  },
+  "89878714": {
+    "deviation": -15,
+    "expected": 226,
+    "koladaOu": "V15E108201801",
+    "year": 2024
+  },
+  "90080902": {
+    "deviation": 31,
+    "expected": 233,
+    "koladaOu": "V15E128310101",
+    "year": 2024
+  },
+  "90298777": {
+    "deviation": -13,
+    "expected": 228,
+    "koladaOu": "V15E90298777",
+    "year": 2024
+  },
+  "90340546": {
+    "deviation": 3,
+    "expected": 260,
+    "koladaOu": "V15E90340546",
+    "year": 2024
+  },
+  "90360196": {
+    "deviation": -20,
+    "expected": 204,
+    "koladaOu": "V15E127000103",
+    "year": 2024
+  },
+  "90728703": {
+    "deviation": -3,
+    "expected": 243,
+    "koladaOu": "V15E90728703",
+    "year": 2024
+  },
+  "90732940": {
+    "deviation": 13,
+    "expected": 263,
+    "koladaOu": "V15E018064001",
+    "year": 2024
+  },
+  "90784555": {
+    "deviation": -1,
+    "expected": 249,
+    "koladaOu": "V15E138404401",
+    "year": 2024
+  },
+  "90826660": {
+    "deviation": -12,
+    "expected": 223,
+    "koladaOu": "V15E030500201",
+    "year": 2024
+  },
+  "90834434": {
+    "deviation": 8,
+    "expected": 226,
+    "koladaOu": "V15E126602001",
+    "year": 2024
+  },
+  "90838156": {
+    "deviation": 13,
+    "expected": 228,
+    "koladaOu": "V15E058115701",
+    "year": 2024
+  },
+  "90847895": {
+    "deviation": -25,
+    "expected": 224,
+    "koladaOu": "V15E228100401",
+    "year": 2024
+  },
+  "90850620": {
+    "deviation": 27,
+    "expected": 247,
+    "koladaOu": "V15E018068701",
+    "year": 2024
+  },
+  "90874950": {
+    "deviation": -14,
+    "expected": 249,
+    "koladaOu": "V15E90874950",
+    "year": 2024
+  },
+  "90876801": {
+    "deviation": -9,
+    "expected": 218,
+    "koladaOu": "V15E038200501",
+    "year": 2024
+  },
+  "90949251": {
+    "deviation": -18,
+    "expected": 243,
+    "koladaOu": "V15E148106201",
+    "year": 2024
+  },
+  "90949432": {
+    "deviation": -5,
+    "expected": 261,
+    "koladaOu": "V15E90949432",
+    "year": 2024
+  },
+  "91013126": {
+    "deviation": 13,
+    "expected": 247,
+    "koladaOu": "V15E91013126",
+    "year": 2024
+  },
+  "91030682": {
+    "deviation": -5,
+    "expected": 213,
+    "koladaOu": "V15E91030682",
+    "year": 2024
+  },
+  "91067048": {
+    "deviation": 30,
+    "expected": 249,
+    "koladaOu": "V15E91067048",
+    "year": 2024
+  },
+  "91161376": {
+    "deviation": 4,
+    "expected": 230,
+    "koladaOu": "V15E91161376",
+    "year": 2024
+  },
+  "91187921": {
+    "deviation": 0,
+    "expected": 229,
+    "koladaOu": "V15E218303701",
+    "year": 2024
+  },
+  "91219337": {
+    "deviation": 1,
+    "expected": 232,
+    "koladaOu": "V15E208102301",
+    "year": 2024
+  },
+  "91652716": {
+    "deviation": 1,
+    "expected": 239,
+    "koladaOu": "V15E218004401",
+    "year": 2024
+  },
+  "91687391": {
+    "deviation": 7,
+    "expected": 241,
+    "koladaOu": "V15E91687391",
+    "year": 2024
+  },
+  "91778864": {
+    "deviation": -34,
+    "expected": 224,
+    "koladaOu": "V15E91778864",
+    "year": 2024
+  },
+  "91816093": {
+    "deviation": 14,
+    "expected": 245,
+    "koladaOu": "V15E018028001",
+    "year": 2024
+  },
+  "91978548": {
+    "deviation": 0,
+    "expected": 247,
+    "koladaOu": "V15E140100705",
+    "year": 2024
+  },
+  "92086024": {
+    "deviation": -10,
+    "expected": 242,
+    "koladaOu": "V15E148504301",
+    "year": 2024
+  },
+  "92127007": {
+    "deviation": -8,
+    "expected": 204,
+    "koladaOu": "V15E92127007",
+    "year": 2024
+  },
+  "92218121": {
+    "deviation": -7,
+    "expected": 245,
+    "koladaOu": "V15E92218121",
+    "year": 2024
+  },
+  "92284588": {
+    "deviation": 11,
+    "expected": 235,
+    "koladaOu": "V15E013900201",
+    "year": 2024
+  },
+  "92304123": {
+    "deviation": 6,
+    "expected": 207,
+    "koladaOu": "V15E212100201",
+    "year": 2024
+  },
+  "92337813": {
+    "deviation": -11,
+    "expected": 225,
+    "koladaOu": "V15E138003003",
+    "year": 2024
+  },
+  "92364234": {
+    "deviation": -15,
+    "expected": 242,
+    "koladaOu": "V15E033001806",
+    "year": 2024
+  },
+  "92384910": {
+    "deviation": 53,
+    "expected": 187,
+    "koladaOu": "V15E92384910",
+    "year": 2024
+  },
+  "92463760": {
+    "deviation": 2,
+    "expected": 243,
+    "koladaOu": "V15E92463760",
+    "year": 2024
+  },
+  "92620495": {
+    "deviation": -4,
+    "expected": 208,
+    "koladaOu": "V15E088401601",
+    "year": 2024
+  },
+  "92621428": {
+    "deviation": -11,
+    "expected": 245,
+    "koladaOu": "V15E92621428",
+    "year": 2024
+  },
+  "92750123": {
+    "deviation": 38,
+    "expected": 265,
+    "koladaOu": "V15E018006501",
+    "year": 2024
+  },
+  "92819736": {
+    "deviation": -4,
+    "expected": 236,
+    "koladaOu": "V15E92819736",
+    "year": 2024
+  },
+  "92848832": {
+    "deviation": -4,
+    "expected": 241,
+    "koladaOu": "V15E140200301",
+    "year": 2024
+  },
+  "92940771": {
+    "deviation": 3,
+    "expected": 242,
+    "koladaOu": "V15E92940771",
+    "year": 2024
+  },
+  "93002896": {
+    "deviation": 0,
+    "expected": 252,
+    "koladaOu": "V15E148039601",
+    "year": 2024
+  },
+  "93042073": {
+    "deviation": -2,
+    "expected": 218,
+    "koladaOu": "V15E038021401",
+    "year": 2024
+  },
+  "93081338": {
+    "deviation": -12,
+    "expected": 224,
+    "koladaOu": "V15E143800101",
+    "year": 2024
+  },
+  "93140467": {
+    "deviation": -5,
+    "expected": 220,
+    "koladaOu": "V15E148702901",
+    "year": 2024
+  },
+  "93274980": {
+    "deviation": -16,
+    "expected": 238,
+    "koladaOu": "V15E058012301",
+    "year": 2024
+  },
+  "93339853": {
+    "deviation": -32,
+    "expected": 242,
+    "koladaOu": "V15E93339853",
+    "year": 2024
+  },
+  "93412255": {
+    "deviation": 16,
+    "expected": 233,
+    "koladaOu": "V15E018001601",
+    "year": 2024
+  },
+  "93599910": {
+    "deviation": 3,
+    "expected": 198,
+    "koladaOu": "V15E128014201",
+    "year": 2024
+  },
+  "93730568": {
+    "deviation": 6,
+    "expected": 247,
+    "koladaOu": "V15E178007301",
+    "year": 2024
+  },
+  "93845278": {
+    "deviation": -17,
+    "expected": 219,
+    "koladaOu": "V15E129301404",
+    "year": 2024
+  },
+  "93904124": {
+    "deviation": 17,
+    "expected": 195,
+    "koladaOu": "V15E93904124",
+    "year": 2024
+  },
+  "93919365": {
+    "deviation": 7,
+    "expected": 258,
+    "koladaOu": "V15E108003601",
+    "year": 2024
+  },
+  "93964634": {
+    "deviation": -14,
+    "expected": 254,
+    "koladaOu": "V15E108003401",
+    "year": 2024
+  },
+  "93968806": {
+    "deviation": 3,
+    "expected": 207,
+    "koladaOu": "V15E93968806",
+    "year": 2024
+  },
+  "94163432": {
+    "deviation": 5,
+    "expected": 223,
+    "koladaOu": "V15E098001317",
+    "year": 2024
+  },
+  "94235119": {
+    "deviation": 4,
+    "expected": 246,
+    "koladaOu": "V15E94235119",
+    "year": 2024
+  },
+  "94248837": {
+    "deviation": 26,
+    "expected": 241,
+    "koladaOu": "V15E188016001",
+    "year": 2024
+  },
+  "94309839": {
+    "deviation": -7,
+    "expected": 225,
+    "koladaOu": "V15E108301301",
+    "year": 2024
+  },
+  "94453321": {
+    "deviation": 0,
+    "expected": 230,
+    "koladaOu": "V15E127801701",
+    "year": 2024
+  },
+  "94591900": {
+    "deviation": -28,
+    "expected": 231,
+    "koladaOu": "V15E258101901",
+    "year": 2024
+  },
+  "94707451": {
+    "deviation": -18,
+    "expected": 214,
+    "koladaOu": "V15E147300101",
+    "year": 2024
+  },
+  "94821900": {
+    "deviation": -3,
+    "expected": 216,
+    "koladaOu": "V15E038101301",
+    "year": 2024
+  },
+  "94830241": {
+    "deviation": -52,
+    "expected": 222,
+    "koladaOu": "V15E94830241",
+    "year": 2024
+  },
+  "94864296": {
+    "deviation": -2,
+    "expected": 234,
+    "koladaOu": "V15E018020501",
+    "year": 2024
+  },
+  "94943347": {
+    "deviation": 31,
+    "expected": 231,
+    "koladaOu": "V15E018023201",
+    "year": 2024
+  },
+  "95057356": {
+    "deviation": 21,
+    "expected": 229,
+    "koladaOu": "V15E012501801",
+    "year": 2024
+  },
+  "95132430": {
+    "deviation": 2,
+    "expected": 226,
+    "koladaOu": "V15E038007601",
+    "year": 2024
+  },
+  "95197505": {
+    "deviation": -14,
+    "expected": 221,
+    "koladaOu": "V15E066501201",
+    "year": 2024
+  },
+  "95243847": {
+    "deviation": -11,
+    "expected": 252,
+    "koladaOu": "V15E176100901",
+    "year": 2024
+  },
+  "95523275": {
+    "deviation": -31,
+    "expected": 204,
+    "koladaOu": "V15E95523275",
+    "year": 2024
+  },
+  "95536453": {
+    "deviation": -6,
+    "expected": 241,
+    "koladaOu": "V15E258003923",
+    "year": 2024
+  },
+  "95576349": {
+    "deviation": -2,
+    "expected": 213,
+    "koladaOu": "V15E95576349",
+    "year": 2024
+  },
+  "95610127": {
+    "deviation": -17,
+    "expected": 220,
+    "koladaOu": "V15E202600101",
+    "year": 2024
+  },
+  "95649680": {
+    "deviation": -18,
+    "expected": 219,
+    "koladaOu": "V15E206202601",
+    "year": 2024
+  },
+  "95673344": {
+    "deviation": -11,
+    "expected": 232,
+    "koladaOu": "V15E068012601",
+    "year": 2024
+  },
+  "95720059": {
+    "deviation": -11,
+    "expected": 226,
+    "koladaOu": "V15E95720059",
+    "year": 2024
+  },
+  "95748172": {
+    "deviation": 2,
+    "expected": 189,
+    "koladaOu": "V15E123100501",
+    "year": 2024
+  },
+  "96091081": {
+    "deviation": -9,
+    "expected": 230,
+    "koladaOu": "V15E148807101",
+    "year": 2024
+  },
+  "96298476": {
+    "deviation": -11,
+    "expected": 241,
+    "koladaOu": "V15E96298476",
+    "year": 2024
+  },
+  "96316535": {
+    "deviation": -4,
+    "expected": 210,
+    "koladaOu": "V15E96316535",
+    "year": 2024
+  },
+  "96330648": {
+    "deviation": 32,
+    "expected": 249,
+    "koladaOu": "V15E016000201",
+    "year": 2024
+  },
+  "96360048": {
+    "deviation": -12,
+    "expected": 230,
+    "koladaOu": "V15E058000801",
+    "year": 2024
+  },
+  "96533068": {
+    "deviation": -20,
+    "expected": 267,
+    "koladaOu": "V15E128100801",
+    "year": 2024
+  },
+  "96558008": {
+    "deviation": 1,
+    "expected": 207,
+    "koladaOu": "V15E068014601",
+    "year": 2024
+  },
+  "96609581": {
+    "deviation": -17,
+    "expected": 238,
+    "koladaOu": "V15E098000101",
+    "year": 2024
+  },
+  "96757645": {
+    "deviation": 14,
+    "expected": 209,
+    "koladaOu": "V15E038100101",
+    "year": 2024
+  },
+  "96783420": {
+    "deviation": 25,
+    "expected": 190,
+    "koladaOu": "V15E248007201",
+    "year": 2024
+  },
+  "96958960": {
+    "deviation": -15,
+    "expected": 226,
+    "koladaOu": "V15E078104301",
+    "year": 2024
+  },
+  "96969231": {
+    "deviation": -7,
+    "expected": 210,
+    "koladaOu": "V15E186200201",
+    "year": 2024
+  },
+  "96973204": {
+    "deviation": -13,
+    "expected": 212,
+    "koladaOu": "V15E96973204",
+    "year": 2024
+  },
+  "96982474": {
+    "deviation": -22,
+    "expected": 212,
+    "koladaOu": "V15E031900501",
+    "year": 2024
+  },
+  "97128428": {
+    "deviation": 2,
+    "expected": 210,
+    "koladaOu": "V15E127700101",
+    "year": 2024
+  },
+  "97174070": {
+    "deviation": 23,
+    "expected": 259,
+    "koladaOu": "V15E016200501",
+    "year": 2024
+  },
+  "97306690": {
+    "deviation": -1,
+    "expected": 215,
+    "koladaOu": "V15E147201001",
+    "year": 2024
+  },
+  "97361837": {
+    "deviation": -10,
+    "expected": 218,
+    "koladaOu": "V15E149607201",
+    "year": 2024
+  },
+  "97400863": {
+    "deviation": -23,
+    "expected": 234,
+    "koladaOu": "V15E97400863",
+    "year": 2024
+  },
+  "97402564": {
+    "deviation": -13,
+    "expected": 236,
+    "koladaOu": "V15E97402564",
+    "year": 2024
+  },
+  "97438636": {
+    "deviation": -9,
+    "expected": 209,
+    "koladaOu": "V15E129010901",
+    "year": 2024
+  },
+  "97480702": {
+    "deviation": -9,
+    "expected": 223,
+    "koladaOu": "V15E97480702",
+    "year": 2024
+  },
+  "97495074": {
+    "deviation": -35,
+    "expected": 233,
+    "koladaOu": "V15E97495074",
+    "year": 2024
+  },
+  "97648883": {
+    "deviation": -28,
+    "expected": 222,
+    "koladaOu": "V15E181400401",
+    "year": 2024
+  },
+  "97649106": {
+    "deviation": -12,
+    "expected": 211,
+    "koladaOu": "V15E97649106",
+    "year": 2024
+  },
+  "97655739": {
+    "deviation": 14,
+    "expected": 216,
+    "koladaOu": "V15E018102203",
+    "year": 2024
+  },
+  "97659691": {
+    "deviation": -3,
+    "expected": 212,
+    "koladaOu": "V15E97659691",
+    "year": 2024
+  },
+  "97683561": {
+    "deviation": 6,
+    "expected": 257,
+    "koladaOu": "V15E018003201",
+    "year": 2024
+  },
+  "97686250": {
+    "deviation": 11,
+    "expected": 242,
+    "koladaOu": "V15E018030601",
+    "year": 2024
+  },
+  "97706771": {
+    "deviation": -2,
+    "expected": 216,
+    "koladaOu": "V15E149006701",
+    "year": 2024
+  },
+  "97784361": {
+    "deviation": -8,
+    "expected": 220,
+    "koladaOu": "V15E97784361",
+    "year": 2024
+  },
+  "97879425": {
+    "deviation": 22,
+    "expected": 237,
+    "koladaOu": "V15E97879425",
+    "year": 2024
+  },
+  "97882848": {
+    "deviation": 0,
+    "expected": 220,
+    "koladaOu": "V15E068202301",
+    "year": 2024
+  },
+  "97938241": {
+    "deviation": 13,
+    "expected": 217,
+    "koladaOu": "V15E97938241",
+    "year": 2024
+  },
+  "97940004": {
+    "deviation": -9,
+    "expected": 217,
+    "koladaOu": "V15E97940004",
+    "year": 2024
+  },
+  "97942210": {
+    "deviation": 12,
+    "expected": 244,
+    "koladaOu": "V15E97942210",
+    "year": 2024
+  },
+  "98029852": {
+    "deviation": -21,
+    "expected": 228,
+    "koladaOu": "V15E038200301",
+    "year": 2024
+  },
+  "98031467": {
+    "deviation": 6,
+    "expected": 188,
+    "koladaOu": "V15E058300401",
+    "year": 2024
+  },
+  "98081621": {
+    "deviation": 1,
+    "expected": 236,
+    "koladaOu": "V15E149001901",
+    "year": 2024
+  },
+  "98083121": {
+    "deviation": -5,
+    "expected": 246,
+    "koladaOu": "V15E149403601",
+    "year": 2024
+  },
+  "98088982": {
+    "deviation": 4,
+    "expected": 247,
+    "koladaOu": "V15E068014401",
+    "year": 2024
+  },
+  "98124174": {
+    "deviation": -10,
+    "expected": 227,
+    "koladaOu": "V15E98124174",
+    "year": 2024
+  },
+  "98215830": {
+    "deviation": -8,
+    "expected": 221,
+    "koladaOu": "V15E048100504",
+    "year": 2024
+  },
+  "98239828": {
+    "deviation": 22,
+    "expected": 227,
+    "koladaOu": "V15E018801301",
+    "year": 2024
+  },
+  "98272016": {
+    "deviation": -24,
+    "expected": 244,
+    "koladaOu": "V15E148903601",
+    "year": 2024
+  },
+  "98284563": {
+    "deviation": -8,
+    "expected": 237,
+    "koladaOu": "V15E98284563",
+    "year": 2024
+  },
+  "98508777": {
+    "deviation": -23,
+    "expected": 222,
+    "koladaOu": "V15E98508777",
+    "year": 2024
+  },
+  "98515782": {
+    "deviation": -115,
+    "expected": 247,
+    "koladaOu": "V15E018403501",
+    "year": 2024
+  },
+  "98587494": {
+    "deviation": -15,
+    "expected": 227,
+    "koladaOu": "V15E038102101",
+    "year": 2024
+  },
+  "98702223": {
+    "deviation": -20,
+    "expected": 220,
+    "koladaOu": "V15E98702223",
+    "year": 2024
+  },
+  "98713812": {
+    "deviation": 12,
+    "expected": 231,
+    "koladaOu": "V15E98713812",
+    "year": 2024
+  },
+  "98745015": {
+    "deviation": 29,
+    "expected": 180,
+    "koladaOu": "V15E128029101",
+    "year": 2024
+  },
+  "98753011": {
+    "deviation": 22,
+    "expected": 234,
+    "koladaOu": "V15E98753011",
+    "year": 2024
+  },
+  "98756440": {
+    "deviation": 0,
+    "expected": 217,
+    "koladaOu": "V15E98756440",
+    "year": 2024
+  },
+  "98760751": {
+    "deviation": 11,
+    "expected": 259,
+    "koladaOu": "V15E018023001",
+    "year": 2024
+  },
+  "98780182": {
+    "deviation": 17,
+    "expected": 209,
+    "koladaOu": "V15E018600101",
+    "year": 2024
+  },
+  "98925408": {
+    "deviation": 6,
+    "expected": 235,
+    "koladaOu": "V15E012303001",
+    "year": 2024
+  },
+  "98998541": {
+    "deviation": -20,
+    "expected": 239,
+    "koladaOu": "V15E258203001",
+    "year": 2024
+  },
+  "99056007": {
+    "deviation": 16,
+    "expected": 230,
+    "koladaOu": "V15E038001701",
+    "year": 2024
+  },
+  "99319890": {
+    "deviation": 4,
+    "expected": 242,
+    "koladaOu": "V15E99319890",
+    "year": 2024
+  },
+  "99361107": {
+    "deviation": -13,
+    "expected": 221,
+    "koladaOu": "V15E058202201",
+    "year": 2024
+  },
+  "99375199": {
+    "deviation": -9,
+    "expected": 243,
+    "koladaOu": "V15E178403301",
+    "year": 2024
+  },
+  "99408329": {
+    "deviation": -16,
+    "expected": 246,
+    "koladaOu": "V15E99408329",
+    "year": 2024
+  },
+  "99469094": {
+    "deviation": -51,
+    "expected": 237,
+    "koladaOu": "V15E108005101",
+    "year": 2024
+  },
+  "99636909": {
+    "deviation": 2,
+    "expected": 220,
+    "koladaOu": "V15E083400401",
+    "year": 2024
+  },
+  "99640618": {
+    "deviation": 11,
+    "expected": 225,
+    "koladaOu": "V15E014000201",
+    "year": 2024
+  },
+  "99648792": {
+    "deviation": 18,
+    "expected": 271,
+    "koladaOu": "V15E018017601",
+    "year": 2024
+  },
+  "99707554": {
+    "deviation": -19,
+    "expected": 203,
+    "koladaOu": "V15E186100502",
+    "year": 2024
+  },
+  "99749462": {
+    "deviation": -21,
+    "expected": 201,
+    "koladaOu": "V15E018801202",
+    "year": 2024
+  },
+  "99835038": {
+    "deviation": 2,
+    "expected": 196,
+    "koladaOu": "V15E128006801",
+    "year": 2024
+  },
+  "99856371": {
+    "deviation": 11,
+    "expected": 239,
+    "koladaOu": "V15E088003301",
+    "year": 2024
+  },
+  "99992013": {
+    "deviation": 4,
+    "expected": 208,
+    "koladaOu": "V15E188100501",
+    "year": 2024
+  }
+}

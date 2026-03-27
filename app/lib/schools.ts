@@ -94,6 +94,47 @@ export function getAllMunicipalities(): { name: string; slug: string }[] {
     .sort((a, b) => a.name.localeCompare(b.name, "sv"));
 }
 
+// -- SALSA data --
+
+export interface SalsaEntry {
+  deviation: number | null;
+  expected: number | null;
+  year: number;
+}
+
+let _salsa: Record<string, SalsaEntry> | null = null;
+
+function loadSalsa(): Record<string, SalsaEntry> {
+  if (_salsa) return _salsa;
+  const salsaPath = path.join(process.cwd(), "data", "salsa.json");
+  try {
+    const raw = fs.readFileSync(salsaPath, "utf-8");
+    _salsa = JSON.parse(raw);
+  } catch {
+    _salsa = {};
+  }
+  return _salsa!;
+}
+
+export function getSalsaForSchool(schoolId: string): SalsaEntry | null {
+  const data = loadSalsa();
+  return data[schoolId] || null;
+}
+
+export function getSalsaForMunicipality(muniSlugVal: string): { school: School; salsa: SalsaEntry }[] {
+  const schools = getSchoolsByMunicipalitySlug(muniSlugVal);
+  const data = loadSalsa();
+  const results: { school: School; salsa: SalsaEntry }[] = [];
+  for (const s of schools) {
+    const entry = data[s.id];
+    if (entry && entry.deviation !== null) {
+      results.push({ school: s, salsa: entry });
+    }
+  }
+  results.sort((a, b) => (b.salsa.deviation ?? 0) - (a.salsa.deviation ?? 0));
+  return results;
+}
+
 export function getSchoolsJSON(): string {
   return JSON.stringify(
     getAllSchools().map((s) => ({

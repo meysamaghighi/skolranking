@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllSchools, getAllMunicipalities, getSchoolsByMunicipalitySlug } from "../../lib/schools";
+import { getAllSchools, getAllMunicipalities, getSchoolsByMunicipalitySlug, getSalsaForMunicipality } from "../../lib/schools";
 
 interface Props {
   params: Promise<{ name: string }>;
@@ -104,6 +104,9 @@ export default async function MunicipalityPage({ params }: Props) {
   const isEnhanced = isGothenburg || isStockholm || isMalmo;
   const top5 = sorted.slice(0, 5);
 
+  // SALSA data
+  const salsaSchools = getSalsaForMunicipality(slug);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-950 dark:to-gray-900">
       <main className="max-w-3xl mx-auto px-4 py-12 sm:py-16">
@@ -175,6 +178,58 @@ export default async function MunicipalityPage({ params }: Props) {
             </tbody>
           </table>
         </div>
+
+        {/* SALSA Rankings */}
+        {salsaSchools.length > 0 && (
+          <section className="mt-12" id="salsa">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+              SALSA-ranking i {municipality}
+            </h2>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-6 leading-relaxed max-w-2xl">
+              SALSA justerar meritvärden baserat på socioekonomiska faktorer (t.ex. föräldrars utbildningsnivå,
+              andel nyanlända). Positiv avvikelse betyder att eleverna presterar bättre än förväntat.
+              Data från Kolada (SALSA) {salsaSchools[0]?.salsa.year}.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">#</th>
+                    <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Skola</th>
+                    <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Meritvärde</th>
+                    <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">Förväntat</th>
+                    <th className="text-left py-3 px-2 font-semibold text-gray-700 dark:text-gray-300">SALSA-avvikelse</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {salsaSchools.map(({ school: s, salsa }, i) => (
+                    <tr key={s.id} className="border-b border-gray-100 dark:border-gray-800 hover:bg-blue-50 dark:hover:bg-gray-900/50">
+                      <td className="py-3 px-2 font-bold text-gray-400">{i + 1}</td>
+                      <td className="py-3 px-2">
+                        <Link href={`/skola/${s.slug}`} className="font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                          {s.name}
+                        </Link>
+                      </td>
+                      <td className="py-3 px-2 text-gray-700 dark:text-gray-300">{s.meritValue.toFixed(1)}</td>
+                      <td className="py-3 px-2 text-gray-500">{salsa.expected !== null ? salsa.expected.toFixed(1) : "—"}</td>
+                      <td className={`py-3 px-2 font-bold ${
+                        (salsa.deviation ?? 0) > 0
+                          ? "text-green-600 dark:text-green-400"
+                          : (salsa.deviation ?? 0) < 0
+                            ? "text-red-600 dark:text-red-400"
+                            : "text-gray-500"
+                      }`}>
+                        {salsa.deviation !== null
+                          ? `${salsa.deviation > 0 ? "+" : ""}${salsa.deviation.toFixed(1)}`
+                          : "—"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
 
         {isEnhanced && (
           <section className="mt-16 max-w-2xl mx-auto">
