@@ -7,6 +7,8 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return getAllSchools().map((s) => ({ slug: s.slug }));
 }
