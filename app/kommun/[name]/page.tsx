@@ -20,6 +20,58 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const sorted = [...schools].sort((a, b) => a.rank - b.rank);
   const avg = (schools.reduce((s, c) => s + c.meritValue, 0) / schools.length).toFixed(1);
 
+  // Special SEO treatment for Sweden's largest cities
+  if (slug === "goteborg") {
+    return {
+      title: `Bästa grundskolor i Göteborg 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Göteborg. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i göteborg",
+        "bästa skolan i göteborg",
+        "skolranking göteborg",
+        "grundskola göteborg",
+        "meritvärde göteborg",
+        "skolor i göteborg",
+        "vilken skola är bäst i göteborg",
+        "göteborg skolranking",
+      ],
+    };
+  }
+
+  if (slug === "stockholm") {
+    return {
+      title: `Bästa grundskolor i Stockholm 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Stockholm. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i stockholm",
+        "bästa skolan i stockholm",
+        "skolranking stockholm",
+        "grundskola stockholm",
+        "meritvärde stockholm",
+        "skolor i stockholm",
+        "vilken skola är bäst i stockholm",
+        "stockholm skolranking",
+      ],
+    };
+  }
+
+  if (slug === "malmo") {
+    return {
+      title: `Bästa grundskolor i Malmö 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Malmö. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i malmö",
+        "bästa skolan i malmö",
+        "skolranking malmö",
+        "grundskola malmö",
+        "meritvärde malmö",
+        "skolor i malmö",
+        "vilken skola är bäst i malmö",
+        "malmö skolranking",
+      ],
+    };
+  }
+
   return {
     title: `Bästa grundskolor i ${municipality} 2025 | Skolranking & meritvärde`,
     description: `Ranking av alla ${schools.length} grundskolor i ${municipality} baserat på meritvärde. Bästa: ${sorted[0].name} (${sorted[0].meritValue.toFixed(1)}). Genomsnitt: ${avg}. Data från Skolverket 2025.`,
@@ -43,6 +95,13 @@ export default async function MunicipalityPage({ params }: Props) {
   const avg = (schools.reduce((s, c) => s + c.meritValue, 0) / schools.length).toFixed(1);
   const total = getAllSchools().length;
 
+  // Enhanced content for Sweden's largest cities
+  const isGothenburg = slug === "goteborg";
+  const isStockholm = slug === "stockholm";
+  const isMalmo = slug === "malmo";
+  const isEnhanced = isGothenburg || isStockholm || isMalmo;
+  const top5 = sorted.slice(0, 5);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-950 dark:to-gray-900">
       <main className="max-w-3xl mx-auto px-4 py-12 sm:py-16">
@@ -60,6 +119,31 @@ export default async function MunicipalityPage({ params }: Props) {
         <p className="text-gray-500 dark:text-gray-400 mb-8">
           {sorted.length} skolor &middot; Genomsnittligt meritvärde: {avg}
         </p>
+
+        {isEnhanced && (
+          <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-6 mb-10">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+              Bästa grundskolor i {municipality} 2025
+            </h2>
+            <div className="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
+              <p>
+                {municipality} har totalt {sorted.length} grundskolor med registrerade meritvärden.
+                De högst rankade skolorna i {municipality} inkluderar <strong>{top5[0].name}</strong> (meritvärde {top5[0].meritValue.toFixed(1)}),
+                följt av <strong>{top5[1].name}</strong> ({top5[1].meritValue.toFixed(1)}) och <strong>{top5[2].name}</strong> ({top5[2].meritValue.toFixed(1)}).
+              </p>
+              <p>
+                Många av de bäst rankade skolorna i {municipality} är enskilda (fristående) skolor, men staden har också flera
+                kommunala skolor med höga meritvärden. Det genomsnittliga meritvärdet för {municipality}s grundskolor är {avg},
+                vilket är {parseFloat(avg) > 220 ? "något högre" : "nära"} det nationella genomsnittet.
+              </p>
+              <p>
+                När du väljer skola i {municipality} är det viktigt att titta på mer än bara meritvärde. Överväg faktorer som
+                närhet till hemmet, skolans profil och inriktning, samt barnets individuella behov. Besök gärna skolorna
+                och prata med lärare och elever innan du bestämmer dig.
+              </p>
+            </div>
+          </section>
+        )}
 
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
@@ -89,6 +173,60 @@ export default async function MunicipalityPage({ params }: Props) {
             </tbody>
           </table>
         </div>
+
+        {isEnhanced && (
+          <section className="mt-16 max-w-2xl mx-auto">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+              Vanliga frågor om skolor i {municipality}
+            </h2>
+            <div className="space-y-6">
+              <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-6">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Vilka är de bästa skolorna i {municipality}?
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                  Enligt meritvärde 2025 är {top5[0].name} den högst rankade grundskolan i {municipality} med meritvärde {top5[0].meritValue.toFixed(1)}.
+                  Andra topprankade skolor inkluderar {top5[1].name} ({top5[1].meritValue.toFixed(1)}) och {top5[2].name} ({top5[2].meritValue.toFixed(1)}).
+                  Kom ihåg att "bäst" kan betyda olika saker för olika familjer -- meritvärde är bara en del av bilden.
+                </p>
+              </div>
+
+              <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-6">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Hur rankas skolor i {municipality}?
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                  Denna ranking baseras på genomsnittligt meritvärde -- summan av elevernas slutbetyg i årskurs 9.
+                  Data kommer från Skolverket och uppdateras årligen. Meritvärdet påverkas av många faktorer,
+                  inklusive socioekonomisk bakgrund och skolans resurser.
+                </p>
+              </div>
+
+              <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-6">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Vilket område i {municipality} har de bästa skolorna?
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                  Högpresterande skolor finns spridda över hela {municipality}, från centrum till förorterna.
+                  Det finns både kommunala och fristående alternativ i de flesta stadsdelar. Använd tabellen ovan
+                  för att se meritvärden och adresser för alla skolor i staden.
+                </p>
+              </div>
+
+              <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm p-6">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                  Kommunal eller fristående skola i {municipality}?
+                </h3>
+                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                  {municipality} har både kommunala och fristående (enskilda) skolor med höga meritvärden.
+                  Bland topp 10 finns en blandning av båda typer. Fristående skolor har ofta specifika profiler
+                  (språk, musik, Montessori, etc.), medan kommunala skolor följer den allmänna läroplanen.
+                  Välj baserat på vad som passar ditt barns behov bäst.
+                </p>
+              </div>
+            </div>
+          </section>
+        )}
       </main>
 
       <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-100 dark:border-gray-800 mt-16">
@@ -116,6 +254,52 @@ export default async function MunicipalityPage({ params }: Props) {
           }),
         }}
       />
+
+      {isEnhanced && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: `Vilka är de bästa skolorna i ${municipality}?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `Enligt meritvärde 2025 är ${top5[0].name} den högst rankade grundskolan i ${municipality} med meritvärde ${top5[0].meritValue.toFixed(1)}. Andra topprankade skolor inkluderar ${top5[1].name} (${top5[1].meritValue.toFixed(1)}) och ${top5[2].name} (${top5[2].meritValue.toFixed(1)}). Kom ihåg att "bäst" kan betyda olika saker för olika familjer -- meritvärde är bara en del av bilden.`,
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: `Hur rankas skolor i ${municipality}?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Denna ranking baseras på genomsnittligt meritvärde -- summan av elevernas slutbetyg i årskurs 9. Data kommer från Skolverket och uppdateras årligen. Meritvärdet påverkas av många faktorer, inklusive socioekonomisk bakgrund och skolans resurser.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: `Vilket område i ${municipality} har de bästa skolorna?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `Högpresterande skolor finns spridda över hela ${municipality}, från centrum till förorterna. Det finns både kommunala och fristående alternativ i de flesta stadsdelar.`,
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: `Kommunal eller fristående skola i ${municipality}?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `${municipality} har både kommunala och fristående (enskilda) skolor med höga meritvärden. Bland topp 10 finns en blandning av båda typer. Fristående skolor har ofta specifika profiler (språk, musik, Montessori, etc.), medan kommunala skolor följer den allmänna läroplanen. Välj baserat på vad som passar ditt barns behov bäst.`,
+                  },
+                },
+              ],
+            }),
+          }}
+        />
+      )}
     </div>
   );
 }
