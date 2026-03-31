@@ -74,6 +74,57 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  if (slug === "trollhattan") {
+    return {
+      title: `Bästa grundskolor i Trollhättan 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Trollhättan. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i trollhättan",
+        "bästa skolan i trollhättan",
+        "skolranking trollhättan",
+        "grundskola trollhättan",
+        "meritvärde trollhättan",
+        "skolor i trollhättan",
+        "vilken skola är bäst i trollhättan",
+        "trollhättan skolranking",
+      ],
+    };
+  }
+
+  if (slug === "lidingo") {
+    return {
+      title: `Bästa grundskolor i Lidingö 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Lidingö. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i lidingö",
+        "bästa skolan i lidingö",
+        "skolranking lidingö",
+        "grundskola lidingö",
+        "meritvärde lidingö",
+        "skolor i lidingö",
+        "vilken skola är bäst i lidingö",
+        "lidingö skolranking",
+      ],
+    };
+  }
+
+  if (slug === "sollentuna") {
+    return {
+      title: `Bästa grundskolor i Sollentuna 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Sollentuna. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i sollentuna",
+        "bästa skolan i sollentuna",
+        "skolranking sollentuna",
+        "grundskola sollentuna",
+        "meritvärde sollentuna",
+        "skolor i sollentuna",
+        "vilken skola är bäst i sollentuna",
+        "sollentuna skolranking",
+      ],
+    };
+  }
+
   return {
     title: `Bästa grundskolor i ${municipality} 2025 | Skolranking & meritvärde`,
     description: `Ranking av alla ${schools.length} grundskolor i ${municipality} baserat på meritvärde. Bästa: ${sorted[0].name} (${sorted[0].meritValue.toFixed(1)}). Genomsnitt: ${avg}. Data från Skolverket 2025.`,
@@ -101,7 +152,10 @@ export default async function MunicipalityPage({ params }: Props) {
   const isGothenburg = slug === "goteborg";
   const isStockholm = slug === "stockholm";
   const isMalmo = slug === "malmo";
-  const isEnhanced = isGothenburg || isStockholm || isMalmo;
+  const isTrollhattan = slug === "trollhattan";
+  const isLidingo = slug === "lidingo";
+  const isSollentuna = slug === "sollentuna";
+  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna;
   const top5 = sorted.slice(0, 5);
 
   // SALSA data
