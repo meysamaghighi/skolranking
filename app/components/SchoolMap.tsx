@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo, useCallback } from "react";
+import { useEffect, useState, useMemo, useCallback, useRef } from "react";
 import Link from "next/link";
 
 interface SchoolData {
@@ -41,6 +41,17 @@ function pointInPolygon(lat: number, lng: number, polygon: [number, number][]): 
     if (intersect) inside = !inside;
   }
   return inside;
+}
+
+// Simplify a path by keeping every Nth point (reduces freehand jitter)
+function simplifyPath(points: [number, number][], maxPoints: number): [number, number][] {
+  if (points.length <= maxPoints) return points;
+  const step = points.length / maxPoints;
+  const result: [number, number][] = [];
+  for (let i = 0; i < maxPoints; i++) {
+    result.push(points[Math.floor(i * step)]);
+  }
+  return result;
 }
 
 export default function SchoolMap({
@@ -118,6 +129,7 @@ function MapInner({
   const [RL, setRL] = useState<typeof import("react-leaflet") | null>(null);
   const [drawMode, setDrawMode] = useState(false);
   const [drawPoints, setDrawPoints] = useState<[number, number][]>([]);
+  const isDrawingRef = useRef(false);
 
   useEffect(() => {
     Promise.all([import("leaflet"), import("react-leaflet")]).then(([leaflet, reactLeaflet]) => {
@@ -137,12 +149,34 @@ function MapInner({
     : [62.5, 16.5];
   const zoom = schools.length <= 20 ? 10 : 5;
 
-  function DrawHandler() {
-    useMapEvents({
-      click(e: { latlng: { lat: number; lng: number } }) {
+  // Freehand drawing handler
+  function FreehandDrawHandler() {
+    const map = useMapEvents({
+      mousedown(e: { latlng: { lat: number; lng: number }; originalEvent: MouseEvent }) {
         if (!drawMode) return;
-        const pt: [number, number] = [e.latlng.lat, e.latlng.lng];
-        setDrawPoints((prev) => [...prev, pt]);
+        e.originalEvent.preventDefault();
+        isDrawingRef.current = true;
+        map.dragging.disable();
+        setDrawPoints([[e.latlng.lat, e.latlng.lng]]);
+      },
+      mousemove(e: { latlng: { lat: number; lng: number } }) {
+        if (!drawMode || !isDrawingRef.current) return;
+        setDrawPoints((prev) => [...prev, [e.latlng.lat, e.latlng.lng]]);
+      },
+      mouseup() {
+        if (!drawMode || !isDrawingRef.current) return;
+        isDrawingRef.current = false;
+        map.dragging.enable();
+        setDrawPoints((prev) => {
+          if (prev.length >= 10) {
+            const simplified = simplifyPath(prev, 50);
+            onPolygonChange(simplified);
+            setDrawMode(false);
+            return simplified;
+          }
+          // Too short a draw, ignore
+          return [];
+        });
       },
     });
     return null;
@@ -154,16 +188,10 @@ function MapInner({
     onPolygonChange(null);
   };
 
-  const handleFinishDraw = () => {
-    if (drawPoints.length >= 3) {
-      onPolygonChange(drawPoints);
-    }
-    setDrawMode(false);
-  };
-
   const handleClearDraw = () => {
     setDrawMode(false);
     setDrawPoints([]);
+    isDrawingRef.current = false;
     onPolygonChange(null);
   };
 
@@ -183,16 +211,8 @@ function MapInner({
         ) : drawMode ? (
           <>
             <span className="text-sm text-amber-600 dark:text-amber-400 font-medium">
-              Klicka pa kartan for att rita ({drawPoints.length} punkter)
+              Rita ett omrade genom att halla ner musknappen och dra
             </span>
-            {drawPoints.length >= 3 && (
-              <button
-                onClick={handleFinishDraw}
-                className="px-3 py-1.5 text-sm bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
-              >
-                Klar ({drawPoints.length} punkter)
-              </button>
-            )}
             <button
               onClick={handleClearDraw}
               className="px-3 py-1.5 text-sm bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
@@ -206,10 +226,16 @@ function MapInner({
               {schools.length} skolor i omradet
             </span>
             <button
+              onClick={handleStartDraw}
+              className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Rita nytt omrade
+            </button>
+            <button
               onClick={handleClearDraw}
               className="px-3 py-1.5 text-sm bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
             >
-              Rensa omrade
+              Rensa
             </button>
           </>
         )}
@@ -225,21 +251,23 @@ function MapInner({
           attribution='&copy; <a href="https://openstreetmap.org">OSM</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <DrawHandler />
+        <FreehandDrawHandler />
 
-        {/* Show drawing polygon preview */}
+        {/* Show freehand drawing preview */}
         {drawMode && drawPoints.length >= 2 && (
           <LeafletPolygon
             positions={drawPoints}
             pathOptions={{ color: "#2563eb", weight: 2, fillOpacity: 0.1, dashArray: "5,5" }}
+            interactive={false}
           />
         )}
 
-        {/* Show completed polygon */}
+        {/* Show completed polygon - interactive: false so clicks pass through to markers */}
         {polygon && !drawMode && (
           <LeafletPolygon
             positions={polygon}
             pathOptions={{ color: "#16a34a", weight: 2, fillOpacity: 0.08 }}
+            interactive={false}
           />
         )}
 
