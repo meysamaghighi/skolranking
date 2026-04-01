@@ -145,6 +145,11 @@ export default function Home() {
 
       <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-100 dark:border-gray-800 mt-16">
         <p>Data från Skolverket 2025. Endast för informationsändamål.</p>
+        <p className="mt-2">
+          <Link href="/about" className="hover:text-blue-600 dark:hover:text-blue-400 hover:underline">
+            Om oss
+          </Link>
+        </p>
       </footer>
 
       <script
