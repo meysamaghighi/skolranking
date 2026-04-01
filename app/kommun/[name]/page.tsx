@@ -125,6 +125,57 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  if (slug === "uppsala") {
+    return {
+      title: `Bästa grundskolor i Uppsala 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Uppsala. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i uppsala",
+        "bästa skolan i uppsala",
+        "skolranking uppsala",
+        "grundskola uppsala",
+        "meritvärde uppsala",
+        "skolor i uppsala",
+        "vilken skola är bäst i uppsala",
+        "uppsala skolranking",
+      ],
+    };
+  }
+
+  if (slug === "linkoping") {
+    return {
+      title: `Bästa grundskolor i Linköping 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Linköping. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i linköping",
+        "bästa skolan i linköping",
+        "skolranking linköping",
+        "grundskola linköping",
+        "meritvärde linköping",
+        "skolor i linköping",
+        "vilken skola är bäst i linköping",
+        "linköping skolranking",
+      ],
+    };
+  }
+
+  if (slug === "vasteras") {
+    return {
+      title: `Bästa grundskolor i Västerås 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Västerås. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i västerås",
+        "bästa skolan i västerås",
+        "skolranking västerås",
+        "grundskola västerås",
+        "meritvärde västerås",
+        "skolor i västerås",
+        "vilken skola är bäst i västerås",
+        "västerås skolranking",
+      ],
+    };
+  }
+
   return {
     title: `Bästa grundskolor i ${municipality} 2025 | Skolranking & meritvärde`,
     description: `Ranking av alla ${schools.length} grundskolor i ${municipality} baserat på meritvärde. Bästa: ${sorted[0].name} (${sorted[0].meritValue.toFixed(1)}). Genomsnitt: ${avg}. Data från Skolverket 2025.`,
@@ -155,7 +206,10 @@ export default async function MunicipalityPage({ params }: Props) {
   const isTrollhattan = slug === "trollhattan";
   const isLidingo = slug === "lidingo";
   const isSollentuna = slug === "sollentuna";
-  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna;
+  const isUppsala = slug === "uppsala";
+  const isLinkoping = slug === "linkoping";
+  const isVasteras = slug === "vasteras";
+  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras;
   const top5 = sorted.slice(0, 5);
 
   // SALSA data
