@@ -37,6 +37,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i göteborg",
         "göteborg skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -54,6 +57,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i stockholm",
         "stockholm skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -71,6 +77,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i malmö",
         "malmö skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -88,6 +97,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i trollhättan",
         "trollhättan skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -105,6 +117,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i lidingö",
         "lidingö skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -122,6 +137,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i sollentuna",
         "sollentuna skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -139,6 +157,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i uppsala",
         "uppsala skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -156,6 +177,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i linköping",
         "linköping skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -173,6 +197,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         "vilken skola är bäst i västerås",
         "västerås skolranking",
       ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
     };
   }
 
@@ -186,6 +213,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `meritvärde ${municipality}`,
       `skolor i ${municipality}`,
     ],
+    alternates: {
+      canonical: `/kommun/${slug}`,
+    },
   };
 }
 

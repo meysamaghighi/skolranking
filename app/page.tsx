@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     description: "Interaktiv karta och ranking av alla grundskolor i Sverige. Data från Skolverket.",
     type: "website",
   },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function Home() {

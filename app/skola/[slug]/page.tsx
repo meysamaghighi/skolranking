@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `grundskola ${school.municipality}`,
       `meritvärde ${school.municipality}`,
     ],
+    alternates: {
+      canonical: `/skola/${slug}`,
+    },
   };
 }
 

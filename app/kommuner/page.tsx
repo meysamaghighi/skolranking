@@ -5,6 +5,9 @@ import { getAllMunicipalities, getSchoolsByMunicipalitySlug } from "../lib/schoo
 export const metadata: Metadata = {
   title: "Alla kommuner | Skolranking Sverige 2025",
   description: "Skolranking per kommun i Sverige. Välj en kommun för att se alla grundskolor rankade efter meritvärde.",
+  alternates: {
+    canonical: "/kommuner",
+  },
 };
 
 export default function KommunerPage() {

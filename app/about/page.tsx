@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     description: "En fri webbplats för skolranking i Sverige baserat på Skolverkets data.",
     type: "website",
   },
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

@@ -5,6 +5,9 @@ import { getAllSchools } from "../lib/schools";
 export const metadata: Metadata = {
   title: "Alla grundskolor i Sverige rankade efter meritvärde 2025",
   description: "Komplett lista: alla 1 545 grundskolor i Sverige rankade efter genomsnittligt meritvärde. Data från Skolverket 2025.",
+  alternates: {
+    canonical: "/ranking",
+  },
 };
 
 export default function RankingPage() {
