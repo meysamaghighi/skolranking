@@ -203,6 +203,106 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  if (slug === "helsingborg") {
+    return {
+      title: `Bästa grundskolor i Helsingborg 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Helsingborg. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i helsingborg",
+        "bästa skolan i helsingborg",
+        "skolranking helsingborg",
+        "grundskola helsingborg",
+        "meritvärde helsingborg",
+        "skolor i helsingborg",
+        "vilken skola är bäst i helsingborg",
+        "helsingborg skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "lund") {
+    return {
+      title: `Bästa grundskolor i Lund 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Lund. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i lund",
+        "bästa skolan i lund",
+        "skolranking lund",
+        "grundskola lund",
+        "meritvärde lund",
+        "skolor i lund",
+        "vilken skola är bäst i lund",
+        "lund skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "norrkoping") {
+    return {
+      title: `Bästa grundskolor i Norrköping 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Norrköping. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i norrköping",
+        "bästa skolan i norrköping",
+        "skolranking norrköping",
+        "grundskola norrköping",
+        "meritvärde norrköping",
+        "skolor i norrköping",
+        "vilken skola är bäst i norrköping",
+        "norrköping skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "orebro") {
+    return {
+      title: `Bästa grundskolor i Örebro 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Örebro. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i örebro",
+        "bästa skolan i örebro",
+        "skolranking örebro",
+        "grundskola örebro",
+        "meritvärde örebro",
+        "skolor i örebro",
+        "vilken skola är bäst i örebro",
+        "örebro skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "jonkoping") {
+    return {
+      title: `Bästa grundskolor i Jönköping 2025 | Skolranking & meritvärde`,
+      description: `Komplett ranking av alla ${schools.length} grundskolor i Jönköping. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      keywords: [
+        "bästa grundskolan i jönköping",
+        "bästa skolan i jönköping",
+        "skolranking jönköping",
+        "grundskola jönköping",
+        "meritvärde jönköping",
+        "skolor i jönköping",
+        "vilken skola är bäst i jönköping",
+        "jönköping skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
   return {
     title: `Bästa grundskolor i ${municipality} 2025 | Skolranking & meritvärde`,
     description: `Ranking av alla ${schools.length} grundskolor i ${municipality} baserat på meritvärde. Bästa: ${sorted[0].name} (${sorted[0].meritValue.toFixed(1)}). Genomsnitt: ${avg}. Data från Skolverket 2025.`,
@@ -239,7 +339,12 @@ export default async function MunicipalityPage({ params }: Props) {
   const isUppsala = slug === "uppsala";
   const isLinkoping = slug === "linkoping";
   const isVasteras = slug === "vasteras";
-  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras;
+  const isHelsingborg = slug === "helsingborg";
+  const isLund = slug === "lund";
+  const isNorrkoping = slug === "norrkoping";
+  const isOrebro = slug === "orebro";
+  const isJonkoping = slug === "jonkoping";
+  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping;
   const top5 = sorted.slice(0, 5);
 
   // SALSA data
