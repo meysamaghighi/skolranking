@@ -130,6 +130,7 @@ function MapInner({
   const [drawMode, setDrawMode] = useState(false);
   const [drawPoints, setDrawPoints] = useState<[number, number][]>([]);
   const isDrawingRef = useRef(false);
+  const mapRef = useRef<any>(null);
 
   useEffect(() => {
     Promise.all([import("leaflet"), import("react-leaflet")]).then(([leaflet, reactLeaflet]) => {
@@ -156,7 +157,6 @@ function MapInner({
         if (!drawMode) return;
         e.originalEvent.preventDefault();
         isDrawingRef.current = true;
-        map.dragging.disable();
         setDrawPoints([[e.latlng.lat, e.latlng.lng]]);
       },
       mousemove(e: { latlng: { lat: number; lng: number } }) {
@@ -166,7 +166,6 @@ function MapInner({
       mouseup() {
         if (!drawMode || !isDrawingRef.current) return;
         isDrawingRef.current = false;
-        map.dragging.enable();
         setDrawPoints((prev) => {
           if (prev.length >= 10) {
             const simplified = simplifyPath(prev, 50);
@@ -179,8 +178,93 @@ function MapInner({
         });
       },
     });
+
+    // Store map reference for use in cleanup
+    if (!mapRef.current) {
+      mapRef.current = map;
+    }
+
+    // Add touch event handlers using native Leaflet events
+    useEffect(() => {
+      if (!map) return;
+
+      const touchToLatLng = (touch: Touch) => {
+        const rect = map.getContainer().getBoundingClientRect();
+        return map.containerPointToLatLng([touch.clientX - rect.left, touch.clientY - rect.top]);
+      };
+
+      const handleTouchStart = (e: any) => {
+        if (!drawMode) return;
+        const touch = e.originalEvent.touches[0];
+        if (!touch) return;
+        e.originalEvent.preventDefault();
+        const point = touchToLatLng(touch);
+        isDrawingRef.current = true;
+        setDrawPoints([[point.lat, point.lng]]);
+      };
+
+      const handleTouchMove = (e: any) => {
+        if (!drawMode || !isDrawingRef.current) return;
+        const touch = e.originalEvent.touches[0];
+        if (!touch) return;
+        e.originalEvent.preventDefault();
+        const point = touchToLatLng(touch);
+        setDrawPoints((prev) => [...prev, [point.lat, point.lng]]);
+      };
+
+      const handleTouchEnd = () => {
+        if (!drawMode || !isDrawingRef.current) return;
+        isDrawingRef.current = false;
+        setDrawPoints((prev) => {
+          if (prev.length >= 10) {
+            const simplified = simplifyPath(prev, 50);
+            onPolygonChange(simplified);
+            setDrawMode(false);
+            return simplified;
+          }
+          // Too short a draw, ignore
+          return [];
+        });
+      };
+
+      map.on('touchstart', handleTouchStart);
+      map.on('touchmove', handleTouchMove);
+      map.on('touchend', handleTouchEnd);
+
+      return () => {
+        map.off('touchstart', handleTouchStart);
+        map.off('touchmove', handleTouchMove);
+        map.off('touchend', handleTouchEnd);
+      };
+    }, [map, drawMode, onPolygonChange]);
+
     return null;
   }
+
+  // Handle enabling/disabling map interactions based on draw mode
+  useEffect(() => {
+    if (!mapRef.current) return;
+
+    if (drawMode) {
+      // Disable map interactions when drawing mode is active
+      mapRef.current.dragging.disable();
+      mapRef.current.touchZoom.disable();
+      mapRef.current.doubleClickZoom.disable();
+      mapRef.current.scrollWheelZoom.disable();
+      mapRef.current.boxZoom.disable();
+      mapRef.current.keyboard.disable();
+      if (mapRef.current.tap) mapRef.current.tap.disable();
+    } else {
+      // Re-enable map interactions when drawing mode is inactive
+      mapRef.current.dragging.enable();
+      mapRef.current.touchZoom.enable();
+      mapRef.current.doubleClickZoom.enable();
+      mapRef.current.scrollWheelZoom.enable();
+      mapRef.current.boxZoom.enable();
+      mapRef.current.keyboard.enable();
+      if (mapRef.current.tap) mapRef.current.tap.enable();
+    }
+  }, [drawMode]);
 
   const handleStartDraw = () => {
     setDrawMode(true);
@@ -211,7 +295,7 @@ function MapInner({
         ) : drawMode ? (
           <>
             <span className="text-sm text-amber-600 dark:text-amber-400 font-medium">
-              Rita ett omrade genom att halla ner musknappen och dra
+              Rita ett omrade genom att halla ner och dra pa kartan
             </span>
             <button
               onClick={handleClearDraw}
