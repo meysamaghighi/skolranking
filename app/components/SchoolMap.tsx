@@ -131,6 +131,10 @@ function MapInner({
   const [drawPoints, setDrawPoints] = useState<[number, number][]>([]);
   const isDrawingRef = useRef(false);
   const mapRef = useRef<any>(null);
+  const drawModeRef = useRef(drawMode);
+  drawModeRef.current = drawMode;
+  const onPolygonChangeRef = useRef(onPolygonChange);
+  onPolygonChangeRef.current = onPolygonChange;
 
   useEffect(() => {
     Promise.all([import("leaflet"), import("react-leaflet")]).then(([leaflet, reactLeaflet]) => {
@@ -139,60 +143,7 @@ function MapInner({
     });
   }, []);
 
-  if (!L || !RL) {
-    return <div className="w-full h-[600px] bg-gray-100 dark:bg-gray-800 rounded-xl animate-pulse" />;
-  }
-
-  const { MapContainer, TileLayer, CircleMarker, Popup, Polygon: LeafletPolygon, useMapEvents } = RL;
-
-  const center: [number, number] = schools.length > 0
-    ? [schools.reduce((s, c) => s + c.la, 0) / schools.length, schools.reduce((s, c) => s + c.ln, 0) / schools.length]
-    : [62.5, 16.5];
-  const zoom = schools.length <= 20 ? 10 : 5;
-
-  // Refs for touch drawing closure access
-  const drawModeRef = useRef(drawMode);
-  drawModeRef.current = drawMode;
-  const onPolygonChangeRef = useRef(onPolygonChange);
-  onPolygonChangeRef.current = onPolygonChange;
-
-  // Freehand drawing handler
-  function FreehandDrawHandler() {
-    const map = useMapEvents({
-      mousedown(e: { latlng: { lat: number; lng: number }; originalEvent: MouseEvent }) {
-        if (!drawMode) return;
-        e.originalEvent.preventDefault();
-        isDrawingRef.current = true;
-        setDrawPoints([[e.latlng.lat, e.latlng.lng]]);
-      },
-      mousemove(e: { latlng: { lat: number; lng: number } }) {
-        if (!drawMode || !isDrawingRef.current) return;
-        setDrawPoints((prev) => [...prev, [e.latlng.lat, e.latlng.lng]]);
-      },
-      mouseup() {
-        if (!drawMode || !isDrawingRef.current) return;
-        isDrawingRef.current = false;
-        setDrawPoints((prev) => {
-          if (prev.length >= 10) {
-            const simplified = simplifyPath(prev, 50);
-            onPolygonChange(simplified);
-            setDrawMode(false);
-            return simplified;
-          }
-          return [];
-        });
-      },
-    });
-
-    // Store map reference for draw mode toggle
-    if (!mapRef.current) {
-      mapRef.current = map;
-    }
-
-    return null;
-  }
-
-  // Register touch events on the map via useEffect (at MapInner level, not inside FreehandDrawHandler)
+  // Register touch events on the map
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
@@ -251,7 +202,6 @@ function MapInner({
     if (!mapRef.current) return;
 
     if (drawMode) {
-      // Disable map interactions when drawing mode is active
       mapRef.current.dragging.disable();
       mapRef.current.touchZoom.disable();
       mapRef.current.doubleClickZoom.disable();
@@ -260,7 +210,6 @@ function MapInner({
       mapRef.current.keyboard.disable();
       if (mapRef.current.tap) mapRef.current.tap.disable();
     } else {
-      // Re-enable map interactions when drawing mode is inactive
       mapRef.current.dragging.enable();
       mapRef.current.touchZoom.enable();
       mapRef.current.doubleClickZoom.enable();
@@ -270,6 +219,53 @@ function MapInner({
       if (mapRef.current.tap) mapRef.current.tap.enable();
     }
   }, [drawMode]);
+
+  if (!L || !RL) {
+    return <div className="w-full h-[600px] bg-gray-100 dark:bg-gray-800 rounded-xl animate-pulse" />;
+  }
+
+  const { MapContainer, TileLayer, CircleMarker, Popup, Polygon: LeafletPolygon, useMapEvents } = RL;
+
+  const center: [number, number] = schools.length > 0
+    ? [schools.reduce((s, c) => s + c.la, 0) / schools.length, schools.reduce((s, c) => s + c.ln, 0) / schools.length]
+    : [62.5, 16.5];
+  const zoom = schools.length <= 20 ? 10 : 5;
+
+  // Freehand drawing handler
+  function FreehandDrawHandler() {
+    const map = useMapEvents({
+      mousedown(e: { latlng: { lat: number; lng: number }; originalEvent: MouseEvent }) {
+        if (!drawMode) return;
+        e.originalEvent.preventDefault();
+        isDrawingRef.current = true;
+        setDrawPoints([[e.latlng.lat, e.latlng.lng]]);
+      },
+      mousemove(e: { latlng: { lat: number; lng: number } }) {
+        if (!drawMode || !isDrawingRef.current) return;
+        setDrawPoints((prev) => [...prev, [e.latlng.lat, e.latlng.lng]]);
+      },
+      mouseup() {
+        if (!drawMode || !isDrawingRef.current) return;
+        isDrawingRef.current = false;
+        setDrawPoints((prev) => {
+          if (prev.length >= 10) {
+            const simplified = simplifyPath(prev, 50);
+            onPolygonChange(simplified);
+            setDrawMode(false);
+            return simplified;
+          }
+          return [];
+        });
+      },
+    });
+
+    // Store map reference for draw mode toggle and touch events
+    if (!mapRef.current) {
+      mapRef.current = map;
+    }
+
+    return null;
+  }
 
   const handleStartDraw = () => {
     setDrawMode(true);
