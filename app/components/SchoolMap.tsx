@@ -150,6 +150,12 @@ function MapInner({
     : [62.5, 16.5];
   const zoom = schools.length <= 20 ? 10 : 5;
 
+  // Refs for touch drawing closure access
+  const drawModeRef = useRef(drawMode);
+  drawModeRef.current = drawMode;
+  const onPolygonChangeRef = useRef(onPolygonChange);
+  onPolygonChangeRef.current = onPolygonChange;
+
   // Freehand drawing handler
   function FreehandDrawHandler() {
     const map = useMapEvents({
@@ -173,73 +179,72 @@ function MapInner({
             setDrawMode(false);
             return simplified;
           }
-          // Too short a draw, ignore
           return [];
         });
       },
     });
 
-    // Store map reference for use in cleanup
+    // Store map reference for draw mode toggle
     if (!mapRef.current) {
       mapRef.current = map;
     }
 
-    // Add touch event handlers using native Leaflet events
-    useEffect(() => {
-      if (!map) return;
-
-      const touchToLatLng = (touch: Touch) => {
-        const rect = map.getContainer().getBoundingClientRect();
-        return map.containerPointToLatLng([touch.clientX - rect.left, touch.clientY - rect.top]);
-      };
-
-      const handleTouchStart = (e: any) => {
-        if (!drawMode) return;
-        const touch = e.originalEvent.touches[0];
-        if (!touch) return;
-        e.originalEvent.preventDefault();
-        const point = touchToLatLng(touch);
-        isDrawingRef.current = true;
-        setDrawPoints([[point.lat, point.lng]]);
-      };
-
-      const handleTouchMove = (e: any) => {
-        if (!drawMode || !isDrawingRef.current) return;
-        const touch = e.originalEvent.touches[0];
-        if (!touch) return;
-        e.originalEvent.preventDefault();
-        const point = touchToLatLng(touch);
-        setDrawPoints((prev) => [...prev, [point.lat, point.lng]]);
-      };
-
-      const handleTouchEnd = () => {
-        if (!drawMode || !isDrawingRef.current) return;
-        isDrawingRef.current = false;
-        setDrawPoints((prev) => {
-          if (prev.length >= 10) {
-            const simplified = simplifyPath(prev, 50);
-            onPolygonChange(simplified);
-            setDrawMode(false);
-            return simplified;
-          }
-          // Too short a draw, ignore
-          return [];
-        });
-      };
-
-      map.on('touchstart', handleTouchStart);
-      map.on('touchmove', handleTouchMove);
-      map.on('touchend', handleTouchEnd);
-
-      return () => {
-        map.off('touchstart', handleTouchStart);
-        map.off('touchmove', handleTouchMove);
-        map.off('touchend', handleTouchEnd);
-      };
-    }, [map, drawMode, onPolygonChange]);
-
     return null;
   }
+
+  // Register touch events on the map via useEffect (at MapInner level, not inside FreehandDrawHandler)
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const touchToLatLng = (touch: Touch) => {
+      const rect = map.getContainer().getBoundingClientRect();
+      return map.containerPointToLatLng([touch.clientX - rect.left, touch.clientY - rect.top]);
+    };
+
+    const handleTouchStart = (e: any) => {
+      if (!drawModeRef.current) return;
+      const touch = e.originalEvent.touches[0];
+      if (!touch) return;
+      e.originalEvent.preventDefault();
+      const point = touchToLatLng(touch);
+      isDrawingRef.current = true;
+      setDrawPoints([[point.lat, point.lng]]);
+    };
+
+    const handleTouchMove = (e: any) => {
+      if (!drawModeRef.current || !isDrawingRef.current) return;
+      const touch = e.originalEvent.touches[0];
+      if (!touch) return;
+      e.originalEvent.preventDefault();
+      const point = touchToLatLng(touch);
+      setDrawPoints((prev) => [...prev, [point.lat, point.lng]]);
+    };
+
+    const handleTouchEnd = () => {
+      if (!drawModeRef.current || !isDrawingRef.current) return;
+      isDrawingRef.current = false;
+      setDrawPoints((prev) => {
+        if (prev.length >= 10) {
+          const simplified = simplifyPath(prev, 50);
+          onPolygonChangeRef.current(simplified);
+          setDrawMode(false);
+          return simplified;
+        }
+        return [];
+      });
+    };
+
+    map.on('touchstart', handleTouchStart);
+    map.on('touchmove', handleTouchMove);
+    map.on('touchend', handleTouchEnd);
+
+    return () => {
+      map.off('touchstart', handleTouchStart);
+      map.off('touchmove', handleTouchMove);
+      map.off('touchend', handleTouchEnd);
+    };
+  });
 
   // Handle enabling/disabling map interactions based on draw mode
   useEffect(() => {
