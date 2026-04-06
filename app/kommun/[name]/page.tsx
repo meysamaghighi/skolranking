@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Special SEO treatment for Sweden's largest cities
   if (slug === "goteborg") {
     return {
-      title: `Bästa grundskolor i Göteborg 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Göteborg. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Göteborg 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Göteborg? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i göteborg",
         "bästa skolan i göteborg",
@@ -45,8 +45,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "stockholm") {
     return {
-      title: `Bästa grundskolor i Stockholm 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Stockholm. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Stockholm 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Stockholm? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i stockholm",
         "bästa skolan i stockholm",
@@ -65,8 +65,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "malmo") {
     return {
-      title: `Bästa grundskolor i Malmö 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Malmö. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Malmö 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Malmö? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i malmö",
         "bästa skolan i malmö",
@@ -85,8 +85,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "trollhattan") {
     return {
-      title: `Bästa grundskolor i Trollhättan 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Trollhättan. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Trollhättan 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Trollhättan? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i trollhättan",
         "bästa skolan i trollhättan",
@@ -105,8 +105,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "lidingo") {
     return {
-      title: `Bästa grundskolor i Lidingö 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Lidingö. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Lidingö 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Lidingö? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i lidingö",
         "bästa skolan i lidingö",
@@ -125,8 +125,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "sollentuna") {
     return {
-      title: `Bästa grundskolor i Sollentuna 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Sollentuna. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Sollentuna 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Sollentuna? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i sollentuna",
         "bästa skolan i sollentuna",
@@ -145,8 +145,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "uppsala") {
     return {
-      title: `Bästa grundskolor i Uppsala 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Uppsala. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Uppsala 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Uppsala? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i uppsala",
         "bästa skolan i uppsala",
@@ -165,8 +165,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "linkoping") {
     return {
-      title: `Bästa grundskolor i Linköping 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Linköping. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Linköping 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Linköping? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i linköping",
         "bästa skolan i linköping",
@@ -185,8 +185,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "vasteras") {
     return {
-      title: `Bästa grundskolor i Västerås 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Västerås. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Västerås 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Västerås? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i västerås",
         "bästa skolan i västerås",
@@ -205,8 +205,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "helsingborg") {
     return {
-      title: `Bästa grundskolor i Helsingborg 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Helsingborg. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Helsingborg 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Helsingborg? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i helsingborg",
         "bästa skolan i helsingborg",
@@ -225,8 +225,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "lund") {
     return {
-      title: `Bästa grundskolor i Lund 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Lund. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Lund 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Lund? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i lund",
         "bästa skolan i lund",
@@ -245,8 +245,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "norrkoping") {
     return {
-      title: `Bästa grundskolor i Norrköping 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Norrköping. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Norrköping 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Norrköping? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i norrköping",
         "bästa skolan i norrköping",
@@ -265,8 +265,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "orebro") {
     return {
-      title: `Bästa grundskolor i Örebro 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Örebro. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Örebro 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Örebro? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i örebro",
         "bästa skolan i örebro",
@@ -285,8 +285,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (slug === "jonkoping") {
     return {
-      title: `Bästa grundskolor i Jönköping 2025 | Skolranking & meritvärde`,
-      description: `Komplett ranking av alla ${schools.length} grundskolor i Jönköping. Bästa skolan: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Jämför kommunala och fristående skolor. Genomsnitt: ${avg}.`,
+      title: `Bästa skolan i Jönköping 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Jönköping? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
       keywords: [
         "bästa grundskolan i jönköping",
         "bästa skolan i jönköping",
@@ -304,8 +304,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `Bästa grundskolor i ${municipality} 2025 | Skolranking & meritvärde`,
-    description: `Ranking av alla ${schools.length} grundskolor i ${municipality} baserat på meritvärde. Bästa: ${sorted[0].name} (${sorted[0].meritValue.toFixed(1)}). Genomsnitt: ${avg}. Data från Skolverket 2025.`,
+    title: `Bästa skolan i ${municipality} 2025 - Fullständig skolranking`,
+    description: `Vilken är bästa skolan i ${municipality}? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
     keywords: [
       `bästa skola ${municipality}`,
       `skolranking ${municipality}`,
@@ -362,7 +362,7 @@ export default async function MunicipalityPage({ params }: Props) {
         </div>
 
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
-          Grundskolor i {municipality}
+          Bästa skolan i {municipality} - Skolranking 2025
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mb-8">
           {sorted.length} skolor &middot; Genomsnittligt meritvärde: {avg}
@@ -371,7 +371,7 @@ export default async function MunicipalityPage({ params }: Props) {
         {isEnhanced && (
           <section className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm p-6 mb-10">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Bästa grundskolor i {municipality} 2025
+              Vilken är bästa skolan i {municipality}?
             </h2>
             <div className="text-gray-600 dark:text-gray-400 space-y-3 text-sm leading-relaxed">
               <p>
