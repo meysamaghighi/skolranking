@@ -303,6 +303,106 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  if (slug === "umea") {
+    return {
+      title: `Bästa skolan i Umeå 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Umeå? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
+      keywords: [
+        "bästa grundskolan i umeå",
+        "bästa skolan i umeå",
+        "skolranking umeå",
+        "grundskola umeå",
+        "meritvärde umeå",
+        "skolor i umeå",
+        "vilken skola är bäst i umeå",
+        "umeå skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "gavle") {
+    return {
+      title: `Bästa skolan i Gävle 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Gävle? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
+      keywords: [
+        "bästa grundskolan i gävle",
+        "bästa skolan i gävle",
+        "skolranking gävle",
+        "grundskola gävle",
+        "meritvärde gävle",
+        "skolor i gävle",
+        "vilken skola är bäst i gävle",
+        "gävle skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "boras") {
+    return {
+      title: `Bästa skolan i Borås 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Borås? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
+      keywords: [
+        "bästa grundskolan i borås",
+        "bästa skolan i borås",
+        "skolranking borås",
+        "grundskola borås",
+        "meritvärde borås",
+        "skolor i borås",
+        "vilken skola är bäst i borås",
+        "borås skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "sodertalje") {
+    return {
+      title: `Bästa skolan i Södertälje 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Södertälje? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
+      keywords: [
+        "bästa grundskolan i södertälje",
+        "bästa skolan i södertälje",
+        "skolranking södertälje",
+        "grundskola södertälje",
+        "meritvärde södertälje",
+        "skolor i södertälje",
+        "vilken skola är bäst i södertälje",
+        "södertälje skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
+  if (slug === "eskilstuna") {
+    return {
+      title: `Bästa skolan i Eskilstuna 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i Eskilstuna? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
+      keywords: [
+        "bästa grundskolan i eskilstuna",
+        "bästa skolan i eskilstuna",
+        "skolranking eskilstuna",
+        "grundskola eskilstuna",
+        "meritvärde eskilstuna",
+        "skolor i eskilstuna",
+        "vilken skola är bäst i eskilstuna",
+        "eskilstuna skolranking",
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
   return {
     title: `Bästa skolan i ${municipality} 2025 - Fullständig skolranking`,
     description: `Vilken är bästa skolan i ${municipality}? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
@@ -344,7 +444,12 @@ export default async function MunicipalityPage({ params }: Props) {
   const isNorrkoping = slug === "norrkoping";
   const isOrebro = slug === "orebro";
   const isJonkoping = slug === "jonkoping";
-  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping;
+  const isUmea = slug === "umea";
+  const isGavle = slug === "gavle";
+  const isBoras = slug === "boras";
+  const isSodertälje = slug === "sodertalje";
+  const isEskilstuna = slug === "eskilstuna";
+  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping || isUmea || isGavle || isBoras || isSodertälje || isEskilstuna;
   const top5 = sorted.slice(0, 5);
 
   // SALSA data
