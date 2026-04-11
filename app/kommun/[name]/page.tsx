@@ -403,6 +403,51 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const enhancedCities: Record<string, string> = {
+    huddinge: "Huddinge",
+    nacka: "Nacka",
+    halmstad: "Halmstad",
+    sundsvall: "Sundsvall",
+    jarfalla: "Järfälla",
+    taby: "Täby",
+    haninge: "Haninge",
+    lulea: "Luleå",
+    ostersund: "Östersund",
+    botkyrka: "Botkyrka",
+    skelleftea: "Skellefteå",
+    karlstad: "Karlstad",
+    vaxjo: "Växjö",
+    kristianstad: "Kristianstad",
+    kalmar: "Kalmar",
+    falun: "Falun",
+    nykoping: "Nyköping",
+    molndal: "Mölndal",
+    uddevalla: "Uddevalla",
+    karlskrona: "Karlskrona",
+  };
+
+  if (enhancedCities[slug]) {
+    const cityName = enhancedCities[slug];
+    const cityNameLower = cityName.toLowerCase();
+    return {
+      title: `Bästa skolan i ${cityName} 2025 - Fullständig skolranking`,
+      description: `Vilken är bästa skolan i ${cityName}? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
+      keywords: [
+        `bästa grundskolan i ${cityNameLower}`,
+        `bästa skolan i ${cityNameLower}`,
+        `skolranking ${cityNameLower}`,
+        `grundskola ${cityNameLower}`,
+        `meritvärde ${cityNameLower}`,
+        `skolor i ${cityNameLower}`,
+        `vilken skola är bäst i ${cityNameLower}`,
+        `${cityNameLower} skolranking`,
+      ],
+      alternates: {
+        canonical: `/kommun/${slug}`,
+      },
+    };
+  }
+
   return {
     title: `Bästa skolan i ${municipality} 2025 - Fullständig skolranking`,
     description: `Vilken är bästa skolan i ${municipality}? Jämför alla ${schools.length} grundskolor. Nr 1: ${sorted[0].name} (meritvärde ${sorted[0].meritValue.toFixed(1)}). Se meritvärden, SALSA-ranking och välj rätt skola för ditt barn.`,
@@ -449,7 +494,12 @@ export default async function MunicipalityPage({ params }: Props) {
   const isBoras = slug === "boras";
   const isSodertälje = slug === "sodertalje";
   const isEskilstuna = slug === "eskilstuna";
-  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping || isUmea || isGavle || isBoras || isSodertälje || isEskilstuna;
+  const newEnhancedSlugs = new Set([
+    "huddinge","nacka","halmstad","sundsvall","jarfalla","taby","haninge",
+    "lulea","ostersund","botkyrka","skelleftea","karlstad","vaxjo",
+    "kristianstad","kalmar","falun","nykoping","molndal","uddevalla","karlskrona",
+  ]);
+  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping || isUmea || isGavle || isBoras || isSodertälje || isEskilstuna || newEnhancedSlugs.has(slug);
   const top5 = sorted.slice(0, 5);
 
   // SALSA data
