@@ -424,6 +424,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     molndal: "Mölndal",
     uddevalla: "Uddevalla",
     karlskrona: "Karlskrona",
+    kungsbacka: "Kungsbacka",
+    varberg: "Varberg",
+    hassleholm: "Hässleholm",
+    lerum: "Lerum",
+    vellinge: "Vellinge",
+    norrtalje: "Norrtälje",
+    solna: "Solna",
+    landskrona: "Landskrona",
+    ornskoldsvik: "Örnsköldsvik",
+    "upplands-vasby": "Upplands Väsby",
+    vallentuna: "Vallentuna",
+    gotland: "Gotland",
+    osteraker: "Österåker",
+    hoganas: "Höganäs",
+    trelleborg: "Trelleborg",
+    enkoping: "Enköping",
+    angelholm: "Ängelholm",
+    varmdo: "Värmdö",
+    sundbyberg: "Sundbyberg",
+    harryda: "Härryda",
   };
 
   if (enhancedCities[slug]) {
@@ -498,6 +518,10 @@ export default async function MunicipalityPage({ params }: Props) {
     "huddinge","nacka","halmstad","sundsvall","jarfalla","taby","haninge",
     "lulea","ostersund","botkyrka","skelleftea","karlstad","vaxjo",
     "kristianstad","kalmar","falun","nykoping","molndal","uddevalla","karlskrona",
+    "kungsbacka","varberg","hassleholm","lerum","vellinge","norrtalje",
+    "solna","landskrona","ornskoldsvik","upplands-vasby","vallentuna","gotland",
+    "osteraker","hoganas","trelleborg","enkoping","angelholm","varmdo",
+    "sundbyberg","harryda",
   ]);
   const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping || isUmea || isGavle || isBoras || isSodertälje || isEskilstuna || newEnhancedSlugs.has(slug);
   const top5 = sorted.slice(0, 5);
