@@ -494,36 +494,7 @@ export default async function MunicipalityPage({ params }: Props) {
   const avg = (schools.reduce((s, c) => s + c.meritValue, 0) / schools.length).toFixed(1);
   const total = getAllSchools().length;
 
-  // Enhanced content for Sweden's largest cities
-  const isGothenburg = slug === "goteborg";
-  const isStockholm = slug === "stockholm";
-  const isMalmo = slug === "malmo";
-  const isTrollhattan = slug === "trollhattan";
-  const isLidingo = slug === "lidingo";
-  const isSollentuna = slug === "sollentuna";
-  const isUppsala = slug === "uppsala";
-  const isLinkoping = slug === "linkoping";
-  const isVasteras = slug === "vasteras";
-  const isHelsingborg = slug === "helsingborg";
-  const isLund = slug === "lund";
-  const isNorrkoping = slug === "norrkoping";
-  const isOrebro = slug === "orebro";
-  const isJonkoping = slug === "jonkoping";
-  const isUmea = slug === "umea";
-  const isGavle = slug === "gavle";
-  const isBoras = slug === "boras";
-  const isSodertälje = slug === "sodertalje";
-  const isEskilstuna = slug === "eskilstuna";
-  const newEnhancedSlugs = new Set([
-    "huddinge","nacka","halmstad","sundsvall","jarfalla","taby","haninge",
-    "lulea","ostersund","botkyrka","skelleftea","karlstad","vaxjo",
-    "kristianstad","kalmar","falun","nykoping","molndal","uddevalla","karlskrona",
-    "kungsbacka","varberg","hassleholm","lerum","vellinge","norrtalje",
-    "solna","landskrona","ornskoldsvik","upplands-vasby","vallentuna","gotland",
-    "osteraker","hoganas","trelleborg","enkoping","angelholm","varmdo",
-    "sundbyberg","harryda",
-  ]);
-  const isEnhanced = isGothenburg || isStockholm || isMalmo || isTrollhattan || isLidingo || isSollentuna || isUppsala || isLinkoping || isVasteras || isHelsingborg || isLund || isNorrkoping || isOrebro || isJonkoping || isUmea || isGavle || isBoras || isSodertälje || isEskilstuna || newEnhancedSlugs.has(slug);
+  const isEnhanced = sorted.length >= 3;
   const top5 = sorted.slice(0, 5);
 
   // SALSA data
