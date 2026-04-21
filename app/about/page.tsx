@@ -85,8 +85,9 @@ export default function AboutPage() {
                 varje skola, inklusive adress, kontaktuppgifter och position i rankningen.
               </li>
               <li>
-                <strong>SALSA-jämförelser</strong> - Kommande funktion för att jämföra
-                skolor med liknande socioekonomiska förutsättningar.
+                <strong>SALSA-jämförelser</strong> - Socioekonomiskt justerade
+                rankningar via Koladas API. Visar hur skolor presterar relativt
+                sina förväntade meritvärden givet elevsammansättningen.
               </li>
             </ul>
           </section>
@@ -165,9 +166,10 @@ export default function AboutPage() {
                 Skolverkets officiella webbplats innan du fattar beslut.
               </p>
               <p>
-                Meritvärde påverkas också av socioekonomiska faktorer. SALSA-jämförelser
-                (kommande funktion) kommer att göra det enklare att jämföra skolor med
-                liknande förutsättningar.
+                Meritvärde påverkas också av socioekonomiska faktorer. Vår
+                SALSA-analys (baserad på Koladas öppna data) justerar för detta
+                och gör det enklare att jämföra skolor med liknande
+                förutsättningar.
               </p>
             </div>
           </section>

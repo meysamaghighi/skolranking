@@ -21,16 +21,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${school.name} - Meritvärde ${school.meritValue.toFixed(1)} | Ranking #${school.rank} i Sverige`,
     description: `${school.name} i ${school.municipality} har meritvärde ${school.meritValue.toFixed(1)} och är rankad #${school.rank} av ${getAllSchools().length} grundskolor i Sverige. ${school.schoolType} skola. Adress: ${school.address}.`,
-    keywords: [
-      school.name,
-      `${school.name} meritvärde`,
-      `${school.name} ranking`,
-      `bästa skola ${school.municipality}`,
-      `grundskola ${school.municipality}`,
-      `meritvärde ${school.municipality}`,
-    ],
     alternates: {
       canonical: `/skola/${slug}`,
+    },
+    robots: {
+      index: false,
+      follow: true,
     },
   };
 }
