@@ -5,7 +5,7 @@ import { getAllMunicipalities } from "./lib/schools";
 // signal — bump these only when the underlying content actually changes.
 // SITE_LAST_MODIFIED: bump when the site's top-level pages/UX change.
 // DATA_LAST_MODIFIED: bump when the Skolverket / SALSA dataset is refreshed.
-const SITE_LAST_MODIFIED = "2026-04-21";
+const SITE_LAST_MODIFIED = "2026-05-03";
 const DATA_LAST_MODIFIED = "2025-09-01";
 
 // Individual school pages (/skola/[slug]) are intentionally excluded from the
