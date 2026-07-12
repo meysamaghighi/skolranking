@@ -41,7 +41,10 @@ export function getAllGymnasiumSchools(): GymnasiumSchool[] {
     .filter((s): s is typeof s & { meritPoints: number } => s.meritPoints !== null)
     .map((s) => ({
       id: s.id,
-      name: s.name,
+      // Registry names sometimes carry a trailing school-unit code
+      // ("Norra Real 82964090") — strip long digit runs, keep real campus
+      // numbers ("Hvitfeldtska gymnasiet 3").
+      name: s.name.replace(/\s+\d{6,}$/, ""),
       municipality: s.municipality,
       municipalitySlug: s.municipalitySlug,
       schoolType: s.schoolType,
