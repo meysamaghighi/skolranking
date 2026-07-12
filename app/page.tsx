@@ -97,6 +97,22 @@ export default function Home() {
           </p>
         </section>
 
+        {/* Gymnasium vertical */}
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+            Gymnasieranking
+          </h2>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            Söker du gymnasieskola istället? Se rankingen baserad på betygspoäng och examensandel.
+          </p>
+          <Link
+            href="/gymnasium"
+            className="inline-block px-4 py-2 rounded-full border border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 hover:border-blue-300 hover:text-blue-600 transition-colors"
+          >
+            Gymnasieranking Sverige &rarr;
+          </Link>
+        </section>
+
         {/* Popular municipalities */}
         <section className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
