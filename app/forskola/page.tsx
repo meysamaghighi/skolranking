@@ -90,7 +90,9 @@ export default function ForskolaPage() {
           Rankingen bygger därför på förskollärartäthet: antal inskrivna barn per legitimerad
           förskollärare (lägre värde = fler lärare per barn). Legitimerad personal visar andelen
           heltidstjänster som innehas av personal med förskollärarlegitimation. Måtten avser
-          förskolans läge oavsett huvudman (kommunal eller fristående).
+          förskolans läge oavsett huvudman (kommunal eller fristående). Observera att
+          specialförskolor och språkförskolor har små barngrupper enligt sitt uppdrag och därför
+          naturligt hamnar högt i listan &mdash; jämför i första hand förskolor av samma typ.
         </p>
       </main>
 
