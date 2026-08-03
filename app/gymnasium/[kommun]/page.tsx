@@ -23,11 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (schools.length === 0) return {};
 
   const municipality = schools[0].municipality;
-  const sorted = [...schools].sort((a, b) => a.meritPoints - b.meritPoints).reverse();
+  const sorted = [...schools].sort((a, b) => b.rankingScore - a.rankingScore);
 
   return {
     title: `Bästa gymnasiet i ${municipality} 2025 - Gymnasieranking`,
-    description: `Vilket är bästa gymnasiet i ${municipality}? Jämför ${schools.length} gymnasieskolor efter betygspoäng. Nr 1: ${sorted[0].name} (${sorted[0].meritPoints.toFixed(1)} p). Data från Kolada/Skolverket 2025.`,
+    description: `Vilket är bästa gymnasiet i ${municipality}? Jämför ${schools.length} gymnasieskolor efter betygspoäng och examensandel. Nr 1: ${sorted[0].name} (${sorted[0].meritPoints.toFixed(1)} p). Data från Kolada/Skolverket 2025.`,
     keywords: [
       `bästa gymnasiet i ${municipality.toLowerCase()}`,
       `gymnasieranking ${municipality.toLowerCase()}`,
@@ -46,7 +46,7 @@ export default async function GymnasiumMunicipalityPage({ params }: Props) {
   if (schools.length === 0) notFound();
 
   const municipality = schools[0].municipality;
-  const sorted = [...schools].sort((a, b) => a.meritPoints - b.meritPoints).reverse();
+  const sorted = [...schools].sort((a, b) => b.rankingScore - a.rankingScore);
   const avg = (schools.reduce((s, c) => s + c.meritPoints, 0) / schools.length).toFixed(1);
   const total = getAllGymnasiumSchools().length;
 
@@ -98,9 +98,9 @@ export default async function GymnasiumMunicipalityPage({ params }: Props) {
         </div>
 
         <p className="text-xs text-gray-400 dark:text-gray-500 mt-8 leading-relaxed">
-          Betygspoäng avser genomsnittlig betygspoäng för gymnasieelever med examen. Examensandel avser
-          andel elever som tog examen inom 3 år. Antagningspoäng bestäms regionalt per intag och ingår
-          inte i denna ranking.
+          Rankingen väger genomsnittlig betygspoäng (70%) och examensandel inom 3 år (30%) — skolor
+          utan examensandel rankas enbart efter betygspoäng. Antagningspoäng bestäms regionalt per
+          intag och ingår inte i denna ranking.
         </p>
       </main>
 
@@ -120,7 +120,7 @@ export default async function GymnasiumMunicipalityPage({ params }: Props) {
             "@context": "https://schema.org",
             "@type": "ItemList",
             name: `Gymnasieskolor i ${municipality}`,
-            description: `Ranking av ${sorted.length} gymnasieskolor i ${municipality} efter betygspoäng`,
+            description: `Ranking av ${sorted.length} gymnasieskolor i ${municipality} efter betygspoäng och examensandel`,
             numberOfItems: sorted.length,
             itemListElement: sorted.slice(0, 10).map((s, i) => ({
               "@type": "ListItem",
