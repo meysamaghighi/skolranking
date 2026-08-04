@@ -24,6 +24,9 @@ export default function GymnasiumPage() {
   const schools = getAllGymnasiumSchools();
   const municipalities = getAllGymnasiumMunicipalities();
   const avgMerit = (schools.reduce((s, c) => s + c.meritPoints, 0) / schools.length).toFixed(1);
+  const meritValues = schools.map((s) => s.meritPoints);
+  const highestMerit = Math.max(...meritValues).toFixed(1);
+  const lowestMerit = Math.min(...meritValues).toFixed(1);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-gray-950 dark:to-gray-900">
@@ -37,10 +40,10 @@ export default function GymnasiumPage() {
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mb-2">
           {schools.length.toLocaleString()} gymnasieskolor rankade efter genomsnittlig betygspoäng
-          för elever med examen, i {municipalities.length} kommuner.
+          och examensandel, i {municipalities.length} kommuner.
         </p>
         <p className="text-sm text-gray-400 dark:text-gray-500 mb-8">
-          Källa: Kolada / Skolverket 2025 &middot; Snittpoäng: {avgMerit} &middot; Högst: {schools[0].meritPoints.toFixed(1)} &middot; Lägst: {schools[schools.length - 1].meritPoints.toFixed(1)}
+          Källa: Kolada / Skolverket 2025 &middot; Snittpoäng: {avgMerit} &middot; Högst: {highestMerit} &middot; Lägst: {lowestMerit}
         </p>
 
         <div className="flex flex-wrap gap-2 mb-10">
@@ -88,9 +91,9 @@ export default function GymnasiumPage() {
         </div>
 
         <p className="text-xs text-gray-400 dark:text-gray-500 mt-8 leading-relaxed">
-          Betygspoäng avser genomsnittlig betygspoäng för gymnasieelever med examen. Examensandel avser
-          andel elever som tog examen inom 3 år. Antagningspoäng (den poäng som krävs för att bli antagen)
-          bestäms regionalt per intag och ingår inte i denna ranking.
+          Rankingen väger genomsnittlig betygspoäng (70%) och examensandel inom 3 år (30%) — skolor
+          utan examensandel rankas enbart efter betygspoäng. Antagningspoäng (den poäng som krävs
+          för att bli antagen) bestäms regionalt per intag och ingår inte i denna ranking.
         </p>
       </main>
 
@@ -110,7 +113,7 @@ export default function GymnasiumPage() {
             "@context": "https://schema.org",
             "@type": "ItemList",
             name: "Gymnasieranking Sverige 2025",
-            description: `Ranking av ${schools.length} gymnasieskolor i Sverige efter genomsnittlig betygspoäng`,
+            description: `Ranking av ${schools.length} gymnasieskolor i Sverige efter genomsnittlig betygspoäng och examensandel`,
             numberOfItems: schools.length,
             itemListElement: schools.slice(0, 10).map((s, i) => ({
               "@type": "ListItem",
