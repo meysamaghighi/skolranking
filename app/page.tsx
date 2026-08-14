@@ -51,7 +51,7 @@ export default function Home() {
           Källa: Skolverket 2025 &middot; Genomsnitt: {avgMerit} &middot; Högst: {schools[0].meritValue.toFixed(1)} &middot; Lägst: {schools[schools.length - 1].meritValue.toFixed(1)}
         </p>
 
-        <SchoolSearch schoolsJSON={schoolsJSON} municipalities={municipalities} />
+        <SchoolSearch schoolsJSON={schoolsJSON} municipalities={municipalities} totalSchools={schools.length} />
 
         {/* Top 20 ranking table */}
         <section className="mt-16">
