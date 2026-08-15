@@ -6,9 +6,11 @@ import SchoolMap from "./SchoolMap";
 export default function SchoolSearch({
   schoolsJSON,
   municipalities,
+  totalSchools,
 }: {
   schoolsJSON: string;
   municipalities: { name: string; slug: string }[];
+  totalSchools: number;
 }) {
   const [search, setSearch] = useState("");
   const [municipality, setMunicipality] = useState("");
@@ -39,6 +41,7 @@ export default function SchoolSearch({
         schoolsJSON={schoolsJSON}
         selectedMunicipality={municipality || undefined}
         searchQuery={search || undefined}
+        totalSchools={totalSchools}
       />
     </div>
   );

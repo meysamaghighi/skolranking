@@ -59,11 +59,13 @@ export default function SchoolMap({
   selectedMunicipality,
   searchQuery,
   onDrawFilter,
+  totalSchools,
 }: {
   schoolsJSON: string;
   selectedMunicipality?: string;
   searchQuery?: string;
   onDrawFilter?: (count: number | null) => void;
+  totalSchools: number;
 }) {
   const [mapLoaded, setMapLoaded] = useState(false);
   const [polygon, setPolygon] = useState<[number, number][] | null>(null);
@@ -109,7 +111,7 @@ export default function SchoolMap({
     return <div className="w-full h-[600px] bg-gray-100 dark:bg-gray-800 rounded-xl animate-pulse" />;
   }
 
-  return <MapInner schools={filtered} minMerit={minMerit} maxMerit={maxMerit} polygon={polygon} onPolygonChange={handlePolygonChange} />;
+  return <MapInner schools={filtered} minMerit={minMerit} maxMerit={maxMerit} polygon={polygon} onPolygonChange={handlePolygonChange} totalSchools={totalSchools} />;
 }
 
 function MapInner({
@@ -118,12 +120,14 @@ function MapInner({
   maxMerit,
   polygon,
   onPolygonChange,
+  totalSchools,
 }: {
   schools: SchoolData[];
   minMerit: number;
   maxMerit: number;
   polygon: [number, number][] | null;
   onPolygonChange: (pts: [number, number][] | null) => void;
+  totalSchools: number;
 }) {
   const [L, setL] = useState<typeof import("leaflet") | null>(null);
   const [RL, setRL] = useState<typeof import("react-leaflet") | null>(null);
@@ -373,7 +377,7 @@ function MapInner({
                 </Link>
                 <p className="mt-1">{s.m}</p>
                 <p>Meritvarde: <strong>{s.mv.toFixed(1)}</strong></p>
-                <p>Ranking: <strong>#{s.r}</strong> av {1545}</p>
+                <p>Ranking: <strong>#{s.r}</strong> av {totalSchools}</p>
                 <p className="text-gray-500">{s.t}</p>
               </div>
             </Popup>
