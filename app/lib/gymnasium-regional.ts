@@ -100,9 +100,13 @@ export interface RegionalAdmissionSummary {
 
 export interface RegionalData {
   admission: RegionalAdmissionSummary | null;
-  /** Placeholder for elevnojdhet (v2 task 3). Always null today -- see
-   * module doc comment. Typed now so task 5/6 don't need a shape change. */
-  elevnojdhet: null;
+  /** Pupil-satisfaction survey (Helhetsomdöme %, v2 task 3). Typed as
+   * `number | null` so the v2-task-5 UI can render it the moment task 3's
+   * scraper lands, with no further shape/consumer changes. The join layer
+   * below always sets this to `null` today -- task 3's data file doesn't
+   * exist yet (see module doc comment) -- so in practice this field is
+   * unpopulated across the whole site until that task ships. */
+  elevnojdhet: number | null;
 }
 
 export type MatchMethod = "exact" | "fuzzy-prefix" | "override";
