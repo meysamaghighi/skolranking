@@ -6,6 +6,7 @@ import {
   getAllGymnasiumMunicipalities,
   getGymnasiumSchoolsByMunicipalitySlug,
 } from "../../lib/gymnasium";
+import { RegionalBadges, GymnasiumMethodologyNote } from "../../components/GymnasiumRegional";
 
 interface Props {
   params: Promise<{ kommun: string }>;
@@ -84,7 +85,10 @@ export default async function GymnasiumMunicipalityPage({ params }: Props) {
               {sorted.map((s, i) => (
                 <tr key={s.id} className="border-b border-gray-100 dark:border-gray-800 hover:bg-blue-50 dark:hover:bg-gray-900/50">
                   <td className="py-3 px-2 font-bold text-gray-400">{i + 1}</td>
-                  <td className="py-3 px-2 font-medium text-gray-900 dark:text-gray-100">{s.name}</td>
+                  <td className="py-3 px-2 font-medium text-gray-900 dark:text-gray-100">
+                    {s.name}
+                    <RegionalBadges gymnasiumId={s.id} />
+                  </td>
                   <td className="py-3 px-2 text-gray-500">{s.schoolType}</td>
                   <td className="py-3 px-2 font-bold text-green-700 dark:text-green-400">{s.meritPoints.toFixed(1)}</td>
                   <td className="py-3 px-2 text-gray-500">
@@ -97,11 +101,7 @@ export default async function GymnasiumMunicipalityPage({ params }: Props) {
           </table>
         </div>
 
-        <p className="text-xs text-gray-400 dark:text-gray-500 mt-8 leading-relaxed">
-          Rankingen väger genomsnittlig betygspoäng (70%) och examensandel inom 3 år (30%) — skolor
-          utan examensandel rankas enbart efter betygspoäng. Antagningspoäng bestäms regionalt per
-          intag och ingår inte i denna ranking.
-        </p>
+        <GymnasiumMethodologyNote />
       </main>
 
       <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-100 dark:border-gray-800 mt-16">

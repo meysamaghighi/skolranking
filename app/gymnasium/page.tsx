@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllGymnasiumSchools, getAllGymnasiumMunicipalities } from "../lib/gymnasium";
+import { RegionalBadges, GymnasiumMethodologyNote } from "../components/GymnasiumRegional";
 
 export const metadata: Metadata = {
   title: "Gymnasieranking Sverige 2025 | Bästa gymnasieskolorna",
@@ -73,6 +74,7 @@ export default function GymnasiumPage() {
                   <td className="py-2 px-2 font-bold text-gray-400">{s.rank}</td>
                   <td className="py-2 px-2">
                     <span className="text-gray-900 dark:text-gray-100">{s.name}</span>
+                    <RegionalBadges gymnasiumId={s.id} />
                   </td>
                   <td className="py-2 px-2">
                     <Link href={`/gymnasium/${s.municipalitySlug}`} className="text-gray-600 dark:text-gray-400 hover:underline">
@@ -90,11 +92,7 @@ export default function GymnasiumPage() {
           </table>
         </div>
 
-        <p className="text-xs text-gray-400 dark:text-gray-500 mt-8 leading-relaxed">
-          Rankingen väger genomsnittlig betygspoäng (70%) och examensandel inom 3 år (30%) — skolor
-          utan examensandel rankas enbart efter betygspoäng. Antagningspoäng (den poäng som krävs
-          för att bli antagen) bestäms regionalt per intag och ingår inte i denna ranking.
-        </p>
+        <GymnasiumMethodologyNote />
       </main>
 
       <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-100 dark:border-gray-800 mt-16">
