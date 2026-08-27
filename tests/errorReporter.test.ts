@@ -38,6 +38,19 @@ test("buildLabel truncates a very long path so the message still survives", () =
   assert.equal(label.length <= MAX_LABEL_LENGTH, true);
 });
 
+test("buildLabel marks a truncated path with a trailing ellipsis", () => {
+  const label = buildLabel("/" + "a".repeat(200), "TypeError: boom");
+  const path = label.split("|")[0];
+  assert.equal(path.endsWith("…"), true);
+});
+
+test("buildLabel does not add an ellipsis to a path that fits", () => {
+  const label = buildLabel("/spiral-draw", "TypeError: boom");
+  const path = label.split("|")[0];
+  assert.equal(path.endsWith("…"), false);
+  assert.equal(path, "/spiral-draw");
+});
+
 test("budget sends the first occurrence and suppresses duplicates", () => {
   const b = createErrorBudget();
   assert.equal(b.shouldSend("/a|boom"), true);

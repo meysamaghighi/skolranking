@@ -43,7 +43,11 @@ export default function ErrorReporter() {
       if (event.target === window) return;
       const target = event.target as HTMLElement | null;
       if (!target) return;
-      const tag = target.tagName.toLowerCase();
+      // The cast above is a type assertion, not a runtime guarantee: an
+      // `error` event's target can be a non-Element EventTarget (e.g. a
+      // Document), which has no `tagName` at all. Without `?.` that throws
+      // inside the handler instead of being safely ignored.
+      const tag = target.tagName?.toLowerCase();
       if (tag !== "img" && tag !== "script" && tag !== "link") return;
       const url =
         (target as HTMLImageElement).src || (target as HTMLLinkElement).href || "";

@@ -1,6 +1,11 @@
 export const MAX_EVENTS_PER_SESSION = 5;
 export const MAX_LABEL_LENGTH = 100;
-export const MAX_PATH_LENGTH = 40;
+// The 100-char label budget is the real constraint; normalized messages are
+// short, so the path can afford to be much more than a quarter of it. At 40
+// a real path routinely got cut mid-segment, and rule_crash reconstructed
+// that truncated prefix as if it were a real URL — sending the fix task to a
+// page that 404s.
+export const MAX_PATH_LENGTH = 72;
 
 /**
  * Collapse a raw error message to a stable identity.
@@ -20,9 +25,16 @@ export function normalizeMessage(raw: string): string {
     .trim();
 }
 
-/** Build the `event_label` payload: path first, so truncation never costs us the location. */
+/**
+ * Build the `event_label` payload: path first, so truncation never costs us the location.
+ *
+ * A truncated path gets a trailing "…" marker so downstream consumers (e.g.
+ * ga4-stats' rule_crash) know it may not be a real, navigable URL and can
+ * phrase a fix task accordingly instead of naming a page that 404s.
+ */
 export function buildLabel(path: string, message: string): string {
-  const shortPath = path.slice(0, MAX_PATH_LENGTH);
+  const truncated = path.length > MAX_PATH_LENGTH;
+  const shortPath = path.slice(0, MAX_PATH_LENGTH) + (truncated ? "…" : "");
   return `${shortPath}|${normalizeMessage(message)}`.slice(0, MAX_LABEL_LENGTH);
 }
 
